@@ -1,0 +1,1 @@
+Simulation of Robdos robot using Gazebo 7.0 and ROS.
