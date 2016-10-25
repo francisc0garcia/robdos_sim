@@ -22,7 +22,7 @@ class robdos_camera_test:
         self.bridge = CvBridge()
 
         # Subscribe for images:
-        self.image_sub = rospy.Subscriber("/robdos/camera_rear/image_raw", Image, self.callback_rear)
+        self.image_sub = rospy.Subscriber("/robdos/camera_rear/image_raw/compressed", Image, self.callback_rear)
         self.image_sub = rospy.Subscriber("/robdos/camera_frontal/image_raw", Image, self.callback_frontal)
 
     def callback_frontal(self,data):
