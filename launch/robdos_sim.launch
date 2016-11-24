@@ -3,6 +3,9 @@
     <env name="GAZEBO_MODEL_PATH" value="$(find robdos_sim)/models"/>
 
     <include file="$(find gazebo_ros)/launch/empty_world.launch" >
+        <!--
+        robdos_model - robdos_underwater
+        -->
         <arg name="world_name" value="$(find robdos_sim)/world/robdos_underwater.world"/>
         <arg name="paused" value="true"/>
         <arg name="use_sim_time" value="true"/>
@@ -10,18 +13,18 @@
         <arg name="headless" value="false"/>
         <arg name="debug" value="false"/>
     </include>
+<!--
+<node name="joy_node" pkg="joy" type="joy_node" />
+<node name="rotors_joy_interface" pkg="rotors_joy_interface" type="rotors_joy_interface" />
+<node name="roll_pitch_yawrate_thrust_controller_node" pkg="rotors_control" type="roll_pitch_yawrate_thrust_controller_node" output="screen">
+    <rosparam
+            command="load" file="$(find rotors_gazebo)/resource/roll_pitch_yawrate_thrust_controller_$(arg mav_name).yaml" />
+    <rosparam command="load" file="$(find rotors_gazebo)/resource/$(arg mav_name).yaml" />
+    <remap from="odometry" to="odometry_sensor1/odometry" />
+</node>
 
-    <node name="joy_node" pkg="joy" type="joy_node" />
-    <node name="rotors_joy_interface" pkg="rotors_joy_interface" type="rotors_joy_interface" />
-    <node name="roll_pitch_yawrate_thrust_controller_node" pkg="rotors_control" type="roll_pitch_yawrate_thrust_controller_node" output="screen">
-        <rosparam
-                command="load" file="$(find rotors_gazebo)/resource/roll_pitch_yawrate_thrust_controller_$(arg mav_name).yaml" />
-        <rosparam command="load" file="$(find rotors_gazebo)/resource/$(arg mav_name).yaml" />
-        <remap from="odometry" to="odometry_sensor1/odometry" />
-    </node>
-
-    <node name="camera_processing_example" pkg="robdos_sim" type="camera_processing_example.py" />
-
+<node name="camera_processing_example" pkg="robdos_sim" type="camera_processing_example.py" />
+-->
     <node name="custom_rqt_perspective" pkg="rqt_gui" type="rqt_gui"
           args="--perspective-file  $(find robdos_sim)/launch/robdos_rqt.perspective"/>
 

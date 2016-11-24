@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" assignedExecutableTargets="true" buildAllGenerated="true">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" buildAllGenerated="true">
     <generated>
       <config projectName="robdos_sim" targetName="gtest" />
       <config projectName="robdos_sim" targetName="roscpp_generate_messages_eus" />
@@ -20,20 +20,27 @@
       <config projectName="robdos_sim" targetName="clean_test_results" />
       <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_py" />
       <config projectName="robdos_sim" targetName="std_msgs_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_lisp" />
       <config projectName="robdos_sim" targetName="roscpp_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_lisp" />
       <config projectName="robdos_sim" targetName="roscpp_generate_messages_nodejs" />
       <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_nodejs" />
     </generated>
   </component>
-  <component name="CMakeSettings" AUTO_RELOAD="false" GENERATION_PASS_SYSTEM_ENVIRONMENT="true">
-    <ADDITIONAL_GENERATION_ENVIRONMENT>
-      <envs />
-    </ADDITIONAL_GENERATION_ENVIRONMENT>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration CONFIG_NAME="Debug" />
+    </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81e82f28-2ab1-494f-85a6-4742111c59a0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/world/robdos_model.world" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/robdos_sim.iml" afterPath="$PROJECT_DIR$/.idea/robdos_sim.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/launch/robdos_sim.launch" afterPath="$PROJECT_DIR$/launch/robdos_sim.launch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/world/robdos_underwater.world" afterPath="$PROJECT_DIR$/world/robdos_underwater.world" />
     </list>
     <ignored path="robdos_sim.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,40 +60,157 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="robdos_underwater.world" pinned="false" current-in-tab="true">
+      <file leaf-file-name="robdos_sim.launch" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/launch/robdos_sim.launch">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="robdos_underwater.world" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/world/robdos_underwater.world">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1944">
-              <caret line="906" column="24" selection-start-line="906" selection-start-column="24" selection-end-line="906" selection-end-column="24" />
+            <state relative-caret-position="702">
+              <caret line="456" column="19" lean-forward="false" selection-start-line="456" selection-start-column="19" selection-end-line="456" selection-end-column="19" />
               <folding>
-                <element signature="e#41003#41869#0" expanded="false" />
-                <element signature="e#41883#42568#0" expanded="false" />
-                <element signature="e#42581#43262#0" expanded="false" />
-                <element signature="e#43275#43958#0" expanded="false" />
-                <element signature="e#43972#45014#0" expanded="false" />
-                <element signature="e#45027#46061#0" expanded="false" />
-                <element signature="e#46074#47112#0" expanded="false" />
+                <element signature="e#117#180#0" expanded="false" />
+                <element signature="e#329#567#0" expanded="false" />
+                <element signature="e#576#729#0" expanded="false" />
+                <element signature="e#738#1015#0" expanded="false" />
+                <element signature="e#1401#1492#0" expanded="false" />
+                <element signature="e#1519#1817#0" expanded="false" />
+                <element signature="e#1552#1802#0" expanded="false" />
+                <element signature="e#1827#4066#0" expanded="false" />
+                <element signature="e#1943#2296#0" expanded="false" />
+                <element signature="e#1992#2267#0" expanded="false" />
+                <element signature="e#2027#2235#0" expanded="false" />
+                <element signature="e#2313#4029#0" expanded="false" />
+                <element signature="e#2435#2735#0" expanded="false" />
+                <element signature="e#2764#3065#0" expanded="false" />
+                <element signature="e#3094#3396#0" expanded="false" />
+                <element signature="e#3425#3585#0" expanded="false" />
+                <element signature="e#3614#3774#0" expanded="false" />
+                <element signature="e#4075#5116#0" expanded="false" />
+                <element signature="e#4470#5079#0" expanded="false" />
+                <element signature="e#4620#4773#0" expanded="false" />
+                <element signature="e#4655#4741#0" expanded="false" />
+                <element signature="e#4794#5053#0" expanded="false" />
+                <element signature="e#4829#5021#0" expanded="false" />
+                <element signature="e#5307#9955#0" expanded="false" />
+                <element signature="e#5398#5828#0" expanded="false" />
+                <element signature="e#5970#7121#0" expanded="false" />
+                <element signature="e#7346#7639#0" expanded="false" />
+                <element signature="e#7660#9906#0" expanded="false" />
+                <element signature="e#9968#14499#0" expanded="false" />
+                <element signature="e#10696#10908#0" expanded="false" />
+                <element signature="e#10929#11599#0" expanded="false" />
+                <element signature="e#11971#12183#0" expanded="false" />
+                <element signature="e#12204#14450#0" expanded="false" />
+                <element signature="e#12238#13063#0" expanded="false" />
+                <element signature="e#14512#20496#0" expanded="false" />
+                <element signature="e#14674#15094#0" expanded="false" />
+                <element signature="e#15199#16703#0" expanded="false" />
+                <element signature="e#16720#17798#0" expanded="false" />
+                <element signature="e#17815#20476#0" expanded="false" />
+                <element signature="e#20509#26459#0" expanded="false" />
+                <element signature="e#26472#31136#0" expanded="false" />
+                <element signature="e#31149#35863#0" expanded="false" />
+                <element signature="e#35876#40559#0" expanded="false" />
+                <element signature="e#40573#41204#0" expanded="false" />
+                <element signature="e#40786#41183#0" expanded="false" />
+                <element signature="e#41217#41860#0" expanded="false" />
+                <element signature="e#41873#42510#0" expanded="false" />
+                <element signature="e#42523#43865#0" expanded="false" />
+                <element signature="e#43878#45215#0" expanded="false" />
+                <element signature="e#45228#46567#0" expanded="false" />
+                <element signature="e#46581#47266#0" expanded="false" />
+                <element signature="e#47279#47960#0" expanded="false" />
+                <element signature="e#47973#48656#0" expanded="false" />
+                <element signature="e#48669#49519#0" expanded="false" />
+                <element signature="e#48961#49055#0" expanded="false" />
+                <element signature="e#49532#49946#0" expanded="false" />
+                <element signature="e#49959#50266#0" expanded="false" />
+                <element signature="e#50279#51321#0" expanded="false" />
+                <element signature="e#51334#52368#0" expanded="false" />
+                <element signature="e#52381#53419#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="robdos_sim.launch" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/launch/robdos_sim.launch">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+            <state relative-caret-position="270">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="camera_processing_example.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/camera_processing_example.py">
+      <file leaf-file-name="conf.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/source/conf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+            <state relative-caret-position="311">
+              <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.rst" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/source/index.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="robdos_model.world" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/world/robdos_model.world">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="56" column="45" lean-forward="false" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
+              <folding>
+                <element signature="e#117#180#0" expanded="false" />
+                <element signature="e#329#567#0" expanded="false" />
+                <element signature="e#576#729#0" expanded="false" />
+                <element signature="e#738#1015#0" expanded="false" />
+                <element signature="e#1511#1809#0" expanded="false" />
+                <element signature="e#1992#6641#0" expanded="false" />
+                <element signature="e#2083#2513#0" expanded="false" />
+                <element signature="e#2655#3806#0" expanded="false" />
+                <element signature="e#6654#11241#0" expanded="false" />
+                <element signature="e#6749#7178#0" expanded="false" />
+                <element signature="e#7320#8470#0" expanded="false" />
+                <element signature="e#8487#11221#0" expanded="false" />
+                <element signature="e#11254#17201#0" expanded="false" />
+                <element signature="e#17214#23127#0" expanded="false" />
+                <element signature="e#23140#27767#0" expanded="false" />
+                <element signature="e#27780#32457#0" expanded="false" />
+                <element signature="e#32470#37116#0" expanded="false" />
+                <element signature="e#37130#37761#0" expanded="false" />
+                <element signature="e#37343#37740#0" expanded="false" />
+                <element signature="e#37774#38417#0" expanded="false" />
+                <element signature="e#38430#39067#0" expanded="false" />
+                <element signature="e#39080#40422#0" expanded="false" />
+                <element signature="e#40435#41772#0" expanded="false" />
+                <element signature="e#41785#43124#0" expanded="false" />
+                <element signature="e#43138#43823#0" expanded="false" />
+                <element signature="e#43836#44517#0" expanded="false" />
+                <element signature="e#44530#45213#0" expanded="false" />
+                <element signature="e#45226#46085#0" expanded="false" />
+                <element signature="e#46098#46512#0" expanded="false" />
+                <element signature="e#46525#46832#0" expanded="false" />
+                <element signature="e#46845#47887#0" expanded="false" />
+                <element signature="e#47900#48934#0" expanded="false" />
+                <element signature="e#48947#49985#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,7 +234,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/camera_processing_example.py" />
+        <option value="$PROJECT_DIR$/launch/robdos_sim.launch" />
+        <option value="$PROJECT_DIR$/world/robdos_model.world" />
         <option value="$PROJECT_DIR$/world/robdos_underwater.world" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/docs/source/conf.py" />
+        <option value="$PROJECT_DIR$/docs/source/index.rst" />
       </list>
     </option>
   </component>
@@ -121,20 +251,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1745" />
-    <option name="y" value="306" />
-    <option name="width" value="1301" />
-    <option name="height" value="744" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+    <option name="y" value="24" />
+    <option name="width" value="1680" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -158,101 +277,9 @@
               <option name="myItemId" value="robdos_sim" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robdos_sim" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robdos_sim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="robdos_sim" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robdos_sim" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robdos_sim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robdos_sim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="world" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robdos_sim" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robdos_sim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robdos_sim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robdos_sim" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robdos_sim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robdos_sim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robdos_sim" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robdos_sim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robdos_sim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="launch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robdos_sim" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robdos_sim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -265,24 +292,26 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/world" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Build All">
-    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="/bin/bash" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="robdos_sim" TARGET_NAME="clean_test_results" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
       <envs />
       <method />
     </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="robdos_sim" TARGET_NAME="clean_test_results" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
@@ -574,7 +603,13 @@
       <workItem from="1477382161499" duration="621000" />
       <workItem from="1477386767528" duration="21000" />
       <workItem from="1477419150612" duration="795000" />
-      <workItem from="1477549849782" duration="126000" />
+      <workItem from="1477549849782" duration="846000" />
+      <workItem from="1477823372141" duration="3056000" />
+      <workItem from="1478108224545" duration="3019000" />
+      <workItem from="1479287918331" duration="838000" />
+      <workItem from="1480002022483" duration="2515000" />
+      <workItem from="1480005757156" duration="3207000" />
+      <workItem from="1480009141650" duration="640000" />
     </task>
     <task id="LOCAL-00001" summary="- Update model of robot&#10;- change local reference to models and map&#10;- Add python example of image processing for cameras placed at the robot (front-rear)&#10;- Add plugins for IMU, camera and mav link">
       <created>1477146121683</created>
@@ -583,22 +618,36 @@
       <option name="project" value="LOCAL" />
       <updated>1477146121683</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="- Update model of robot&#10;- change local reference to models and map&#10;- Add python example of image processing for cameras placed at the robot (front-rear)&#10;- Add plugins for IMU, camera and mav link">
+      <created>1477549991864</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1477549991864</updated>
+    </task>
+    <task id="LOCAL-00003" summary="- fix camera topic name">
+      <created>1480009772626</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1480009772626</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6414000" />
+    <option name="totallyTimeSpent" value="20409000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1745" y="306" width="1301" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="24" width="1680" height="1026" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2667179" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23630953" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30389065" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22980063" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -612,6 +661,9 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -644,25 +696,511 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- Update model of robot&#10;- change local reference to models and map&#10;- Add python example of image processing for cameras placed at the robot (front-rear)&#10;- Add plugins for IMU, camera and mav link" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Update model of robot&#10;- change local reference to models and map&#10;- Add python example of image processing for cameras placed at the robot (front-rear)&#10;- Add plugins for IMU, camera and mav link" />
+    <MESSAGE value="- fix camera topic name" />
+    <option name="LAST_COMMIT_MESSAGE" value="- fix camera topic name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/launch/robdos_sim.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/world/robdos_underwater.world">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8208">
+          <caret line="456" column="19" lean-forward="true" selection-start-line="456" selection-start-column="19" selection-end-line="456" selection-end-column="19" />
+          <folding>
+            <element signature="e#117#180#0" expanded="false" />
+            <element signature="e#329#567#0" expanded="false" />
+            <element signature="e#576#729#0" expanded="false" />
+            <element signature="e#738#1015#0" expanded="false" />
+            <element signature="e#1401#1492#0" expanded="false" />
+            <element signature="e#1519#1817#0" expanded="false" />
+            <element signature="e#1552#1802#0" expanded="false" />
+            <element signature="e#1827#4066#0" expanded="false" />
+            <element signature="e#1943#2296#0" expanded="false" />
+            <element signature="e#1992#2267#0" expanded="false" />
+            <element signature="e#2027#2235#0" expanded="false" />
+            <element signature="e#2313#4029#0" expanded="false" />
+            <element signature="e#2435#2735#0" expanded="false" />
+            <element signature="e#2764#3065#0" expanded="false" />
+            <element signature="e#3094#3396#0" expanded="false" />
+            <element signature="e#3425#3585#0" expanded="false" />
+            <element signature="e#3614#3774#0" expanded="false" />
+            <element signature="e#4075#5116#0" expanded="false" />
+            <element signature="e#4470#5079#0" expanded="false" />
+            <element signature="e#4620#4773#0" expanded="false" />
+            <element signature="e#4655#4741#0" expanded="false" />
+            <element signature="e#4794#5053#0" expanded="false" />
+            <element signature="e#4829#5021#0" expanded="false" />
+            <element signature="e#5307#9955#0" expanded="false" />
+            <element signature="e#5398#5828#0" expanded="false" />
+            <element signature="e#5970#7121#0" expanded="false" />
+            <element signature="e#7346#7639#0" expanded="false" />
+            <element signature="e#7660#9906#0" expanded="false" />
+            <element signature="e#9968#14499#0" expanded="false" />
+            <element signature="e#10696#10908#0" expanded="false" />
+            <element signature="e#10929#11599#0" expanded="false" />
+            <element signature="e#11971#12183#0" expanded="false" />
+            <element signature="e#12204#14450#0" expanded="false" />
+            <element signature="e#12238#13063#0" expanded="false" />
+            <element signature="e#14512#20496#0" expanded="false" />
+            <element signature="e#14674#15094#0" expanded="false" />
+            <element signature="e#15199#16703#0" expanded="false" />
+            <element signature="e#16720#17798#0" expanded="false" />
+            <element signature="e#17815#20476#0" expanded="false" />
+            <element signature="e#20509#26459#0" expanded="false" />
+            <element signature="e#26472#31136#0" expanded="false" />
+            <element signature="e#31149#35863#0" expanded="false" />
+            <element signature="e#35876#40559#0" expanded="false" />
+            <element signature="e#40573#41204#0" expanded="false" />
+            <element signature="e#40786#41183#0" expanded="false" />
+            <element signature="e#41217#41860#0" expanded="false" />
+            <element signature="e#41873#42510#0" expanded="false" />
+            <element signature="e#42523#43865#0" expanded="false" />
+            <element signature="e#43878#45215#0" expanded="false" />
+            <element signature="e#45228#46567#0" expanded="false" />
+            <element signature="e#46581#47266#0" expanded="false" />
+            <element signature="e#47279#47960#0" expanded="false" />
+            <element signature="e#47973#48656#0" expanded="false" />
+            <element signature="e#48669#49519#0" expanded="false" />
+            <element signature="e#48961#49055#0" expanded="false" />
+            <element signature="e#49532#49946#0" expanded="false" />
+            <element signature="e#49959#50266#0" expanded="false" />
+            <element signature="e#50279#51321#0" expanded="false" />
+            <element signature="e#51334#52368#0" expanded="false" />
+            <element signature="e#52381#53419#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/world/robdos_model.world">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="56" column="45" lean-forward="false" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
+          <folding>
+            <element signature="e#117#180#0" expanded="false" />
+            <element signature="e#329#567#0" expanded="false" />
+            <element signature="e#576#729#0" expanded="false" />
+            <element signature="e#738#1015#0" expanded="false" />
+            <element signature="e#1511#1809#0" expanded="false" />
+            <element signature="e#1992#6641#0" expanded="false" />
+            <element signature="e#2083#2513#0" expanded="false" />
+            <element signature="e#2655#3806#0" expanded="false" />
+            <element signature="e#6654#11241#0" expanded="false" />
+            <element signature="e#6749#7178#0" expanded="false" />
+            <element signature="e#7320#8470#0" expanded="false" />
+            <element signature="e#8487#11221#0" expanded="false" />
+            <element signature="e#11254#17201#0" expanded="false" />
+            <element signature="e#17214#23127#0" expanded="false" />
+            <element signature="e#23140#27767#0" expanded="false" />
+            <element signature="e#27780#32457#0" expanded="false" />
+            <element signature="e#32470#37116#0" expanded="false" />
+            <element signature="e#37130#37761#0" expanded="false" />
+            <element signature="e#37343#37740#0" expanded="false" />
+            <element signature="e#37774#38417#0" expanded="false" />
+            <element signature="e#38430#39067#0" expanded="false" />
+            <element signature="e#39080#40422#0" expanded="false" />
+            <element signature="e#40435#41772#0" expanded="false" />
+            <element signature="e#41785#43124#0" expanded="false" />
+            <element signature="e#43138#43823#0" expanded="false" />
+            <element signature="e#43836#44517#0" expanded="false" />
+            <element signature="e#44530#45213#0" expanded="false" />
+            <element signature="e#45226#46085#0" expanded="false" />
+            <element signature="e#46098#46512#0" expanded="false" />
+            <element signature="e#46525#46832#0" expanded="false" />
+            <element signature="e#46845#47887#0" expanded="false" />
+            <element signature="e#47900#48934#0" expanded="false" />
+            <element signature="e#48947#49985#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/launch/robdos_sim.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="75" lean-forward="false" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/world/robdos_underwater.world">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="779" column="19" lean-forward="true" selection-start-line="779" selection-start-column="19" selection-end-line="779" selection-end-column="19" />
+          <folding>
+            <element signature="e#117#180#0" expanded="false" />
+            <element signature="e#329#567#0" expanded="false" />
+            <element signature="e#576#729#0" expanded="false" />
+            <element signature="e#738#1015#0" expanded="false" />
+            <element signature="e#1401#1492#0" expanded="false" />
+            <element signature="e#1519#1817#0" expanded="false" />
+            <element signature="e#1552#1802#0" expanded="false" />
+            <element signature="e#1827#4066#0" expanded="false" />
+            <element signature="e#1943#2296#0" expanded="false" />
+            <element signature="e#1992#2267#0" expanded="false" />
+            <element signature="e#2027#2235#0" expanded="false" />
+            <element signature="e#2313#4029#0" expanded="false" />
+            <element signature="e#2435#2735#0" expanded="false" />
+            <element signature="e#2764#3065#0" expanded="false" />
+            <element signature="e#3094#3396#0" expanded="false" />
+            <element signature="e#3425#3585#0" expanded="false" />
+            <element signature="e#3614#3774#0" expanded="false" />
+            <element signature="e#4075#5116#0" expanded="false" />
+            <element signature="e#4470#5079#0" expanded="false" />
+            <element signature="e#4620#4773#0" expanded="false" />
+            <element signature="e#4655#4741#0" expanded="false" />
+            <element signature="e#4794#5053#0" expanded="false" />
+            <element signature="e#4829#5021#0" expanded="false" />
+            <element signature="e#5307#9955#0" expanded="false" />
+            <element signature="e#5398#5828#0" expanded="false" />
+            <element signature="e#5970#7121#0" expanded="false" />
+            <element signature="e#7346#7639#0" expanded="false" />
+            <element signature="e#7660#9906#0" expanded="false" />
+            <element signature="e#9968#14499#0" expanded="false" />
+            <element signature="e#10696#10908#0" expanded="false" />
+            <element signature="e#10929#11599#0" expanded="false" />
+            <element signature="e#11971#12183#0" expanded="false" />
+            <element signature="e#12204#14450#0" expanded="false" />
+            <element signature="e#12238#13063#0" expanded="false" />
+            <element signature="e#14512#20496#0" expanded="false" />
+            <element signature="e#14674#15094#0" expanded="false" />
+            <element signature="e#15199#16703#0" expanded="false" />
+            <element signature="e#16720#17798#0" expanded="false" />
+            <element signature="e#17815#20476#0" expanded="false" />
+            <element signature="e#20509#26459#0" expanded="false" />
+            <element signature="e#26472#31136#0" expanded="false" />
+            <element signature="e#31149#35863#0" expanded="false" />
+            <element signature="e#35876#40559#0" expanded="false" />
+            <element signature="e#40573#41204#0" expanded="false" />
+            <element signature="e#40786#41183#0" expanded="false" />
+            <element signature="e#41217#41860#0" expanded="false" />
+            <element signature="e#41873#42510#0" expanded="false" />
+            <element signature="e#42523#43865#0" expanded="false" />
+            <element signature="e#43878#45215#0" expanded="false" />
+            <element signature="e#45228#46567#0" expanded="false" />
+            <element signature="e#46581#47266#0" expanded="false" />
+            <element signature="e#47279#47960#0" expanded="false" />
+            <element signature="e#47973#48656#0" expanded="false" />
+            <element signature="e#48669#49519#0" expanded="false" />
+            <element signature="e#48961#49055#0" expanded="false" />
+            <element signature="e#49532#49946#0" expanded="false" />
+            <element signature="e#49959#50266#0" expanded="false" />
+            <element signature="e#50279#51321#0" expanded="false" />
+            <element signature="e#51334#52368#0" expanded="false" />
+            <element signature="e#52381#53419#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/world/robdos_model.world">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#117#180#0" expanded="false" />
+            <element signature="e#329#567#0" expanded="false" />
+            <element signature="e#576#729#0" expanded="false" />
+            <element signature="e#738#1015#0" expanded="false" />
+            <element signature="e#1511#1809#0" expanded="false" />
+            <element signature="e#1992#6641#0" expanded="false" />
+            <element signature="e#2083#2513#0" expanded="false" />
+            <element signature="e#2655#3806#0" expanded="false" />
+            <element signature="e#6654#11241#0" expanded="false" />
+            <element signature="e#6749#7178#0" expanded="false" />
+            <element signature="e#7320#8470#0" expanded="false" />
+            <element signature="e#8487#11221#0" expanded="false" />
+            <element signature="e#11254#17201#0" expanded="false" />
+            <element signature="e#17214#23127#0" expanded="false" />
+            <element signature="e#23140#27767#0" expanded="false" />
+            <element signature="e#27780#32457#0" expanded="false" />
+            <element signature="e#32470#37116#0" expanded="false" />
+            <element signature="e#37130#37761#0" expanded="false" />
+            <element signature="e#37343#37740#0" expanded="false" />
+            <element signature="e#37774#38417#0" expanded="false" />
+            <element signature="e#38430#39067#0" expanded="false" />
+            <element signature="e#39080#40422#0" expanded="false" />
+            <element signature="e#40435#41772#0" expanded="false" />
+            <element signature="e#41785#43124#0" expanded="false" />
+            <element signature="e#43138#43823#0" expanded="false" />
+            <element signature="e#43836#44517#0" expanded="false" />
+            <element signature="e#44530#45213#0" expanded="false" />
+            <element signature="e#45226#46085#0" expanded="false" />
+            <element signature="e#46098#46512#0" expanded="false" />
+            <element signature="e#46525#46832#0" expanded="false" />
+            <element signature="e#46845#47887#0" expanded="false" />
+            <element signature="e#47900#48934#0" expanded="false" />
+            <element signature="e#48947#49985#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/world/robdos_underwater.world">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#41003#41869#0" expanded="false" />
-            <element signature="e#41883#42568#0" expanded="false" />
-            <element signature="e#42581#43262#0" expanded="false" />
-            <element signature="e#43275#43958#0" expanded="false" />
-            <element signature="e#43972#45014#0" expanded="false" />
-            <element signature="e#45027#46061#0" expanded="false" />
-            <element signature="e#46074#47112#0" expanded="false" />
+            <element signature="e#117#180#0" expanded="false" />
+            <element signature="e#329#567#0" expanded="false" />
+            <element signature="e#576#729#0" expanded="false" />
+            <element signature="e#738#1015#0" expanded="false" />
+            <element signature="e#1401#1492#0" expanded="false" />
+            <element signature="e#1519#1817#0" expanded="false" />
+            <element signature="e#1552#1802#0" expanded="false" />
+            <element signature="e#1827#4066#0" expanded="false" />
+            <element signature="e#1943#2296#0" expanded="false" />
+            <element signature="e#1992#2267#0" expanded="false" />
+            <element signature="e#2027#2235#0" expanded="false" />
+            <element signature="e#2313#4029#0" expanded="false" />
+            <element signature="e#2435#2735#0" expanded="false" />
+            <element signature="e#2764#3065#0" expanded="false" />
+            <element signature="e#3094#3396#0" expanded="false" />
+            <element signature="e#3425#3585#0" expanded="false" />
+            <element signature="e#3614#3774#0" expanded="false" />
+            <element signature="e#4075#5116#0" expanded="false" />
+            <element signature="e#4470#5079#0" expanded="false" />
+            <element signature="e#4620#4773#0" expanded="false" />
+            <element signature="e#4655#4741#0" expanded="false" />
+            <element signature="e#4794#5053#0" expanded="false" />
+            <element signature="e#4829#5021#0" expanded="false" />
+            <element signature="e#5307#9955#0" expanded="false" />
+            <element signature="e#5398#5828#0" expanded="false" />
+            <element signature="e#5970#7121#0" expanded="false" />
+            <element signature="e#7346#7639#0" expanded="false" />
+            <element signature="e#7660#9906#0" expanded="false" />
+            <element signature="e#9968#14499#0" expanded="false" />
+            <element signature="e#10696#10908#0" expanded="false" />
+            <element signature="e#10929#11599#0" expanded="false" />
+            <element signature="e#11971#12183#0" expanded="false" />
+            <element signature="e#12204#14450#0" expanded="false" />
+            <element signature="e#12238#13063#0" expanded="false" />
+            <element signature="e#14512#20496#0" expanded="false" />
+            <element signature="e#14674#15094#0" expanded="false" />
+            <element signature="e#15199#16703#0" expanded="false" />
+            <element signature="e#16720#17798#0" expanded="false" />
+            <element signature="e#17815#20476#0" expanded="false" />
+            <element signature="e#20509#26459#0" expanded="false" />
+            <element signature="e#26472#31136#0" expanded="false" />
+            <element signature="e#31149#35863#0" expanded="false" />
+            <element signature="e#35876#40559#0" expanded="false" />
+            <element signature="e#40573#41204#0" expanded="false" />
+            <element signature="e#40786#41183#0" expanded="false" />
+            <element signature="e#41217#41860#0" expanded="false" />
+            <element signature="e#41873#42510#0" expanded="false" />
+            <element signature="e#42523#43865#0" expanded="false" />
+            <element signature="e#43878#45215#0" expanded="false" />
+            <element signature="e#45228#46567#0" expanded="false" />
+            <element signature="e#46581#47266#0" expanded="false" />
+            <element signature="e#47279#47960#0" expanded="false" />
+            <element signature="e#47973#48656#0" expanded="false" />
+            <element signature="e#48669#49519#0" expanded="false" />
+            <element signature="e#48961#49055#0" expanded="false" />
+            <element signature="e#49532#49946#0" expanded="false" />
+            <element signature="e#49959#50266#0" expanded="false" />
+            <element signature="e#50279#51321#0" expanded="false" />
+            <element signature="e#51334#52368#0" expanded="false" />
+            <element signature="e#52381#53419#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/launch/robdos_sim.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/camera_processing_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="72" lean-forward="false" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/world/robdos_underwater.world">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#117#180#0" expanded="false" />
+            <element signature="e#329#567#0" expanded="false" />
+            <element signature="e#576#729#0" expanded="false" />
+            <element signature="e#738#1015#0" expanded="false" />
+            <element signature="e#1401#1492#0" expanded="false" />
+            <element signature="e#1519#1817#0" expanded="false" />
+            <element signature="e#1552#1802#0" expanded="false" />
+            <element signature="e#1827#4066#0" expanded="false" />
+            <element signature="e#1943#2296#0" expanded="false" />
+            <element signature="e#1992#2267#0" expanded="false" />
+            <element signature="e#2027#2235#0" expanded="false" />
+            <element signature="e#2313#4029#0" expanded="false" />
+            <element signature="e#2435#2735#0" expanded="false" />
+            <element signature="e#2764#3065#0" expanded="false" />
+            <element signature="e#3094#3396#0" expanded="false" />
+            <element signature="e#3425#3585#0" expanded="false" />
+            <element signature="e#3614#3774#0" expanded="false" />
+            <element signature="e#4075#5116#0" expanded="false" />
+            <element signature="e#4470#5079#0" expanded="false" />
+            <element signature="e#4620#4773#0" expanded="false" />
+            <element signature="e#4655#4741#0" expanded="false" />
+            <element signature="e#4794#5053#0" expanded="false" />
+            <element signature="e#4829#5021#0" expanded="false" />
+            <element signature="e#5307#9955#0" expanded="false" />
+            <element signature="e#5398#5828#0" expanded="false" />
+            <element signature="e#5970#7121#0" expanded="false" />
+            <element signature="e#7346#7639#0" expanded="false" />
+            <element signature="e#7660#9906#0" expanded="false" />
+            <element signature="e#9968#14499#0" expanded="false" />
+            <element signature="e#10696#10908#0" expanded="false" />
+            <element signature="e#10929#11599#0" expanded="false" />
+            <element signature="e#11971#12183#0" expanded="false" />
+            <element signature="e#12204#14450#0" expanded="false" />
+            <element signature="e#12238#13063#0" expanded="false" />
+            <element signature="e#14512#20496#0" expanded="false" />
+            <element signature="e#14674#15094#0" expanded="false" />
+            <element signature="e#15199#16703#0" expanded="false" />
+            <element signature="e#16720#17798#0" expanded="false" />
+            <element signature="e#17815#20476#0" expanded="false" />
+            <element signature="e#20509#26459#0" expanded="false" />
+            <element signature="e#26472#31136#0" expanded="false" />
+            <element signature="e#31149#35863#0" expanded="false" />
+            <element signature="e#35876#40559#0" expanded="false" />
+            <element signature="e#40573#41204#0" expanded="false" />
+            <element signature="e#40786#41183#0" expanded="false" />
+            <element signature="e#41217#41860#0" expanded="false" />
+            <element signature="e#41873#42510#0" expanded="false" />
+            <element signature="e#42523#43865#0" expanded="false" />
+            <element signature="e#43878#45215#0" expanded="false" />
+            <element signature="e#45228#46567#0" expanded="false" />
+            <element signature="e#46581#47266#0" expanded="false" />
+            <element signature="e#47279#47960#0" expanded="false" />
+            <element signature="e#47973#48656#0" expanded="false" />
+            <element signature="e#48669#49519#0" expanded="false" />
+            <element signature="e#48961#49055#0" expanded="false" />
+            <element signature="e#49532#49946#0" expanded="false" />
+            <element signature="e#49959#50266#0" expanded="false" />
+            <element signature="e#50279#51321#0" expanded="false" />
+            <element signature="e#51334#52368#0" expanded="false" />
+            <element signature="e#52381#53419#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/launch/robdos_sim.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/camera_processing_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="72" lean-forward="false" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/world/robdos_underwater.world">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#117#180#0" expanded="false" />
+            <element signature="e#329#567#0" expanded="false" />
+            <element signature="e#576#729#0" expanded="false" />
+            <element signature="e#738#1015#0" expanded="false" />
+            <element signature="e#1401#1492#0" expanded="false" />
+            <element signature="e#1519#1817#0" expanded="false" />
+            <element signature="e#1552#1802#0" expanded="false" />
+            <element signature="e#1827#4066#0" expanded="false" />
+            <element signature="e#1943#2296#0" expanded="false" />
+            <element signature="e#1992#2267#0" expanded="false" />
+            <element signature="e#2027#2235#0" expanded="false" />
+            <element signature="e#2313#4029#0" expanded="false" />
+            <element signature="e#2435#2735#0" expanded="false" />
+            <element signature="e#2764#3065#0" expanded="false" />
+            <element signature="e#3094#3396#0" expanded="false" />
+            <element signature="e#3425#3585#0" expanded="false" />
+            <element signature="e#3614#3774#0" expanded="false" />
+            <element signature="e#4075#5116#0" expanded="false" />
+            <element signature="e#4470#5079#0" expanded="false" />
+            <element signature="e#4620#4773#0" expanded="false" />
+            <element signature="e#4655#4741#0" expanded="false" />
+            <element signature="e#4794#5053#0" expanded="false" />
+            <element signature="e#4829#5021#0" expanded="false" />
+            <element signature="e#5307#9955#0" expanded="false" />
+            <element signature="e#5398#5828#0" expanded="false" />
+            <element signature="e#5970#7121#0" expanded="false" />
+            <element signature="e#7346#7639#0" expanded="false" />
+            <element signature="e#7660#9906#0" expanded="false" />
+            <element signature="e#9968#14499#0" expanded="false" />
+            <element signature="e#10696#10908#0" expanded="false" />
+            <element signature="e#10929#11599#0" expanded="false" />
+            <element signature="e#11971#12183#0" expanded="false" />
+            <element signature="e#12204#14450#0" expanded="false" />
+            <element signature="e#12238#13063#0" expanded="false" />
+            <element signature="e#14512#20496#0" expanded="false" />
+            <element signature="e#14674#15094#0" expanded="false" />
+            <element signature="e#15199#16703#0" expanded="false" />
+            <element signature="e#16720#17798#0" expanded="false" />
+            <element signature="e#17815#20476#0" expanded="false" />
+            <element signature="e#20509#26459#0" expanded="false" />
+            <element signature="e#26472#31136#0" expanded="false" />
+            <element signature="e#31149#35863#0" expanded="false" />
+            <element signature="e#35876#40559#0" expanded="false" />
+            <element signature="e#40573#41204#0" expanded="false" />
+            <element signature="e#40786#41183#0" expanded="false" />
+            <element signature="e#41217#41860#0" expanded="false" />
+            <element signature="e#41873#42510#0" expanded="false" />
+            <element signature="e#42523#43865#0" expanded="false" />
+            <element signature="e#43878#45215#0" expanded="false" />
+            <element signature="e#45228#46567#0" expanded="false" />
+            <element signature="e#46581#47266#0" expanded="false" />
+            <element signature="e#47279#47960#0" expanded="false" />
+            <element signature="e#47973#48656#0" expanded="false" />
+            <element signature="e#48669#49519#0" expanded="false" />
+            <element signature="e#48961#49055#0" expanded="false" />
+            <element signature="e#49532#49946#0" expanded="false" />
+            <element signature="e#49959#50266#0" expanded="false" />
+            <element signature="e#50279#51321#0" expanded="false" />
+            <element signature="e#51334#52368#0" expanded="false" />
+            <element signature="e#52381#53419#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -670,7 +1208,7 @@
     <entry file="file://$PROJECT_DIR$/launch/robdos_sim.launch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -678,23 +1216,75 @@
     <entry file="file://$PROJECT_DIR$/src/camera_processing_example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding />
+          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/world/robdos_underwater.world">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#41003#41869#0" expanded="false" />
-            <element signature="e#41883#42568#0" expanded="false" />
-            <element signature="e#42581#43262#0" expanded="false" />
-            <element signature="e#43275#43958#0" expanded="false" />
-            <element signature="e#43972#45014#0" expanded="false" />
-            <element signature="e#45027#46061#0" expanded="false" />
-            <element signature="e#46074#47112#0" expanded="false" />
+            <element signature="e#117#180#0" expanded="false" />
+            <element signature="e#329#567#0" expanded="false" />
+            <element signature="e#576#729#0" expanded="false" />
+            <element signature="e#738#1015#0" expanded="false" />
+            <element signature="e#1401#1492#0" expanded="false" />
+            <element signature="e#1519#1817#0" expanded="false" />
+            <element signature="e#1552#1802#0" expanded="false" />
+            <element signature="e#1827#4066#0" expanded="false" />
+            <element signature="e#1943#2296#0" expanded="false" />
+            <element signature="e#1992#2267#0" expanded="false" />
+            <element signature="e#2027#2235#0" expanded="false" />
+            <element signature="e#2313#4029#0" expanded="false" />
+            <element signature="e#2435#2735#0" expanded="false" />
+            <element signature="e#2764#3065#0" expanded="false" />
+            <element signature="e#3094#3396#0" expanded="false" />
+            <element signature="e#3425#3585#0" expanded="false" />
+            <element signature="e#3614#3774#0" expanded="false" />
+            <element signature="e#4075#5116#0" expanded="false" />
+            <element signature="e#4470#5079#0" expanded="false" />
+            <element signature="e#4620#4773#0" expanded="false" />
+            <element signature="e#4655#4741#0" expanded="false" />
+            <element signature="e#4794#5053#0" expanded="false" />
+            <element signature="e#4829#5021#0" expanded="false" />
+            <element signature="e#5307#9955#0" expanded="false" />
+            <element signature="e#5398#5828#0" expanded="false" />
+            <element signature="e#5970#7121#0" expanded="false" />
+            <element signature="e#7346#7639#0" expanded="false" />
+            <element signature="e#7660#9906#0" expanded="false" />
+            <element signature="e#9968#14499#0" expanded="false" />
+            <element signature="e#10696#10908#0" expanded="false" />
+            <element signature="e#10929#11599#0" expanded="false" />
+            <element signature="e#11971#12183#0" expanded="false" />
+            <element signature="e#12204#14450#0" expanded="false" />
+            <element signature="e#12238#13063#0" expanded="false" />
+            <element signature="e#14512#20496#0" expanded="false" />
+            <element signature="e#14674#15094#0" expanded="false" />
+            <element signature="e#15199#16703#0" expanded="false" />
+            <element signature="e#16720#17798#0" expanded="false" />
+            <element signature="e#17815#20476#0" expanded="false" />
+            <element signature="e#20509#26459#0" expanded="false" />
+            <element signature="e#26472#31136#0" expanded="false" />
+            <element signature="e#31149#35863#0" expanded="false" />
+            <element signature="e#35876#40559#0" expanded="false" />
+            <element signature="e#40573#41204#0" expanded="false" />
+            <element signature="e#40786#41183#0" expanded="false" />
+            <element signature="e#41217#41860#0" expanded="false" />
+            <element signature="e#41873#42510#0" expanded="false" />
+            <element signature="e#42523#43865#0" expanded="false" />
+            <element signature="e#43878#45215#0" expanded="false" />
+            <element signature="e#45228#46567#0" expanded="false" />
+            <element signature="e#46581#47266#0" expanded="false" />
+            <element signature="e#47279#47960#0" expanded="false" />
+            <element signature="e#47973#48656#0" expanded="false" />
+            <element signature="e#48669#49519#0" expanded="false" />
+            <element signature="e#48961#49055#0" expanded="false" />
+            <element signature="e#49532#49946#0" expanded="false" />
+            <element signature="e#49959#50266#0" expanded="false" />
+            <element signature="e#50279#51321#0" expanded="false" />
+            <element signature="e#51334#52368#0" expanded="false" />
+            <element signature="e#52381#53419#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -702,7 +1292,7 @@
     <entry file="file://$PROJECT_DIR$/launch/robdos_sim.launch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -710,23 +1300,75 @@
     <entry file="file://$PROJECT_DIR$/src/camera_processing_example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding />
+          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/world/robdos_underwater.world">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#41003#41869#0" expanded="false" />
-            <element signature="e#41883#42568#0" expanded="false" />
-            <element signature="e#42581#43262#0" expanded="false" />
-            <element signature="e#43275#43958#0" expanded="false" />
-            <element signature="e#43972#45014#0" expanded="false" />
-            <element signature="e#45027#46061#0" expanded="false" />
-            <element signature="e#46074#47112#0" expanded="false" />
+            <element signature="e#117#180#0" expanded="false" />
+            <element signature="e#329#567#0" expanded="false" />
+            <element signature="e#576#729#0" expanded="false" />
+            <element signature="e#738#1015#0" expanded="false" />
+            <element signature="e#1401#1492#0" expanded="false" />
+            <element signature="e#1519#1817#0" expanded="false" />
+            <element signature="e#1552#1802#0" expanded="false" />
+            <element signature="e#1827#4066#0" expanded="false" />
+            <element signature="e#1943#2296#0" expanded="false" />
+            <element signature="e#1992#2267#0" expanded="false" />
+            <element signature="e#2027#2235#0" expanded="false" />
+            <element signature="e#2313#4029#0" expanded="false" />
+            <element signature="e#2435#2735#0" expanded="false" />
+            <element signature="e#2764#3065#0" expanded="false" />
+            <element signature="e#3094#3396#0" expanded="false" />
+            <element signature="e#3425#3585#0" expanded="false" />
+            <element signature="e#3614#3774#0" expanded="false" />
+            <element signature="e#4075#5116#0" expanded="false" />
+            <element signature="e#4470#5079#0" expanded="false" />
+            <element signature="e#4620#4773#0" expanded="false" />
+            <element signature="e#4655#4741#0" expanded="false" />
+            <element signature="e#4794#5053#0" expanded="false" />
+            <element signature="e#4829#5021#0" expanded="false" />
+            <element signature="e#5307#9955#0" expanded="false" />
+            <element signature="e#5398#5828#0" expanded="false" />
+            <element signature="e#5970#7121#0" expanded="false" />
+            <element signature="e#7346#7639#0" expanded="false" />
+            <element signature="e#7660#9906#0" expanded="false" />
+            <element signature="e#9968#14499#0" expanded="false" />
+            <element signature="e#10696#10908#0" expanded="false" />
+            <element signature="e#10929#11599#0" expanded="false" />
+            <element signature="e#11971#12183#0" expanded="false" />
+            <element signature="e#12204#14450#0" expanded="false" />
+            <element signature="e#12238#13063#0" expanded="false" />
+            <element signature="e#14512#20496#0" expanded="false" />
+            <element signature="e#14674#15094#0" expanded="false" />
+            <element signature="e#15199#16703#0" expanded="false" />
+            <element signature="e#16720#17798#0" expanded="false" />
+            <element signature="e#17815#20476#0" expanded="false" />
+            <element signature="e#20509#26459#0" expanded="false" />
+            <element signature="e#26472#31136#0" expanded="false" />
+            <element signature="e#31149#35863#0" expanded="false" />
+            <element signature="e#35876#40559#0" expanded="false" />
+            <element signature="e#40573#41204#0" expanded="false" />
+            <element signature="e#40786#41183#0" expanded="false" />
+            <element signature="e#41217#41860#0" expanded="false" />
+            <element signature="e#41873#42510#0" expanded="false" />
+            <element signature="e#42523#43865#0" expanded="false" />
+            <element signature="e#43878#45215#0" expanded="false" />
+            <element signature="e#45228#46567#0" expanded="false" />
+            <element signature="e#46581#47266#0" expanded="false" />
+            <element signature="e#47279#47960#0" expanded="false" />
+            <element signature="e#47973#48656#0" expanded="false" />
+            <element signature="e#48669#49519#0" expanded="false" />
+            <element signature="e#48961#49055#0" expanded="false" />
+            <element signature="e#49532#49946#0" expanded="false" />
+            <element signature="e#49959#50266#0" expanded="false" />
+            <element signature="e#50279#51321#0" expanded="false" />
+            <element signature="e#51334#52368#0" expanded="false" />
+            <element signature="e#52381#53419#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -734,7 +1376,91 @@
     <entry file="file://$PROJECT_DIR$/launch/robdos_sim.launch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/camera_processing_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/world/robdos_underwater.world">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#117#180#0" expanded="false" />
+            <element signature="e#329#567#0" expanded="false" />
+            <element signature="e#576#729#0" expanded="false" />
+            <element signature="e#738#1015#0" expanded="false" />
+            <element signature="e#1401#1492#0" expanded="false" />
+            <element signature="e#1519#1817#0" expanded="false" />
+            <element signature="e#1552#1802#0" expanded="false" />
+            <element signature="e#1827#4066#0" expanded="false" />
+            <element signature="e#1943#2296#0" expanded="false" />
+            <element signature="e#1992#2267#0" expanded="false" />
+            <element signature="e#2027#2235#0" expanded="false" />
+            <element signature="e#2313#4029#0" expanded="false" />
+            <element signature="e#2435#2735#0" expanded="false" />
+            <element signature="e#2764#3065#0" expanded="false" />
+            <element signature="e#3094#3396#0" expanded="false" />
+            <element signature="e#3425#3585#0" expanded="false" />
+            <element signature="e#3614#3774#0" expanded="false" />
+            <element signature="e#4075#5116#0" expanded="false" />
+            <element signature="e#4470#5079#0" expanded="false" />
+            <element signature="e#4620#4773#0" expanded="false" />
+            <element signature="e#4655#4741#0" expanded="false" />
+            <element signature="e#4794#5053#0" expanded="false" />
+            <element signature="e#4829#5021#0" expanded="false" />
+            <element signature="e#5307#9955#0" expanded="false" />
+            <element signature="e#5398#5828#0" expanded="false" />
+            <element signature="e#5970#7121#0" expanded="false" />
+            <element signature="e#7346#7639#0" expanded="false" />
+            <element signature="e#7660#9906#0" expanded="false" />
+            <element signature="e#9968#14499#0" expanded="false" />
+            <element signature="e#10696#10908#0" expanded="false" />
+            <element signature="e#10929#11599#0" expanded="false" />
+            <element signature="e#11971#12183#0" expanded="false" />
+            <element signature="e#12204#14450#0" expanded="false" />
+            <element signature="e#12238#13063#0" expanded="false" />
+            <element signature="e#14512#20496#0" expanded="false" />
+            <element signature="e#14674#15094#0" expanded="false" />
+            <element signature="e#15199#16703#0" expanded="false" />
+            <element signature="e#16720#17798#0" expanded="false" />
+            <element signature="e#17815#20476#0" expanded="false" />
+            <element signature="e#20509#26459#0" expanded="false" />
+            <element signature="e#26472#31136#0" expanded="false" />
+            <element signature="e#31149#35863#0" expanded="false" />
+            <element signature="e#35876#40559#0" expanded="false" />
+            <element signature="e#40573#41204#0" expanded="false" />
+            <element signature="e#40786#41183#0" expanded="false" />
+            <element signature="e#41217#41860#0" expanded="false" />
+            <element signature="e#41873#42510#0" expanded="false" />
+            <element signature="e#42523#43865#0" expanded="false" />
+            <element signature="e#43878#45215#0" expanded="false" />
+            <element signature="e#45228#46567#0" expanded="false" />
+            <element signature="e#46581#47266#0" expanded="false" />
+            <element signature="e#47279#47960#0" expanded="false" />
+            <element signature="e#47973#48656#0" expanded="false" />
+            <element signature="e#48669#49519#0" expanded="false" />
+            <element signature="e#48961#49055#0" expanded="false" />
+            <element signature="e#49532#49946#0" expanded="false" />
+            <element signature="e#49959#50266#0" expanded="false" />
+            <element signature="e#50279#51321#0" expanded="false" />
+            <element signature="e#51334#52368#0" expanded="false" />
+            <element signature="e#52381#53419#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/launch/robdos_sim.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -742,23 +1468,75 @@
     <entry file="file://$PROJECT_DIR$/src/camera_processing_example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding />
+          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/world/robdos_underwater.world">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#41003#41869#0" expanded="false" />
-            <element signature="e#41883#42568#0" expanded="false" />
-            <element signature="e#42581#43262#0" expanded="false" />
-            <element signature="e#43275#43958#0" expanded="false" />
-            <element signature="e#43972#45014#0" expanded="false" />
-            <element signature="e#45027#46061#0" expanded="false" />
-            <element signature="e#46074#47112#0" expanded="false" />
+            <element signature="e#117#180#0" expanded="false" />
+            <element signature="e#329#567#0" expanded="false" />
+            <element signature="e#576#729#0" expanded="false" />
+            <element signature="e#738#1015#0" expanded="false" />
+            <element signature="e#1401#1492#0" expanded="false" />
+            <element signature="e#1519#1817#0" expanded="false" />
+            <element signature="e#1552#1802#0" expanded="false" />
+            <element signature="e#1827#4066#0" expanded="false" />
+            <element signature="e#1943#2296#0" expanded="false" />
+            <element signature="e#1992#2267#0" expanded="false" />
+            <element signature="e#2027#2235#0" expanded="false" />
+            <element signature="e#2313#4029#0" expanded="false" />
+            <element signature="e#2435#2735#0" expanded="false" />
+            <element signature="e#2764#3065#0" expanded="false" />
+            <element signature="e#3094#3396#0" expanded="false" />
+            <element signature="e#3425#3585#0" expanded="false" />
+            <element signature="e#3614#3774#0" expanded="false" />
+            <element signature="e#4075#5116#0" expanded="false" />
+            <element signature="e#4470#5079#0" expanded="false" />
+            <element signature="e#4620#4773#0" expanded="false" />
+            <element signature="e#4655#4741#0" expanded="false" />
+            <element signature="e#4794#5053#0" expanded="false" />
+            <element signature="e#4829#5021#0" expanded="false" />
+            <element signature="e#5307#9955#0" expanded="false" />
+            <element signature="e#5398#5828#0" expanded="false" />
+            <element signature="e#5970#7121#0" expanded="false" />
+            <element signature="e#7346#7639#0" expanded="false" />
+            <element signature="e#7660#9906#0" expanded="false" />
+            <element signature="e#9968#14499#0" expanded="false" />
+            <element signature="e#10696#10908#0" expanded="false" />
+            <element signature="e#10929#11599#0" expanded="false" />
+            <element signature="e#11971#12183#0" expanded="false" />
+            <element signature="e#12204#14450#0" expanded="false" />
+            <element signature="e#12238#13063#0" expanded="false" />
+            <element signature="e#14512#20496#0" expanded="false" />
+            <element signature="e#14674#15094#0" expanded="false" />
+            <element signature="e#15199#16703#0" expanded="false" />
+            <element signature="e#16720#17798#0" expanded="false" />
+            <element signature="e#17815#20476#0" expanded="false" />
+            <element signature="e#20509#26459#0" expanded="false" />
+            <element signature="e#26472#31136#0" expanded="false" />
+            <element signature="e#31149#35863#0" expanded="false" />
+            <element signature="e#35876#40559#0" expanded="false" />
+            <element signature="e#40573#41204#0" expanded="false" />
+            <element signature="e#40786#41183#0" expanded="false" />
+            <element signature="e#41217#41860#0" expanded="false" />
+            <element signature="e#41873#42510#0" expanded="false" />
+            <element signature="e#42523#43865#0" expanded="false" />
+            <element signature="e#43878#45215#0" expanded="false" />
+            <element signature="e#45228#46567#0" expanded="false" />
+            <element signature="e#46581#47266#0" expanded="false" />
+            <element signature="e#47279#47960#0" expanded="false" />
+            <element signature="e#47973#48656#0" expanded="false" />
+            <element signature="e#48669#49519#0" expanded="false" />
+            <element signature="e#48961#49055#0" expanded="false" />
+            <element signature="e#49532#49946#0" expanded="false" />
+            <element signature="e#49959#50266#0" expanded="false" />
+            <element signature="e#50279#51321#0" expanded="false" />
+            <element signature="e#51334#52368#0" expanded="false" />
+            <element signature="e#52381#53419#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -766,7 +1544,7 @@
     <entry file="file://$PROJECT_DIR$/launch/robdos_sim.launch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -774,23 +1552,75 @@
     <entry file="file://$PROJECT_DIR$/src/camera_processing_example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding />
+          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/world/robdos_underwater.world">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17802">
-          <caret line="989" column="25" selection-start-line="989" selection-start-column="25" selection-end-line="989" selection-end-column="25" />
+          <caret line="989" column="25" lean-forward="false" selection-start-line="989" selection-start-column="25" selection-end-line="989" selection-end-column="25" />
           <folding>
-            <element signature="e#41003#41869#0" expanded="false" />
-            <element signature="e#41883#42568#0" expanded="false" />
-            <element signature="e#42581#43262#0" expanded="false" />
-            <element signature="e#43275#43958#0" expanded="false" />
-            <element signature="e#43972#45014#0" expanded="false" />
-            <element signature="e#45027#46061#0" expanded="false" />
-            <element signature="e#46074#47112#0" expanded="false" />
+            <element signature="e#117#180#0" expanded="false" />
+            <element signature="e#329#567#0" expanded="false" />
+            <element signature="e#576#729#0" expanded="false" />
+            <element signature="e#738#1015#0" expanded="false" />
+            <element signature="e#1401#1492#0" expanded="false" />
+            <element signature="e#1519#1817#0" expanded="false" />
+            <element signature="e#1552#1802#0" expanded="false" />
+            <element signature="e#1827#4066#0" expanded="false" />
+            <element signature="e#1943#2296#0" expanded="false" />
+            <element signature="e#1992#2267#0" expanded="false" />
+            <element signature="e#2027#2235#0" expanded="false" />
+            <element signature="e#2313#4029#0" expanded="false" />
+            <element signature="e#2435#2735#0" expanded="false" />
+            <element signature="e#2764#3065#0" expanded="false" />
+            <element signature="e#3094#3396#0" expanded="false" />
+            <element signature="e#3425#3585#0" expanded="false" />
+            <element signature="e#3614#3774#0" expanded="false" />
+            <element signature="e#4075#5116#0" expanded="false" />
+            <element signature="e#4470#5079#0" expanded="false" />
+            <element signature="e#4620#4773#0" expanded="false" />
+            <element signature="e#4655#4741#0" expanded="false" />
+            <element signature="e#4794#5053#0" expanded="false" />
+            <element signature="e#4829#5021#0" expanded="false" />
+            <element signature="e#5307#9955#0" expanded="false" />
+            <element signature="e#5398#5828#0" expanded="false" />
+            <element signature="e#5970#7121#0" expanded="false" />
+            <element signature="e#7346#7639#0" expanded="false" />
+            <element signature="e#7660#9906#0" expanded="false" />
+            <element signature="e#9968#14499#0" expanded="false" />
+            <element signature="e#10696#10908#0" expanded="false" />
+            <element signature="e#10929#11599#0" expanded="false" />
+            <element signature="e#11971#12183#0" expanded="false" />
+            <element signature="e#12204#14450#0" expanded="false" />
+            <element signature="e#12238#13063#0" expanded="false" />
+            <element signature="e#14512#20496#0" expanded="false" />
+            <element signature="e#14674#15094#0" expanded="false" />
+            <element signature="e#15199#16703#0" expanded="false" />
+            <element signature="e#16720#17798#0" expanded="false" />
+            <element signature="e#17815#20476#0" expanded="false" />
+            <element signature="e#20509#26459#0" expanded="false" />
+            <element signature="e#26472#31136#0" expanded="false" />
+            <element signature="e#31149#35863#0" expanded="false" />
+            <element signature="e#35876#40559#0" expanded="false" />
+            <element signature="e#40573#41204#0" expanded="false" />
+            <element signature="e#40786#41183#0" expanded="false" />
+            <element signature="e#41217#41860#0" expanded="false" />
+            <element signature="e#41873#42510#0" expanded="false" />
+            <element signature="e#42523#43865#0" expanded="false" />
+            <element signature="e#43878#45215#0" expanded="false" />
+            <element signature="e#45228#46567#0" expanded="false" />
+            <element signature="e#46581#47266#0" expanded="false" />
+            <element signature="e#47279#47960#0" expanded="false" />
+            <element signature="e#47973#48656#0" expanded="false" />
+            <element signature="e#48669#49519#0" expanded="false" />
+            <element signature="e#48961#49055#0" expanded="false" />
+            <element signature="e#49532#49946#0" expanded="false" />
+            <element signature="e#49959#50266#0" expanded="false" />
+            <element signature="e#50279#51321#0" expanded="false" />
+            <element signature="e#51334#52368#0" expanded="false" />
+            <element signature="e#52381#53419#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -798,7 +1628,7 @@
     <entry file="file://$PROJECT_DIR$/launch/robdos_sim.launch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -806,23 +1636,75 @@
     <entry file="file://$PROJECT_DIR$/src/camera_processing_example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/world/robdos_underwater.world">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17802">
-          <caret line="989" column="25" selection-start-line="989" selection-start-column="25" selection-end-line="989" selection-end-column="25" />
+          <caret line="989" column="25" lean-forward="false" selection-start-line="989" selection-start-column="25" selection-end-line="989" selection-end-column="25" />
           <folding>
-            <element signature="e#41003#41869#0" expanded="false" />
-            <element signature="e#41883#42568#0" expanded="false" />
-            <element signature="e#42581#43262#0" expanded="false" />
-            <element signature="e#43275#43958#0" expanded="false" />
-            <element signature="e#43972#45014#0" expanded="false" />
-            <element signature="e#45027#46061#0" expanded="false" />
-            <element signature="e#46074#47112#0" expanded="false" />
+            <element signature="e#117#180#0" expanded="false" />
+            <element signature="e#329#567#0" expanded="false" />
+            <element signature="e#576#729#0" expanded="false" />
+            <element signature="e#738#1015#0" expanded="false" />
+            <element signature="e#1401#1492#0" expanded="false" />
+            <element signature="e#1519#1817#0" expanded="false" />
+            <element signature="e#1552#1802#0" expanded="false" />
+            <element signature="e#1827#4066#0" expanded="false" />
+            <element signature="e#1943#2296#0" expanded="false" />
+            <element signature="e#1992#2267#0" expanded="false" />
+            <element signature="e#2027#2235#0" expanded="false" />
+            <element signature="e#2313#4029#0" expanded="false" />
+            <element signature="e#2435#2735#0" expanded="false" />
+            <element signature="e#2764#3065#0" expanded="false" />
+            <element signature="e#3094#3396#0" expanded="false" />
+            <element signature="e#3425#3585#0" expanded="false" />
+            <element signature="e#3614#3774#0" expanded="false" />
+            <element signature="e#4075#5116#0" expanded="false" />
+            <element signature="e#4470#5079#0" expanded="false" />
+            <element signature="e#4620#4773#0" expanded="false" />
+            <element signature="e#4655#4741#0" expanded="false" />
+            <element signature="e#4794#5053#0" expanded="false" />
+            <element signature="e#4829#5021#0" expanded="false" />
+            <element signature="e#5307#9955#0" expanded="false" />
+            <element signature="e#5398#5828#0" expanded="false" />
+            <element signature="e#5970#7121#0" expanded="false" />
+            <element signature="e#7346#7639#0" expanded="false" />
+            <element signature="e#7660#9906#0" expanded="false" />
+            <element signature="e#9968#14499#0" expanded="false" />
+            <element signature="e#10696#10908#0" expanded="false" />
+            <element signature="e#10929#11599#0" expanded="false" />
+            <element signature="e#11971#12183#0" expanded="false" />
+            <element signature="e#12204#14450#0" expanded="false" />
+            <element signature="e#12238#13063#0" expanded="false" />
+            <element signature="e#14512#20496#0" expanded="false" />
+            <element signature="e#14674#15094#0" expanded="false" />
+            <element signature="e#15199#16703#0" expanded="false" />
+            <element signature="e#16720#17798#0" expanded="false" />
+            <element signature="e#17815#20476#0" expanded="false" />
+            <element signature="e#20509#26459#0" expanded="false" />
+            <element signature="e#26472#31136#0" expanded="false" />
+            <element signature="e#31149#35863#0" expanded="false" />
+            <element signature="e#35876#40559#0" expanded="false" />
+            <element signature="e#40573#41204#0" expanded="false" />
+            <element signature="e#40786#41183#0" expanded="false" />
+            <element signature="e#41217#41860#0" expanded="false" />
+            <element signature="e#41873#42510#0" expanded="false" />
+            <element signature="e#42523#43865#0" expanded="false" />
+            <element signature="e#43878#45215#0" expanded="false" />
+            <element signature="e#45228#46567#0" expanded="false" />
+            <element signature="e#46581#47266#0" expanded="false" />
+            <element signature="e#47279#47960#0" expanded="false" />
+            <element signature="e#47973#48656#0" expanded="false" />
+            <element signature="e#48669#49519#0" expanded="false" />
+            <element signature="e#48961#49055#0" expanded="false" />
+            <element signature="e#49532#49946#0" expanded="false" />
+            <element signature="e#49959#50266#0" expanded="false" />
+            <element signature="e#50279#51321#0" expanded="false" />
+            <element signature="e#51334#52368#0" expanded="false" />
+            <element signature="e#52381#53419#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -830,7 +1712,7 @@
     <entry file="file://$PROJECT_DIR$/launch/robdos_sim.launch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -838,40 +1720,182 @@
     <entry file="file://$PROJECT_DIR$/src/camera_processing_example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
-          <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
-          <folding />
+          <caret line="49" column="44" lean-forward="false" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/camera_processing_example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding />
+        <state relative-caret-position="270">
+          <caret line="24" column="72" lean-forward="false" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/launch/robdos_sim.launch">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        <state relative-caret-position="234">
+          <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/world/robdos_model.world">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="56" column="45" lean-forward="false" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
+          <folding>
+            <element signature="e#117#180#0" expanded="false" />
+            <element signature="e#329#567#0" expanded="false" />
+            <element signature="e#576#729#0" expanded="false" />
+            <element signature="e#738#1015#0" expanded="false" />
+            <element signature="e#1511#1809#0" expanded="false" />
+            <element signature="e#1992#6641#0" expanded="false" />
+            <element signature="e#2083#2513#0" expanded="false" />
+            <element signature="e#2655#3806#0" expanded="false" />
+            <element signature="e#6654#11241#0" expanded="false" />
+            <element signature="e#6749#7178#0" expanded="false" />
+            <element signature="e#7320#8470#0" expanded="false" />
+            <element signature="e#8487#11221#0" expanded="false" />
+            <element signature="e#11254#17201#0" expanded="false" />
+            <element signature="e#17214#23127#0" expanded="false" />
+            <element signature="e#23140#27767#0" expanded="false" />
+            <element signature="e#27780#32457#0" expanded="false" />
+            <element signature="e#32470#37116#0" expanded="false" />
+            <element signature="e#37130#37761#0" expanded="false" />
+            <element signature="e#37343#37740#0" expanded="false" />
+            <element signature="e#37774#38417#0" expanded="false" />
+            <element signature="e#38430#39067#0" expanded="false" />
+            <element signature="e#39080#40422#0" expanded="false" />
+            <element signature="e#40435#41772#0" expanded="false" />
+            <element signature="e#41785#43124#0" expanded="false" />
+            <element signature="e#43138#43823#0" expanded="false" />
+            <element signature="e#43836#44517#0" expanded="false" />
+            <element signature="e#44530#45213#0" expanded="false" />
+            <element signature="e#45226#46085#0" expanded="false" />
+            <element signature="e#46098#46512#0" expanded="false" />
+            <element signature="e#46525#46832#0" expanded="false" />
+            <element signature="e#46845#47887#0" expanded="false" />
+            <element signature="e#47900#48934#0" expanded="false" />
+            <element signature="e#48947#49985#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/world/robdos_underwater.world">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1944">
-          <caret line="906" column="24" selection-start-line="906" selection-start-column="24" selection-end-line="906" selection-end-column="24" />
+        <state relative-caret-position="702">
+          <caret line="456" column="19" lean-forward="false" selection-start-line="456" selection-start-column="19" selection-end-line="456" selection-end-column="19" />
           <folding>
-            <element signature="e#41003#41869#0" expanded="false" />
-            <element signature="e#41883#42568#0" expanded="false" />
-            <element signature="e#42581#43262#0" expanded="false" />
-            <element signature="e#43275#43958#0" expanded="false" />
-            <element signature="e#43972#45014#0" expanded="false" />
-            <element signature="e#45027#46061#0" expanded="false" />
-            <element signature="e#46074#47112#0" expanded="false" />
+            <element signature="e#117#180#0" expanded="false" />
+            <element signature="e#329#567#0" expanded="false" />
+            <element signature="e#576#729#0" expanded="false" />
+            <element signature="e#738#1015#0" expanded="false" />
+            <element signature="e#1401#1492#0" expanded="false" />
+            <element signature="e#1519#1817#0" expanded="false" />
+            <element signature="e#1552#1802#0" expanded="false" />
+            <element signature="e#1827#4066#0" expanded="false" />
+            <element signature="e#1943#2296#0" expanded="false" />
+            <element signature="e#1992#2267#0" expanded="false" />
+            <element signature="e#2027#2235#0" expanded="false" />
+            <element signature="e#2313#4029#0" expanded="false" />
+            <element signature="e#2435#2735#0" expanded="false" />
+            <element signature="e#2764#3065#0" expanded="false" />
+            <element signature="e#3094#3396#0" expanded="false" />
+            <element signature="e#3425#3585#0" expanded="false" />
+            <element signature="e#3614#3774#0" expanded="false" />
+            <element signature="e#4075#5116#0" expanded="false" />
+            <element signature="e#4470#5079#0" expanded="false" />
+            <element signature="e#4620#4773#0" expanded="false" />
+            <element signature="e#4655#4741#0" expanded="false" />
+            <element signature="e#4794#5053#0" expanded="false" />
+            <element signature="e#4829#5021#0" expanded="false" />
+            <element signature="e#5307#9955#0" expanded="false" />
+            <element signature="e#5398#5828#0" expanded="false" />
+            <element signature="e#5970#7121#0" expanded="false" />
+            <element signature="e#7346#7639#0" expanded="false" />
+            <element signature="e#7660#9906#0" expanded="false" />
+            <element signature="e#9968#14499#0" expanded="false" />
+            <element signature="e#10696#10908#0" expanded="false" />
+            <element signature="e#10929#11599#0" expanded="false" />
+            <element signature="e#11971#12183#0" expanded="false" />
+            <element signature="e#12204#14450#0" expanded="false" />
+            <element signature="e#12238#13063#0" expanded="false" />
+            <element signature="e#14512#20496#0" expanded="false" />
+            <element signature="e#14674#15094#0" expanded="false" />
+            <element signature="e#15199#16703#0" expanded="false" />
+            <element signature="e#16720#17798#0" expanded="false" />
+            <element signature="e#17815#20476#0" expanded="false" />
+            <element signature="e#20509#26459#0" expanded="false" />
+            <element signature="e#26472#31136#0" expanded="false" />
+            <element signature="e#31149#35863#0" expanded="false" />
+            <element signature="e#35876#40559#0" expanded="false" />
+            <element signature="e#40573#41204#0" expanded="false" />
+            <element signature="e#40786#41183#0" expanded="false" />
+            <element signature="e#41217#41860#0" expanded="false" />
+            <element signature="e#41873#42510#0" expanded="false" />
+            <element signature="e#42523#43865#0" expanded="false" />
+            <element signature="e#43878#45215#0" expanded="false" />
+            <element signature="e#45228#46567#0" expanded="false" />
+            <element signature="e#46581#47266#0" expanded="false" />
+            <element signature="e#47279#47960#0" expanded="false" />
+            <element signature="e#47973#48656#0" expanded="false" />
+            <element signature="e#48669#49519#0" expanded="false" />
+            <element signature="e#48961#49055#0" expanded="false" />
+            <element signature="e#49532#49946#0" expanded="false" />
+            <element signature="e#49959#50266#0" expanded="false" />
+            <element signature="e#50279#51321#0" expanded="false" />
+            <element signature="e#51334#52368#0" expanded="false" />
+            <element signature="e#52381#53419#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4447">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="39" lean-forward="false" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="52" lean-forward="true" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/index.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
