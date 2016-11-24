@@ -1,8 +1,7 @@
-robdos simulation documentation
-===============================
+robdos simulation
+=================
 
-simulations for robdos project, more info: http://www.robdosteam.com
-
+Simulations for robdos project, more info: http://www.robdosteam.com
 
 Contents:
 ^^^^^^^^^
