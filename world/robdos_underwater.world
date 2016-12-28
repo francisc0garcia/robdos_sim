@@ -179,7 +179,7 @@
                     <pose frame=''>0 0 0.055 0 -0 0</pose>
                     <geometry>
                         <mesh>
-                            <uri>/home/pach0/Desktop/RObDos/code/simulation_robdos/src/robdos_sim/models/robdos_model_base.dae</uri>
+                            <uri>model://robdos_model_thrust.dae</uri>
                             <scale>1.7 1.7 1.7</scale>
                         </mesh>
                     </geometry>
@@ -630,7 +630,7 @@
                     <pose frame=''>0 0 0 0 -0 0</pose>
                     <geometry>
                         <mesh>
-                            <uri>/home/pach0/Desktop/RObDos/code/simulation_robdos/src/robdos_sim/models/robdos_model_thrust.dae</uri>
+                            <uri>model://robdos_model_thrust.dae</uri>
                             <scale>1.7 1.7 1.7</scale>
                         </mesh>
                     </geometry>
@@ -730,7 +730,7 @@
                     <pose frame=''>0 0 0 0 -0 0</pose>
                     <geometry>
                         <mesh>
-                            <uri>/home/pach0/Desktop/RObDos/code/simulation_robdos/src/robdos_sim/models/robdos_model_thrust.dae</uri>
+                            <uri>model://robdos_model_thrust.dae</uri>
                             <scale>1.7 1.7 1.7</scale>
                         </mesh>
                     </geometry>
@@ -829,7 +829,7 @@
                     <pose frame=''>0 0 0 0 -0 0</pose>
                     <geometry>
                         <mesh>
-                            <uri>/home/pach0/Desktop/RObDos/code/simulation_robdos/src/robdos_sim/models/robdos_model_thrust.dae</uri>
+                            <uri>model://robdos_model_thrust.dae</uri>
                             <scale>1.7 1.7 1.7</scale>
                         </mesh>
                     </geometry>
