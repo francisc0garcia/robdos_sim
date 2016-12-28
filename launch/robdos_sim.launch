@@ -26,6 +26,6 @@
 <node name="camera_processing_example" pkg="robdos_sim" type="camera_processing_example.py" />
 -->
     <node name="custom_rqt_perspective" pkg="rqt_gui" type="rqt_gui"
-          args="--perspective-file  $(find robdos_sim)/launch/robdos_rqt.perspective"/>
+          args="--perspective-file  $(find robdos_sim)/config/robdos_rqt.perspective"/>
 
 </launch>
