@@ -2,88 +2,88 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" buildAllGenerated="true">
     <generated>
-      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="tf_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="roscpp_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="run_tests" />
-      <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="std_msgs_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="actionlib_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="download_extra_data" />
-      <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="actionlib_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="roscpp_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="tf_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="gtest_main" />
-      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="tf_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="actionlib_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="tf_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="std_msgs_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="robot_ros_utils" />
       <config projectName="robdos_sim" targetName="std_msgs_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="clean_test_results" />
-      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="gazebo_ros_gencfg" />
-      <config projectName="robdos_sim" targetName="roscpp_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="dynamic_reconfigure_gencfg" />
-      <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="gtest" />
-      <config projectName="robdos_sim" targetName="roscpp_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="tf_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="std_msgs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="doxygen" />
-      <config projectName="robdos_sim" targetName="tests" />
-      <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="actionlib_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="waypoint_publisher" />
-      <config projectName="robdos_sim" targetName="robot_sub_drive" />
+      <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="roscpp_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="actionlib_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="tf_generate_messages_nodejs" />
       <config projectName="robdos_sim" targetName="std_msgs_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="actionlib_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="roscpp_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="tf_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_nodejs" />
       <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="tf_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="std_msgs_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="roscpp_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="actionlib_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="run_tests" />
+      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="gazebo_ros_gencfg" />
+      <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="gtest_main" />
+      <config projectName="robdos_sim" targetName="robot_sub_drive" />
+      <config projectName="robdos_sim" targetName="tests" />
+      <config projectName="robdos_sim" targetName="roscpp_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="roscpp_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="tf_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="roscpp_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="std_msgs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="actionlib_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="clean_test_results" />
+      <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="gtest" />
+      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="actionlib_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="dynamic_reconfigure_gencfg" />
+      <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="actionlib_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="std_msgs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="robot_ros_utils" />
+      <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="doxygen" />
+      <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="download_extra_data" />
+      <config projectName="robdos_sim" targetName="tf_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="waypoint_publisher" />
+      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_lisp" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -93,22 +93,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81e82f28-2ab1-494f-85a6-4742111c59a0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/rviz_config_waypoints.rviz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/launch/robdos_waypoints.launch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/gazebo_plugins/robot_ros_utils.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/gazebo_plugins/robot_sub_drive.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/marker_generator.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/waypoint_publisher.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/waypoint_controller.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/waypoint_publisher.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/world/robdos_bag_replay.world" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/robdos_sim/gazebo_ros_utils.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/robdos_sim/gazebo_sub_drive.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/rviz_config_bags.rviz" afterPath="$PROJECT_DIR$/config/rviz_config_bags.rviz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/tutorials.rst" afterPath="$PROJECT_DIR$/docs/source/tutorials.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/launch/robdos_sim_play_bags.launch" afterPath="$PROJECT_DIR$/launch/robdos_sim_play_bags.launch" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.xml" afterPath="$PROJECT_DIR$/package.xml" />
     </list>
     <ignored path="robdos_sim.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -128,7 +116,28 @@
     <favorites_list name="robdos_sim" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="marker_generator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/marker_generator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="69" column="92" lean-forward="false" selection-start-line="69" selection-start-column="92" selection-end-line="69" selection-end-column="92" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="276" column="22" lean-forward="true" selection-start-line="276" selection-start-column="22" selection-end-line="276" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -154,7 +163,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="FORCE_PUSH_ALLOWED" value="true" />
     <push-targets>
-      <push-target-info repo="$PROJECT_DIR$" source="master" target-remote="origin" target-branch="master" />
+      <push-target-info repo="$PROJECT_DIR$" source="master" target-remote="gitlab" target-branch="kinetic" />
     </push-targets>
   </component>
   <component name="IdeDocumentHistory">
@@ -163,7 +172,6 @@
         <option value="$PROJECT_DIR$/src/camera_processing_example.py" />
         <option value="$PROJECT_DIR$/world/robdos_model.world" />
         <option value="$PROJECT_DIR$/docs/source/conf.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/docs/source/contact.rst" />
         <option value="$PROJECT_DIR$/docs/source/installation.rst" />
         <option value="$PROJECT_DIR$/docs/source/index.rst" />
@@ -184,6 +192,7 @@
         <option value="$PROJECT_DIR$/src/gazebo_plugins/robot_sub_drive.cpp" />
         <option value="$PROJECT_DIR$/launch/robdos_waypoints.launch" />
         <option value="$PROJECT_DIR$/docs/source/tutorials.rst" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -227,6 +236,64 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="robdos_sim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="robdos_sim" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="robdos_sim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="robdos_sim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="robdos_sim" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="robdos_sim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="robdos_sim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="robdos_sim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="robdos_sim" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="robdos_sim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="robdos_sim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -890,7 +957,10 @@
       <workItem from="1483401459341" duration="8036000" />
       <workItem from="1483458538975" duration="3913000" />
       <workItem from="1483719838878" duration="2223000" />
-      <workItem from="1483733354912" duration="19126000" />
+      <workItem from="1483733354912" duration="19751000" />
+      <workItem from="1483754367155" duration="662000" />
+      <workItem from="1483756217443" duration="166000" />
+      <workItem from="1483825273894" duration="61000" />
     </task>
     <task id="LOCAL-00001" summary="- Update model of robot&#10;- change local reference to models and map&#10;- Add python example of image processing for cameras placed at the robot (front-rear)&#10;- Add plugins for IMU, camera and mav link">
       <created>1477146121683</created>
@@ -941,11 +1011,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482943496942</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="- Add waypoint publisher&#10;- Add simple waypoint controller&#10;- Add gazebo plugin for robot simulation&#10;- Fix some small errors&#10;- Add launch file for waypoint testing">
+      <created>1483753323655</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1483753323655</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65279000" />
+    <option name="totallyTimeSpent" value="66793000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -953,23 +1030,23 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18652292" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23853211" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1977574" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1977574" sideWeight="0.49380055" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1977574" sideWeight="0.5061995" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26547745" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23853211" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1011,7 +1088,8 @@
     <MESSAGE value="- add documentation" />
     <MESSAGE value="- fix local path for including models" />
     <MESSAGE value="- Add bag file support and launch files" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Add bag file support and launch files" />
+    <MESSAGE value="- Add waypoint publisher&#10;- Add simple waypoint controller&#10;- Add gazebo plugin for robot simulation&#10;- Fix some small errors&#10;- Add launch file for waypoint testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Add waypoint publisher&#10;- Add simple waypoint controller&#10;- Add gazebo plugin for robot simulation&#10;- Fix some small errors&#10;- Add launch file for waypoint testing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1024,63 +1102,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#117#180#0" expanded="false" />
-            <element signature="e#329#567#0" expanded="false" />
-            <element signature="e#576#729#0" expanded="false" />
-            <element signature="e#738#1015#0" expanded="false" />
-            <element signature="e#1025#1509#0" expanded="false" />
-            <element signature="e#1401#1492#0" expanded="false" />
-            <element signature="e#1519#1817#0" expanded="false" />
-            <element signature="e#1552#1802#0" expanded="false" />
-            <element signature="e#1827#4066#0" expanded="false" />
-            <element signature="e#1943#2296#0" expanded="false" />
-            <element signature="e#1992#2267#0" expanded="false" />
-            <element signature="e#2027#2235#0" expanded="false" />
-            <element signature="e#2313#4029#0" expanded="false" />
-            <element signature="e#2435#2735#0" expanded="false" />
-            <element signature="e#2764#3065#0" expanded="false" />
-            <element signature="e#3094#3396#0" expanded="false" />
-            <element signature="e#3425#3585#0" expanded="false" />
-            <element signature="e#3614#3774#0" expanded="false" />
-            <element signature="e#4075#5116#0" expanded="false" />
-            <element signature="e#4470#5079#0" expanded="false" />
-            <element signature="e#4620#4773#0" expanded="false" />
-            <element signature="e#4655#4741#0" expanded="false" />
-            <element signature="e#4794#5053#0" expanded="false" />
-            <element signature="e#4829#5021#0" expanded="false" />
-            <element signature="e#5307#9893#0" expanded="false" />
-            <element signature="e#5398#5828#0" expanded="false" />
-            <element signature="e#7598#9844#0" expanded="false" />
-            <element signature="e#9906#14437#0" expanded="false" />
-            <element signature="e#10634#10846#0" expanded="false" />
-            <element signature="e#10867#11537#0" expanded="false" />
-            <element signature="e#11909#12121#0" expanded="false" />
-            <element signature="e#12142#14388#0" expanded="false" />
-            <element signature="e#12176#13001#0" expanded="false" />
-            <element signature="e#14450#20434#0" expanded="false" />
-            <element signature="e#14612#15032#0" expanded="false" />
-            <element signature="e#15137#16641#0" expanded="false" />
-            <element signature="e#16658#17736#0" expanded="false" />
-            <element signature="e#17753#20414#0" expanded="false" />
-            <element signature="e#20447#26397#0" expanded="false" />
-            <element signature="e#26410#31010#0" expanded="false" />
-            <element signature="e#31023#35673#0" expanded="false" />
-            <element signature="e#35686#40305#0" expanded="false" />
-            <element signature="e#40319#40950#0" expanded="false" />
-            <element signature="e#40532#40929#0" expanded="false" />
-            <element signature="e#40963#41606#0" expanded="false" />
-            <element signature="e#41619#42256#0" expanded="false" />
-            <element signature="e#42269#43611#0" expanded="false" />
-            <element signature="e#43624#44961#0" expanded="false" />
-            <element signature="e#44974#46313#0" expanded="false" />
-            <element signature="e#46327#47012#0" expanded="false" />
-            <element signature="e#47025#47706#0" expanded="false" />
-            <element signature="e#47719#48402#0" expanded="false" />
-            <element signature="e#48415#49265#0" expanded="false" />
-            <element signature="e#49278#49692#0" expanded="false" />
-            <element signature="e#49705#50012#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1088,7 +1109,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1103,63 +1123,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#117#180#0" expanded="false" />
-            <element signature="e#329#567#0" expanded="false" />
-            <element signature="e#576#729#0" expanded="false" />
-            <element signature="e#738#1015#0" expanded="false" />
-            <element signature="e#1025#1509#0" expanded="false" />
-            <element signature="e#1401#1492#0" expanded="false" />
-            <element signature="e#1519#1817#0" expanded="false" />
-            <element signature="e#1552#1802#0" expanded="false" />
-            <element signature="e#1827#4066#0" expanded="false" />
-            <element signature="e#1943#2296#0" expanded="false" />
-            <element signature="e#1992#2267#0" expanded="false" />
-            <element signature="e#2027#2235#0" expanded="false" />
-            <element signature="e#2313#4029#0" expanded="false" />
-            <element signature="e#2435#2735#0" expanded="false" />
-            <element signature="e#2764#3065#0" expanded="false" />
-            <element signature="e#3094#3396#0" expanded="false" />
-            <element signature="e#3425#3585#0" expanded="false" />
-            <element signature="e#3614#3774#0" expanded="false" />
-            <element signature="e#4075#5116#0" expanded="false" />
-            <element signature="e#4470#5079#0" expanded="false" />
-            <element signature="e#4620#4773#0" expanded="false" />
-            <element signature="e#4655#4741#0" expanded="false" />
-            <element signature="e#4794#5053#0" expanded="false" />
-            <element signature="e#4829#5021#0" expanded="false" />
-            <element signature="e#5307#9893#0" expanded="false" />
-            <element signature="e#5398#5828#0" expanded="false" />
-            <element signature="e#7598#9844#0" expanded="false" />
-            <element signature="e#9906#14437#0" expanded="false" />
-            <element signature="e#10634#10846#0" expanded="false" />
-            <element signature="e#10867#11537#0" expanded="false" />
-            <element signature="e#11909#12121#0" expanded="false" />
-            <element signature="e#12142#14388#0" expanded="false" />
-            <element signature="e#12176#13001#0" expanded="false" />
-            <element signature="e#14450#20434#0" expanded="false" />
-            <element signature="e#14612#15032#0" expanded="false" />
-            <element signature="e#15137#16641#0" expanded="false" />
-            <element signature="e#16658#17736#0" expanded="false" />
-            <element signature="e#17753#20414#0" expanded="false" />
-            <element signature="e#20447#26397#0" expanded="false" />
-            <element signature="e#26410#31010#0" expanded="false" />
-            <element signature="e#31023#35673#0" expanded="false" />
-            <element signature="e#35686#40305#0" expanded="false" />
-            <element signature="e#40319#40950#0" expanded="false" />
-            <element signature="e#40532#40929#0" expanded="false" />
-            <element signature="e#40963#41606#0" expanded="false" />
-            <element signature="e#41619#42256#0" expanded="false" />
-            <element signature="e#42269#43611#0" expanded="false" />
-            <element signature="e#43624#44961#0" expanded="false" />
-            <element signature="e#44974#46313#0" expanded="false" />
-            <element signature="e#46327#47012#0" expanded="false" />
-            <element signature="e#47025#47706#0" expanded="false" />
-            <element signature="e#47719#48402#0" expanded="false" />
-            <element signature="e#48415#49265#0" expanded="false" />
-            <element signature="e#49278#49692#0" expanded="false" />
-            <element signature="e#49705#50012#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1167,7 +1130,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1182,63 +1144,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#117#180#0" expanded="false" />
-            <element signature="e#329#567#0" expanded="false" />
-            <element signature="e#576#729#0" expanded="false" />
-            <element signature="e#738#1015#0" expanded="false" />
-            <element signature="e#1025#1509#0" expanded="false" />
-            <element signature="e#1401#1492#0" expanded="false" />
-            <element signature="e#1519#1817#0" expanded="false" />
-            <element signature="e#1552#1802#0" expanded="false" />
-            <element signature="e#1827#4066#0" expanded="false" />
-            <element signature="e#1943#2296#0" expanded="false" />
-            <element signature="e#1992#2267#0" expanded="false" />
-            <element signature="e#2027#2235#0" expanded="false" />
-            <element signature="e#2313#4029#0" expanded="false" />
-            <element signature="e#2435#2735#0" expanded="false" />
-            <element signature="e#2764#3065#0" expanded="false" />
-            <element signature="e#3094#3396#0" expanded="false" />
-            <element signature="e#3425#3585#0" expanded="false" />
-            <element signature="e#3614#3774#0" expanded="false" />
-            <element signature="e#4075#5116#0" expanded="false" />
-            <element signature="e#4470#5079#0" expanded="false" />
-            <element signature="e#4620#4773#0" expanded="false" />
-            <element signature="e#4655#4741#0" expanded="false" />
-            <element signature="e#4794#5053#0" expanded="false" />
-            <element signature="e#4829#5021#0" expanded="false" />
-            <element signature="e#5307#9893#0" expanded="false" />
-            <element signature="e#5398#5828#0" expanded="false" />
-            <element signature="e#7598#9844#0" expanded="false" />
-            <element signature="e#9906#14437#0" expanded="false" />
-            <element signature="e#10634#10846#0" expanded="false" />
-            <element signature="e#10867#11537#0" expanded="false" />
-            <element signature="e#11909#12121#0" expanded="false" />
-            <element signature="e#12142#14388#0" expanded="false" />
-            <element signature="e#12176#13001#0" expanded="false" />
-            <element signature="e#14450#20434#0" expanded="false" />
-            <element signature="e#14612#15032#0" expanded="false" />
-            <element signature="e#15137#16641#0" expanded="false" />
-            <element signature="e#16658#17736#0" expanded="false" />
-            <element signature="e#17753#20414#0" expanded="false" />
-            <element signature="e#20447#26397#0" expanded="false" />
-            <element signature="e#26410#31010#0" expanded="false" />
-            <element signature="e#31023#35673#0" expanded="false" />
-            <element signature="e#35686#40305#0" expanded="false" />
-            <element signature="e#40319#40950#0" expanded="false" />
-            <element signature="e#40532#40929#0" expanded="false" />
-            <element signature="e#40963#41606#0" expanded="false" />
-            <element signature="e#41619#42256#0" expanded="false" />
-            <element signature="e#42269#43611#0" expanded="false" />
-            <element signature="e#43624#44961#0" expanded="false" />
-            <element signature="e#44974#46313#0" expanded="false" />
-            <element signature="e#46327#47012#0" expanded="false" />
-            <element signature="e#47025#47706#0" expanded="false" />
-            <element signature="e#47719#48402#0" expanded="false" />
-            <element signature="e#48415#49265#0" expanded="false" />
-            <element signature="e#49278#49692#0" expanded="false" />
-            <element signature="e#49705#50012#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1246,7 +1151,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1261,63 +1165,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#117#180#0" expanded="false" />
-            <element signature="e#329#567#0" expanded="false" />
-            <element signature="e#576#729#0" expanded="false" />
-            <element signature="e#738#1015#0" expanded="false" />
-            <element signature="e#1025#1509#0" expanded="false" />
-            <element signature="e#1401#1492#0" expanded="false" />
-            <element signature="e#1519#1817#0" expanded="false" />
-            <element signature="e#1552#1802#0" expanded="false" />
-            <element signature="e#1827#4066#0" expanded="false" />
-            <element signature="e#1943#2296#0" expanded="false" />
-            <element signature="e#1992#2267#0" expanded="false" />
-            <element signature="e#2027#2235#0" expanded="false" />
-            <element signature="e#2313#4029#0" expanded="false" />
-            <element signature="e#2435#2735#0" expanded="false" />
-            <element signature="e#2764#3065#0" expanded="false" />
-            <element signature="e#3094#3396#0" expanded="false" />
-            <element signature="e#3425#3585#0" expanded="false" />
-            <element signature="e#3614#3774#0" expanded="false" />
-            <element signature="e#4075#5116#0" expanded="false" />
-            <element signature="e#4470#5079#0" expanded="false" />
-            <element signature="e#4620#4773#0" expanded="false" />
-            <element signature="e#4655#4741#0" expanded="false" />
-            <element signature="e#4794#5053#0" expanded="false" />
-            <element signature="e#4829#5021#0" expanded="false" />
-            <element signature="e#5307#9893#0" expanded="false" />
-            <element signature="e#5398#5828#0" expanded="false" />
-            <element signature="e#7598#9844#0" expanded="false" />
-            <element signature="e#9906#14437#0" expanded="false" />
-            <element signature="e#10634#10846#0" expanded="false" />
-            <element signature="e#10867#11537#0" expanded="false" />
-            <element signature="e#11909#12121#0" expanded="false" />
-            <element signature="e#12142#14388#0" expanded="false" />
-            <element signature="e#12176#13001#0" expanded="false" />
-            <element signature="e#14450#20434#0" expanded="false" />
-            <element signature="e#14612#15032#0" expanded="false" />
-            <element signature="e#15137#16641#0" expanded="false" />
-            <element signature="e#16658#17736#0" expanded="false" />
-            <element signature="e#17753#20414#0" expanded="false" />
-            <element signature="e#20447#26397#0" expanded="false" />
-            <element signature="e#26410#31010#0" expanded="false" />
-            <element signature="e#31023#35673#0" expanded="false" />
-            <element signature="e#35686#40305#0" expanded="false" />
-            <element signature="e#40319#40950#0" expanded="false" />
-            <element signature="e#40532#40929#0" expanded="false" />
-            <element signature="e#40963#41606#0" expanded="false" />
-            <element signature="e#41619#42256#0" expanded="false" />
-            <element signature="e#42269#43611#0" expanded="false" />
-            <element signature="e#43624#44961#0" expanded="false" />
-            <element signature="e#44974#46313#0" expanded="false" />
-            <element signature="e#46327#47012#0" expanded="false" />
-            <element signature="e#47025#47706#0" expanded="false" />
-            <element signature="e#47719#48402#0" expanded="false" />
-            <element signature="e#48415#49265#0" expanded="false" />
-            <element signature="e#49278#49692#0" expanded="false" />
-            <element signature="e#49705#50012#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1325,7 +1172,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1340,63 +1186,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#117#180#0" expanded="false" />
-            <element signature="e#329#567#0" expanded="false" />
-            <element signature="e#576#729#0" expanded="false" />
-            <element signature="e#738#1015#0" expanded="false" />
-            <element signature="e#1025#1509#0" expanded="false" />
-            <element signature="e#1401#1492#0" expanded="false" />
-            <element signature="e#1519#1817#0" expanded="false" />
-            <element signature="e#1552#1802#0" expanded="false" />
-            <element signature="e#1827#4066#0" expanded="false" />
-            <element signature="e#1943#2296#0" expanded="false" />
-            <element signature="e#1992#2267#0" expanded="false" />
-            <element signature="e#2027#2235#0" expanded="false" />
-            <element signature="e#2313#4029#0" expanded="false" />
-            <element signature="e#2435#2735#0" expanded="false" />
-            <element signature="e#2764#3065#0" expanded="false" />
-            <element signature="e#3094#3396#0" expanded="false" />
-            <element signature="e#3425#3585#0" expanded="false" />
-            <element signature="e#3614#3774#0" expanded="false" />
-            <element signature="e#4075#5116#0" expanded="false" />
-            <element signature="e#4470#5079#0" expanded="false" />
-            <element signature="e#4620#4773#0" expanded="false" />
-            <element signature="e#4655#4741#0" expanded="false" />
-            <element signature="e#4794#5053#0" expanded="false" />
-            <element signature="e#4829#5021#0" expanded="false" />
-            <element signature="e#5307#9893#0" expanded="false" />
-            <element signature="e#5398#5828#0" expanded="false" />
-            <element signature="e#7598#9844#0" expanded="false" />
-            <element signature="e#9906#14437#0" expanded="false" />
-            <element signature="e#10634#10846#0" expanded="false" />
-            <element signature="e#10867#11537#0" expanded="false" />
-            <element signature="e#11909#12121#0" expanded="false" />
-            <element signature="e#12142#14388#0" expanded="false" />
-            <element signature="e#12176#13001#0" expanded="false" />
-            <element signature="e#14450#20434#0" expanded="false" />
-            <element signature="e#14612#15032#0" expanded="false" />
-            <element signature="e#15137#16641#0" expanded="false" />
-            <element signature="e#16658#17736#0" expanded="false" />
-            <element signature="e#17753#20414#0" expanded="false" />
-            <element signature="e#20447#26397#0" expanded="false" />
-            <element signature="e#26410#31010#0" expanded="false" />
-            <element signature="e#31023#35673#0" expanded="false" />
-            <element signature="e#35686#40305#0" expanded="false" />
-            <element signature="e#40319#40950#0" expanded="false" />
-            <element signature="e#40532#40929#0" expanded="false" />
-            <element signature="e#40963#41606#0" expanded="false" />
-            <element signature="e#41619#42256#0" expanded="false" />
-            <element signature="e#42269#43611#0" expanded="false" />
-            <element signature="e#43624#44961#0" expanded="false" />
-            <element signature="e#44974#46313#0" expanded="false" />
-            <element signature="e#46327#47012#0" expanded="false" />
-            <element signature="e#47025#47706#0" expanded="false" />
-            <element signature="e#47719#48402#0" expanded="false" />
-            <element signature="e#48415#49265#0" expanded="false" />
-            <element signature="e#49278#49692#0" expanded="false" />
-            <element signature="e#49705#50012#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1404,7 +1193,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1419,63 +1207,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17802">
           <caret line="989" column="25" lean-forward="false" selection-start-line="989" selection-start-column="25" selection-end-line="989" selection-end-column="25" />
-          <folding>
-            <element signature="e#117#180#0" expanded="false" />
-            <element signature="e#329#567#0" expanded="false" />
-            <element signature="e#576#729#0" expanded="false" />
-            <element signature="e#738#1015#0" expanded="false" />
-            <element signature="e#1025#1509#0" expanded="false" />
-            <element signature="e#1401#1492#0" expanded="false" />
-            <element signature="e#1519#1817#0" expanded="false" />
-            <element signature="e#1552#1802#0" expanded="false" />
-            <element signature="e#1827#4066#0" expanded="false" />
-            <element signature="e#1943#2296#0" expanded="false" />
-            <element signature="e#1992#2267#0" expanded="false" />
-            <element signature="e#2027#2235#0" expanded="false" />
-            <element signature="e#2313#4029#0" expanded="false" />
-            <element signature="e#2435#2735#0" expanded="false" />
-            <element signature="e#2764#3065#0" expanded="false" />
-            <element signature="e#3094#3396#0" expanded="false" />
-            <element signature="e#3425#3585#0" expanded="false" />
-            <element signature="e#3614#3774#0" expanded="false" />
-            <element signature="e#4075#5116#0" expanded="false" />
-            <element signature="e#4470#5079#0" expanded="false" />
-            <element signature="e#4620#4773#0" expanded="false" />
-            <element signature="e#4655#4741#0" expanded="false" />
-            <element signature="e#4794#5053#0" expanded="false" />
-            <element signature="e#4829#5021#0" expanded="false" />
-            <element signature="e#5307#9893#0" expanded="false" />
-            <element signature="e#5398#5828#0" expanded="false" />
-            <element signature="e#7598#9844#0" expanded="false" />
-            <element signature="e#9906#14437#0" expanded="false" />
-            <element signature="e#10634#10846#0" expanded="false" />
-            <element signature="e#10867#11537#0" expanded="false" />
-            <element signature="e#11909#12121#0" expanded="false" />
-            <element signature="e#12142#14388#0" expanded="false" />
-            <element signature="e#12176#13001#0" expanded="false" />
-            <element signature="e#14450#20434#0" expanded="false" />
-            <element signature="e#14612#15032#0" expanded="false" />
-            <element signature="e#15137#16641#0" expanded="false" />
-            <element signature="e#16658#17736#0" expanded="false" />
-            <element signature="e#17753#20414#0" expanded="false" />
-            <element signature="e#20447#26397#0" expanded="false" />
-            <element signature="e#26410#31010#0" expanded="false" />
-            <element signature="e#31023#35673#0" expanded="false" />
-            <element signature="e#35686#40305#0" expanded="false" />
-            <element signature="e#40319#40950#0" expanded="false" />
-            <element signature="e#40532#40929#0" expanded="false" />
-            <element signature="e#40963#41606#0" expanded="false" />
-            <element signature="e#41619#42256#0" expanded="false" />
-            <element signature="e#42269#43611#0" expanded="false" />
-            <element signature="e#43624#44961#0" expanded="false" />
-            <element signature="e#44974#46313#0" expanded="false" />
-            <element signature="e#46327#47012#0" expanded="false" />
-            <element signature="e#47025#47706#0" expanded="false" />
-            <element signature="e#47719#48402#0" expanded="false" />
-            <element signature="e#48415#49265#0" expanded="false" />
-            <element signature="e#49278#49692#0" expanded="false" />
-            <element signature="e#49705#50012#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1483,7 +1214,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1498,63 +1228,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17802">
           <caret line="989" column="25" lean-forward="false" selection-start-line="989" selection-start-column="25" selection-end-line="989" selection-end-column="25" />
-          <folding>
-            <element signature="e#117#180#0" expanded="false" />
-            <element signature="e#329#567#0" expanded="false" />
-            <element signature="e#576#729#0" expanded="false" />
-            <element signature="e#738#1015#0" expanded="false" />
-            <element signature="e#1025#1509#0" expanded="false" />
-            <element signature="e#1401#1492#0" expanded="false" />
-            <element signature="e#1519#1817#0" expanded="false" />
-            <element signature="e#1552#1802#0" expanded="false" />
-            <element signature="e#1827#4066#0" expanded="false" />
-            <element signature="e#1943#2296#0" expanded="false" />
-            <element signature="e#1992#2267#0" expanded="false" />
-            <element signature="e#2027#2235#0" expanded="false" />
-            <element signature="e#2313#4029#0" expanded="false" />
-            <element signature="e#2435#2735#0" expanded="false" />
-            <element signature="e#2764#3065#0" expanded="false" />
-            <element signature="e#3094#3396#0" expanded="false" />
-            <element signature="e#3425#3585#0" expanded="false" />
-            <element signature="e#3614#3774#0" expanded="false" />
-            <element signature="e#4075#5116#0" expanded="false" />
-            <element signature="e#4470#5079#0" expanded="false" />
-            <element signature="e#4620#4773#0" expanded="false" />
-            <element signature="e#4655#4741#0" expanded="false" />
-            <element signature="e#4794#5053#0" expanded="false" />
-            <element signature="e#4829#5021#0" expanded="false" />
-            <element signature="e#5307#9893#0" expanded="false" />
-            <element signature="e#5398#5828#0" expanded="false" />
-            <element signature="e#7598#9844#0" expanded="false" />
-            <element signature="e#9906#14437#0" expanded="false" />
-            <element signature="e#10634#10846#0" expanded="false" />
-            <element signature="e#10867#11537#0" expanded="false" />
-            <element signature="e#11909#12121#0" expanded="false" />
-            <element signature="e#12142#14388#0" expanded="false" />
-            <element signature="e#12176#13001#0" expanded="false" />
-            <element signature="e#14450#20434#0" expanded="false" />
-            <element signature="e#14612#15032#0" expanded="false" />
-            <element signature="e#15137#16641#0" expanded="false" />
-            <element signature="e#16658#17736#0" expanded="false" />
-            <element signature="e#17753#20414#0" expanded="false" />
-            <element signature="e#20447#26397#0" expanded="false" />
-            <element signature="e#26410#31010#0" expanded="false" />
-            <element signature="e#31023#35673#0" expanded="false" />
-            <element signature="e#35686#40305#0" expanded="false" />
-            <element signature="e#40319#40950#0" expanded="false" />
-            <element signature="e#40532#40929#0" expanded="false" />
-            <element signature="e#40963#41606#0" expanded="false" />
-            <element signature="e#41619#42256#0" expanded="false" />
-            <element signature="e#42269#43611#0" expanded="false" />
-            <element signature="e#43624#44961#0" expanded="false" />
-            <element signature="e#44974#46313#0" expanded="false" />
-            <element signature="e#46327#47012#0" expanded="false" />
-            <element signature="e#47025#47706#0" expanded="false" />
-            <element signature="e#47719#48402#0" expanded="false" />
-            <element signature="e#48415#49265#0" expanded="false" />
-            <element signature="e#49278#49692#0" expanded="false" />
-            <element signature="e#49705#50012#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1562,7 +1235,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1570,13 +1242,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="49" column="44" lean-forward="false" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="280" column="17" lean-forward="false" selection-start-line="280" selection-start-column="17" selection-end-line="280" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1669,7 +1334,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1677,7 +1341,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="301" column="6" lean-forward="false" selection-start-line="301" selection-start-column="6" selection-end-line="301" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1685,63 +1348,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="1137" column="40" lean-forward="false" selection-start-line="1137" selection-start-column="40" selection-end-line="1137" selection-end-column="40" />
-          <folding>
-            <element signature="e#117#180#0" expanded="false" />
-            <element signature="e#329#567#0" expanded="false" />
-            <element signature="e#576#729#0" expanded="false" />
-            <element signature="e#738#1015#0" expanded="false" />
-            <element signature="e#1025#1509#0" expanded="false" />
-            <element signature="e#1401#1492#0" expanded="false" />
-            <element signature="e#1519#1817#0" expanded="false" />
-            <element signature="e#1552#1802#0" expanded="false" />
-            <element signature="e#1827#4066#0" expanded="false" />
-            <element signature="e#1943#2296#0" expanded="false" />
-            <element signature="e#1992#2267#0" expanded="false" />
-            <element signature="e#2027#2235#0" expanded="false" />
-            <element signature="e#2313#4029#0" expanded="false" />
-            <element signature="e#2435#2735#0" expanded="false" />
-            <element signature="e#2764#3065#0" expanded="false" />
-            <element signature="e#3094#3396#0" expanded="false" />
-            <element signature="e#3425#3585#0" expanded="false" />
-            <element signature="e#3614#3774#0" expanded="false" />
-            <element signature="e#4075#5116#0" expanded="false" />
-            <element signature="e#4470#5079#0" expanded="false" />
-            <element signature="e#4620#4773#0" expanded="false" />
-            <element signature="e#4655#4741#0" expanded="false" />
-            <element signature="e#4794#5053#0" expanded="false" />
-            <element signature="e#4829#5021#0" expanded="false" />
-            <element signature="e#5307#9893#0" expanded="false" />
-            <element signature="e#5398#5828#0" expanded="false" />
-            <element signature="e#7598#9844#0" expanded="false" />
-            <element signature="e#9906#14437#0" expanded="false" />
-            <element signature="e#10634#10846#0" expanded="false" />
-            <element signature="e#10867#11537#0" expanded="false" />
-            <element signature="e#11909#12121#0" expanded="false" />
-            <element signature="e#12142#14388#0" expanded="false" />
-            <element signature="e#12176#13001#0" expanded="false" />
-            <element signature="e#14450#20434#0" expanded="false" />
-            <element signature="e#14612#15032#0" expanded="false" />
-            <element signature="e#15137#16641#0" expanded="false" />
-            <element signature="e#16658#17736#0" expanded="false" />
-            <element signature="e#17753#20414#0" expanded="false" />
-            <element signature="e#20447#26397#0" expanded="false" />
-            <element signature="e#26410#31010#0" expanded="false" />
-            <element signature="e#31023#35673#0" expanded="false" />
-            <element signature="e#35686#40305#0" expanded="false" />
-            <element signature="e#40319#40950#0" expanded="false" />
-            <element signature="e#40532#40929#0" expanded="false" />
-            <element signature="e#40963#41606#0" expanded="false" />
-            <element signature="e#41619#42256#0" expanded="false" />
-            <element signature="e#42269#43611#0" expanded="false" />
-            <element signature="e#43624#44961#0" expanded="false" />
-            <element signature="e#44974#46313#0" expanded="false" />
-            <element signature="e#46327#47012#0" expanded="false" />
-            <element signature="e#47025#47706#0" expanded="false" />
-            <element signature="e#47719#48402#0" expanded="false" />
-            <element signature="e#48415#49265#0" expanded="false" />
-            <element signature="e#49278#49692#0" expanded="false" />
-            <element signature="e#49705#50012#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1749,7 +1355,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="41" column="86" lean-forward="false" selection-start-line="41" selection-start-column="78" selection-end-line="41" selection-end-column="86" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1757,18 +1362,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/marker_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="67" column="27" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="67" selection-end-column="27" />
-          <folding>
-            <element signature="e#181#545#0" expanded="false" />
-            <element signature="e#578#1244#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1776,7 +1369,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1784,7 +1376,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1792,9 +1383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-471">
           <caret line="30" column="76" lean-forward="false" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="76" />
-          <folding>
-            <element signature="e#22#59#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1802,7 +1390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1810,34 +1397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="54" column="30" lean-forward="true" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
-          <folding>
-            <element signature="e#329#567#0" expanded="false" />
-            <element signature="e#576#729#0" expanded="false" />
-            <element signature="e#738#1015#0" expanded="false" />
-            <element signature="e#1519#1817#0" expanded="false" />
-            <element signature="e#2008#6594#0" expanded="false" />
-            <element signature="e#2099#2529#0" expanded="false" />
-            <element signature="e#2671#3822#0" expanded="false" />
-            <element signature="e#3839#6574#0" expanded="false" />
-            <element signature="e#6607#11138#0" expanded="false" />
-            <element signature="e#6706#7074#0" expanded="false" />
-            <element signature="e#11151#17135#0" expanded="false" />
-            <element signature="e#17148#23098#0" expanded="false" />
-            <element signature="e#23111#27711#0" expanded="false" />
-            <element signature="e#27724#32374#0" expanded="false" />
-            <element signature="e#32387#37006#0" expanded="false" />
-            <element signature="e#37020#37651#0" expanded="false" />
-            <element signature="e#37664#38307#0" expanded="false" />
-            <element signature="e#38320#38957#0" expanded="false" />
-            <element signature="e#38970#40312#0" expanded="false" />
-            <element signature="e#40325#41662#0" expanded="false" />
-            <element signature="e#41675#43014#0" expanded="false" />
-            <element signature="e#43028#43713#0" expanded="false" />
-            <element signature="e#43726#44407#0" expanded="false" />
-            <element signature="e#44420#45103#0" expanded="false" />
-            <element signature="e#45117#45531#0" expanded="false" />
-            <element signature="e#45545#45935#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1845,7 +1404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1853,9 +1411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="954">
           <caret line="57" column="20" lean-forward="true" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
-          <folding>
-            <element signature="e#241#261#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1863,7 +1418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="36" column="156" lean-forward="false" selection-start-line="36" selection-start-column="156" selection-end-line="36" selection-end-column="156" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1871,7 +1425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1879,9 +1432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2538">
           <caret line="141" column="43" lean-forward="false" selection-start-line="141" selection-start-column="43" selection-end-line="141" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1897,6 +1447,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="738">
           <caret line="41" column="1" lean-forward="false" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/marker_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="69" column="92" lean-forward="false" selection-start-line="69" selection-start-column="92" selection-end-line="69" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="276" column="22" lean-forward="true" selection-start-line="276" selection-start-column="22" selection-end-line="276" selection-end-column="22" />
           <folding />
         </state>
       </provider>

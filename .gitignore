@@ -289,5 +289,4 @@ CATKIN_IGNORE
 *.out
 *.app
 
-include/
 /docs/build/
