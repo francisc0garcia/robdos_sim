@@ -1,32 +1,22 @@
 <launch>
-
-    <!-- play ros bag:
-    Download first bag files from google drive.
-    -->
     <env name="GAZEBO_MODEL_PATH" value="$(find robdos_sim)/models"/>
-
-    <arg name="path" default="/home/pach0/Documents/code/robdos_sim/bags/bags_8_12/" />
-    <arg name="file" default="autonomo2.bag" />
-
-    <node pkg="rosbag" type="play" name="player" output="screen" args="$(arg path)$(arg file)"/>
 
     <node pkg="robdos_sim" type="waypoint_controller.py" name="waypoint_controller" />
 
-    <!--
-    <include file="$(find gazebo_ros)/launch/empty_world.launch" >
+    <node pkg="robdos_sim" type="waypoint_publisher.py" name="waypoint_publisher" />
 
+    <include file="$(find gazebo_ros)/launch/empty_world.launch" >
         <arg name="world_name" value="$(find robdos_sim)/world/robdos_bag_replay.world"/>
         <arg name="paused" value="false"/>
-        <arg name="use_sim_time" value="false"/>
+        <arg name="use_sim_time" value="true"/>
         <arg name="gui" value="true"/>
         <arg name="headless" value="false"/>
         <arg name="debug" value="false"/>
     </include>
-    -->
 
     <node name="custom_rqt_perspective" pkg="rqt_gui" type="rqt_gui"
           args="--perspective-file  $(find robdos_sim)/config/rqt_bags.perspective"/>
 
-    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find robdos_sim)/config/rviz_config_bags.rviz" required="false" />
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find robdos_sim)/config/rviz_config_waypoints.rviz" required="false" />
 
 </launch>
