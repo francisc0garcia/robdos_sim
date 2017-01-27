@@ -78,6 +78,7 @@ namespace gazebo {
         // Update Rate
         double update_rate_, update_period_;
         bool alive_;
+
         common::Time last_update_time_;
 
         geometry_msgs::Pose2D pose_encoder_;

@@ -19,7 +19,7 @@ find_package(gazebo REQUIRED)
 catkin_package(
         INCLUDE_DIRS include
         LIBRARIES robdos_sim
-        CATKIN_DEPENDS roscpp rospy std_msgs mavros_msgs
+        CATKIN_DEPENDS roscpp rospy std_msgs mavros_msgs interactive_markers visualization_msgs
         DEPENDS  roscpp gazebo_ros gazebo
 )
 

@@ -1022,5 +1022,25 @@
 
         </model>
 
+        <model name='reference_waypoint'>
+            <static>1</static>
+            <allow_auto_disable>1</allow_auto_disable>
+            <pose frame=''>0 0 0 0 0 0</pose>
+
+            <link name='link'>
+                <gravity>0</gravity>
+                <visual name='visual'>
+                    <geometry>
+                        <mesh>
+                            <scale>3 3 3</scale>
+                            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+                        </mesh>
+                    </geometry>
+                </visual>
+                <self_collide>0</self_collide>
+            </link>
+            <pose frame=''>1.41791 2.61863 0 0 -0 0</pose>
+        </model>
+
     </world>
 </sdf>

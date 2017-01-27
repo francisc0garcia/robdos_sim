@@ -56,28 +56,22 @@ class robdos_waypoint_controller:
 
     # update list of waypoints
     def process_waypoint_message(self, waypoint_list_msg):
-        if not self.is_waypoint_loaded:
-            self.list_points = []
+        self.list_points = []
 
-            for waypoint in waypoint_list_msg.waypoints:
-                # set last value to False: means not reached jet.
-                self.list_points.append( [waypoint.x_lat, waypoint.y_long, waypoint.z_alt, waypoint.is_current] )
-
-            self.is_waypoint_loaded = True
+        for waypoint in waypoint_list_msg.waypoints:
+            # set last value to False: means not reached jet.
+            self.list_points.append( [waypoint.x_lat, waypoint.y_long, waypoint.z_alt, waypoint.is_current] )
 
     def update_controller(self):
-        # get current target
-        for i in range(len(self.list_points)):
-            point = self.list_points[i]
-            if not point[3]:
-                self.current_target = [point[0], point[1], point[2] ]
-                break
+        if len(self.list_points) > 0:
+            point = self.list_points[1]
+            self.current_target = [point[0], point[1], point[2] ]
 
         # update controller
         ref = self.current_target[1] # -2
         error = ref - self.robot_position_y
 
-        kp = 800
+        kp = 1000
         K_output = -kp * error
 
         K_output = 1500 + K_output

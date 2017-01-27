@@ -3,7 +3,10 @@
 
     <node pkg="robdos_sim" type="waypoint_controller.py" name="waypoint_controller" />
 
+<!--
     <node pkg="robdos_sim" type="waypoint_publisher.py" name="waypoint_publisher" />
+-->
+    <node pkg="robdos_sim" type="waypoint_interactive_publisher.py" name="waypoint_interactive_publisher" />
 
     <include file="$(find gazebo_ros)/launch/empty_world.launch" >
         <arg name="world_name" value="$(find robdos_sim)/world/robdos_bag_replay.world"/>
@@ -18,5 +21,4 @@
           args="--perspective-file  $(find robdos_sim)/config/rqt_bags.perspective"/>
 
     <node name="rviz" pkg="rviz" type="rviz" args="-d $(find robdos_sim)/config/rviz_config_waypoints.rviz" required="false" />
-
 </launch>

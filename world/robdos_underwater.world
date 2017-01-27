@@ -1141,9 +1141,9 @@
                 <commandSubTopic>/gazebo/command/motor_speed</commandSubTopic>
                 <motorNumber>1</motorNumber>
                 <rotorDragCoefficient>0.000806428</rotorDragCoefficient>
-                <rollingMomentCoefficient>1e-06</rollingMomentCoefficient>
+                <rollingMomentCoefficient>0e-06</rollingMomentCoefficient>
                 <motorSpeedPubTopic>/motor_speed/left</motorSpeedPubTopic>
-                <rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim>
+                <rotorVelocitySlowdownSim>1</rotorVelocitySlowdownSim>
             </plugin>
             <plugin name='move_rotor_right' filename='librotors_gazebo_motor_model.so'>
                 <robotNamespace>robdos</robotNamespace>
@@ -1158,9 +1158,9 @@
                 <commandSubTopic>/gazebo/command/motor_speed</commandSubTopic>
                 <motorNumber>2</motorNumber>
                 <rotorDragCoefficient>0.000806428</rotorDragCoefficient>
-                <rollingMomentCoefficient>1e-06</rollingMomentCoefficient>
+                <rollingMomentCoefficient>0e-06</rollingMomentCoefficient>
                 <motorSpeedPubTopic>/motor_speed/right</motorSpeedPubTopic>
-                <rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim>
+                <rotorVelocitySlowdownSim>1</rotorVelocitySlowdownSim>
             </plugin>
         </model>
 
