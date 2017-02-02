@@ -87,7 +87,7 @@ namespace gazebo {
             // fix to plane z ( force lineal movement)
             _pith = 0;
             _roll = 0;
-            _pose.pos.z = 0;
+            _pose.pos.z = -1;
 
             //for testing: (fix x coordinate, robot only moves in y)
             _pose.pos.x = 0;

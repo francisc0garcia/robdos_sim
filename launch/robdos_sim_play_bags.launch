@@ -10,18 +10,18 @@
 
     <node pkg="rosbag" type="play" name="player" output="screen" args="$(arg path)$(arg file)"/>
 
-    <node pkg="robdos_sim" type="waypoint_controller.py" name="waypoint_controller" />
-
     <!--
-    <include file="$(find gazebo_ros)/launch/empty_world.launch" >
+        <node pkg="robdos_sim" type="waypoint_controller.py" name="waypoint_controller" />
 
-        <arg name="world_name" value="$(find robdos_sim)/world/robdos_bag_replay.world"/>
-        <arg name="paused" value="false"/>
-        <arg name="use_sim_time" value="false"/>
-        <arg name="gui" value="true"/>
-        <arg name="headless" value="false"/>
-        <arg name="debug" value="false"/>
-    </include>
+        <include file="$(find gazebo_ros)/launch/empty_world.launch" >
+
+            <arg name="world_name" value="$(find robdos_sim)/world/robdos_bag_replay.world"/>
+            <arg name="paused" value="false"/>
+            <arg name="use_sim_time" value="false"/>
+            <arg name="gui" value="true"/>
+            <arg name="headless" value="false"/>
+            <arg name="debug" value="false"/>
+        </include>
     -->
 
     <node name="custom_rqt_perspective" pkg="rqt_gui" type="rqt_gui"
