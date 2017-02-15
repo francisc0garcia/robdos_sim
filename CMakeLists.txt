@@ -12,33 +12,44 @@ find_package(catkin REQUIRED COMPONENTS
         mavros_msgs
         gazebo_ros
         message_generation
-)
+        )
 
 ## Generate messages in the 'msg' folder
 add_message_files(
-   FILES
-   state.msg
- )
+        FILES
+        state.msg
+)
+catkin_python_setup()
 
 # Actually generate the language-specific message and service files
 generate_messages(DEPENDENCIES std_msgs)
 
 # Depend on system install of Gazebo
 find_package(
-  gazebo REQUIRED
+        gazebo REQUIRED
 )
 
 catkin_package(
         INCLUDE_DIRS include
         LIBRARIES robdos_sim
         CATKIN_DEPENDS roscpp rospy std_msgs mavros_msgs interactive_markers visualization_msgs message_runtime
-        DEPENDS  roscpp gazebo_ros gazebo
+        DEPENDS roscpp gazebo_ros gazebo
 )
 
 include_directories(
         include
         ${catkin_INCLUDE_DIRS}
 )
+
+catkin_install_python(
+        PROGRAMS scripts/rqt_smach
+        DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+
+# Install targets
+install(PROGRAMS scripts/smach_viewer.py
+        DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+
 
 link_directories(${GAZEBO_LIBRARY_DIRS})
 include_directories(${Boost_INCLUDE_DIR} ${catkin_INCLUDE_DIRS} ${GAZEBO_INCLUDE_DIRS})
@@ -49,9 +60,9 @@ target_link_libraries(robot_ros_utils ${GAZEBO_LIBRARIES} ${catkin_LIBRARIES} ${
 add_library(robot_sub_drive src/gazebo_plugins/robot_sub_drive.cpp)
 target_link_libraries(robot_sub_drive robot_ros_utils ${catkin_LIBRARIES} ${GAZEBO_LIBRARIES} ${Boost_LIBRARIES})
 
-add_executable(robdos_control src/robdos_control.cpp)
-add_dependencies(robdos_control ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-target_link_libraries(robdos_control ${Boost_LIBRARIES} ${catkin_LIBRARIES} )
+#add_executable(robdos_control src/robdos_control.cpp)
+#add_dependencies(robdos_control ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+#target_link_libraries(robdos_control ${Boost_LIBRARIES} ${catkin_LIBRARIES} )
 
 # test app
 #add_executable(waypoint_publisher src/test/waypoint_publisher.cpp)

@@ -1,0 +1,16 @@
+<library path="src">
+    <class name="rqt_smach" type="rqt_smach.rqt_smach.Smach" base_class_type="rqt_gui_py::Plugin">
+        <description>
+            An RQT plugin for interacting with the smach.
+        </description>
+        <qtgui>
+            <group>
+                <label>Robdos AUW</label>
+                <icon type="theme">media-record</icon>
+            </group>
+            <label>State manager</label>
+            <icon type="theme">media-playback-start</icon>
+            <statustip>Visualize dot graphs over ROS.</statustip>
+        </qtgui>
+    </class>
+</library>

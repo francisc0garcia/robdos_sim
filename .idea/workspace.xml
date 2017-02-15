@@ -2,89 +2,102 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" buildAllGenerated="true">
     <generated>
-      <config projectName="robdos_sim" targetName="std_msgs_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="roscpp_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="actionlib_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="tf_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="std_msgs_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_eus" />
       <config projectName="robdos_sim" targetName="tf_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="doxygen" />
-      <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="tf_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="std_msgs_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="roscpp_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="roscpp_generate_messages_cpp" />
       <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="run_tests" />
+      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="std_msgs_generate_messages_lisp" />
       <config projectName="robdos_sim" targetName="actionlib_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="download_extra_data" />
+      <config projectName="robdos_sim" targetName="_robdos_sim_generate_messages_check_deps_state" />
+      <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="robdos_sim_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="actionlib_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="robdos_sim_geneus" />
+      <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="waypoint_interactive_publisher" />
+      <config projectName="robdos_sim" targetName="roscpp_generate_messages_lisp" />
       <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="tf_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="gtest_main" />
+      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="robdos_sim_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="tf_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="robdos_sim_generate_messages" />
+      <config projectName="robdos_sim" targetName="robdos_sim_gencpp" />
+      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="actionlib_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="robdos_control" />
+      <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="tf_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="robdos_sim_genlisp" />
+      <config projectName="robdos_sim" targetName="std_msgs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="robot_ros_utils" />
+      <config projectName="robdos_sim" targetName="std_msgs_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="robdos_sim_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="robdos_sim_genpy" />
+      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="clean_test_results" />
+      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_py" />
       <config projectName="robdos_sim" targetName="gazebo_ros_gencfg" />
+      <config projectName="robdos_sim" targetName="roscpp_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="dynamic_reconfigure_gencfg" />
+      <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="gtest" />
+      <config projectName="robdos_sim" targetName="roscpp_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="tf_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="robdos_sim_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="robdos_sim_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="std_msgs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="doxygen" />
+      <config projectName="robdos_sim" targetName="tests" />
+      <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="actionlib_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_eus" />
       <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_eus" />
       <config projectName="robdos_sim" targetName="waypoint_publisher" />
-      <config projectName="robdos_sim" targetName="gtest_main" />
       <config projectName="robdos_sim" targetName="robot_sub_drive" />
-      <config projectName="robdos_sim" targetName="tests" />
-      <config projectName="robdos_sim" targetName="roscpp_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="roscpp_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="tf_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="roscpp_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="std_msgs_generate_messages_py" />
       <config projectName="robdos_sim" targetName="actionlib_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="clean_test_results" />
-      <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="roscpp_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="robdos_sim_gennodejs" />
+      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_nodejs" />
       <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="run_tests" />
-      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="gtest" />
-      <config projectName="robdos_sim" targetName="waypoint_interactive_publisher" />
-      <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="actionlib_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="dynamic_reconfigure_gencfg" />
-      <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="actionlib_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="std_msgs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="robot_ros_utils" />
-      <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="download_extra_data" />
-      <config projectName="robdos_sim" targetName="tf_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="std_msgs_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_cpp" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -93,15 +106,30 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81e82f28-2ab1-494f-85a6-4742111c59a0" name="Default" comment="- Add interactive markers for waypoint selection&#10;- Add reference model for waypoint into gazebo">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/mount_blend.dae" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/terrain.dae" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/water_world.dae" />
+    <list default="true" id="81e82f28-2ab1-494f-85a6-4742111c59a0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rqt_smach/rqt_smach." />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/rqt_smach.perspective" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/launch/robdos_state_machine.launch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/rqt_smach" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/smach_viewer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/old/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rqt_smach/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rqt_smach/container_node.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rqt_smach/rqt_smach.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rqt_smach/rqt_smach.ui" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/state_machine_init.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/xdot/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/xdot/wxxdot.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/xdot/xdot.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/xdot/xdot_qt.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/waypoint_controller.py_OLD" afterPath="$PROJECT_DIR$/src/old/waypoint_controller.py_OLD" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/launch/robdos_sim.launch" afterPath="$PROJECT_DIR$/launch/robdos_sim.launch" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/launch/robdos_sim_play_bags.launch" afterPath="$PROJECT_DIR$/launch/robdos_sim_play_bags.launch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.xml" afterPath="$PROJECT_DIR$/package.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gazebo_plugins/robot_sub_drive.cpp" afterPath="$PROJECT_DIR$/src/gazebo_plugins/robot_sub_drive.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/world/robdos_underwater.world" afterPath="$PROJECT_DIR$/world/robdos_underwater.world" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/robdos_control.cpp" afterPath="$PROJECT_DIR$/src/robdos_control.cpp" />
     </list>
     <ignored path="robdos_sim.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -122,103 +150,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="robdos_sim.launch" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/launch/robdos_sim.launch">
+      <file leaf-file-name="state_machine_init.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/state_machine_init.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="robdos_underwater.world" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/world/robdos_underwater.world">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1278">
-              <caret line="723" column="79" lean-forward="false" selection-start-line="723" selection-start-column="79" selection-end-line="723" selection-end-column="79" />
+            <state relative-caret-position="-458">
+              <caret line="77" column="27" lean-forward="false" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
               <folding>
-                <element signature="e#329#567#0" expanded="false" />
-                <element signature="e#576#729#0" expanded="false" />
-                <element signature="e#738#1015#0" expanded="false" />
-                <element signature="e#1401#1570#0" expanded="false" />
-                <element signature="e#1584#1675#0" expanded="false" />
-                <element signature="e#1689#1806#0" expanded="false" />
-                <element signature="e#1819#1935#0" expanded="false" />
-                <element signature="e#1948#2065#0" expanded="false" />
-                <element signature="e#2078#2196#0" expanded="false" />
-                <element signature="e#2223#2521#0" expanded="false" />
-                <element signature="e#2531#3041#0" expanded="false" />
-                <element signature="e#3050#3559#0" expanded="false" />
-                <element signature="e#3568#4078#0" expanded="false" />
-                <element signature="e#4087#4598#0" expanded="false" />
-                <element signature="e#4608#5474#0" expanded="false" />
-                <element signature="e#5484#6160#0" expanded="false" />
-                <element signature="e#6170#6555#0" expanded="false" />
-                <element signature="e#6565#7636#0" expanded="false" />
-                <element signature="e#7827#9661#0" expanded="false" />
-                <element signature="e#7918#8348#0" expanded="false" />
-                <element signature="e#8490#9641#0" expanded="false" />
-                <element signature="e#9674#11453#0" expanded="false" />
-                <element signature="e#9773#10141#0" expanded="false" />
-                <element signature="e#10283#11433#0" expanded="false" />
-                <element signature="e#11466#14772#0" expanded="false" />
-                <element signature="e#11628#12048#0" expanded="false" />
-                <element signature="e#12153#13657#0" expanded="false" />
-                <element signature="e#13674#14752#0" expanded="false" />
-                <element signature="e#14785#18057#0" expanded="false" />
-                <element signature="e#14922#15342#0" expanded="false" />
-                <element signature="e#15447#16942#0" expanded="false" />
-                <element signature="e#16959#18037#0" expanded="false" />
-                <element signature="e#18070#19921#0" expanded="false" />
-                <element signature="e#18216#18648#0" expanded="false" />
-                <element signature="e#18753#19901#0" expanded="false" />
-                <element signature="e#19934#21835#0" expanded="false" />
-                <element signature="e#20093#20525#0" expanded="false" />
-                <element signature="e#20667#21815#0" expanded="false" />
-                <element signature="e#21848#23718#0" expanded="false" />
-                <element signature="e#22013#22445#0" expanded="false" />
-                <element signature="e#22550#23698#0" expanded="false" />
-                <element signature="e#23732#24363#0" expanded="false" />
-                <element signature="e#24376#25019#0" expanded="false" />
-                <element signature="e#25032#25669#0" expanded="false" />
-                <element signature="e#25682#27024#0" expanded="false" />
-                <element signature="e#27037#28374#0" expanded="false" />
-                <element signature="e#28387#29726#0" expanded="false" />
-                <element signature="e#29740#30425#0" expanded="false" />
-                <element signature="e#30438#31119#0" expanded="false" />
-                <element signature="e#31132#31815#0" expanded="false" />
-                <element signature="e#31829#32243#0" expanded="false" />
+                <element signature="e#23#35#0" expanded="true" />
+                <element signature="e#138#301#0" expanded="false" />
+                <element signature="e#382#608#0" expanded="false" />
+                <element signature="e#675#894#0" expanded="false" />
+                <element signature="e#963#1183#0" expanded="false" />
+                <element signature="e#1246#1463#0" expanded="false" />
+                <element signature="e#1530#1749#0" expanded="false" />
+                <element signature="e#1808#2021#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="robdos_sim_play_bags.launch" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/launch/robdos_sim_play_bags.launch">
+      <file leaf-file-name="robdos_sim.launch" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/launch/robdos_sim.launch">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="robot_sub_drive.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gazebo_plugins/robot_sub_drive.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1656">
-              <caret line="92" column="27" lean-forward="false" selection-start-line="92" selection-start-column="27" selection-end-line="92" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="underwater_gazebo_test.world" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/world/underwater_gazebo_test.world">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="17" column="85" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="85" />
               <folding />
             </state>
           </provider>
@@ -250,6 +205,7 @@
       <find>model</find>
       <find>mav_name</find>
       <find>joint_link_base_link_rotor_left</find>
+      <find>F</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -281,19 +237,30 @@
         <option value="$PROJECT_DIR$/src/test/waypoint_publisher.cpp" />
         <option value="$PROJECT_DIR$/docs/source/tutorials.rst" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/package.xml" />
         <option value="$PROJECT_DIR$/src/waypoint_interactive_publisher.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/waypoint_controller.py" />
         <option value="$PROJECT_DIR$/src/waypoint_interactive_publisher.py" />
         <option value="$PROJECT_DIR$/launch/robdos_waypoints.launch" />
         <option value="$PROJECT_DIR$/include/robdos_sim/gazebo_sub_drive.h" />
         <option value="$PROJECT_DIR$/src/waypoint_publisher.py" />
         <option value="$PROJECT_DIR$/world/robdos_bag_replay.world" />
-        <option value="$PROJECT_DIR$/world/robdos_underwater.world" />
-        <option value="$PROJECT_DIR$/src/gazebo_plugins/robot_sub_drive.cpp" />
         <option value="$PROJECT_DIR$/launch/robdos_sim.launch" />
         <option value="$PROJECT_DIR$/launch/robdos_sim_play_bags.launch" />
+        <option value="$PROJECT_DIR$/src/robdos_control.cpp" />
+        <option value="$PROJECT_DIR$/src/gazebo_plugins/robot_sub_drive.cpp" />
+        <option value="$PROJECT_DIR$/src/smach/rqt_smach_init.py" />
+        <option value="$PROJECT_DIR$/src/smach/smach_plugin.xml" />
+        <option value="$PROJECT_DIR$/smach_plugin.xml" />
+        <option value="$PROJECT_DIR$/world/robdos_underwater.world" />
+        <option value="$PROJECT_DIR$/package.xml" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/scripts/rqt_smach" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/rqt_smach/container_node.py" />
+        <option value="$PROJECT_DIR$/src/xdot/xdot_qt.py" />
+        <option value="$PROJECT_DIR$/src/state_machine_init.py" />
+        <option value="$PROJECT_DIR$/plugin.xml" />
+        <option value="$PROJECT_DIR$/launch/robdos_state_machine.launch" />
       </list>
     </option>
   </component>
@@ -304,10 +271,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1615" />
-    <option name="height" value="1026" />
+    <option name="x" value="73" />
+    <option name="y" value="27" />
+    <option name="width" value="1847" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -364,18 +331,32 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/old" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/smach" />
       <recent name="$PROJECT_DIR$/models" />
-      <recent name="$PROJECT_DIR$/config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/models/beach" />
-      <recent name="$PROJECT_DIR$/models" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/launch" />
-      <recent name="$PROJECT_DIR$/world" />
+      <recent name="$PROJECT_DIR$/scripts" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/models" />
+      <recent name="$PROJECT_DIR$/src/smach" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Build All">
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="robdos_sim" TARGET_NAME="clean_test_results" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
       <envs />
       <method />
@@ -879,7 +860,59 @@
       <envs />
       <method />
     </configuration>
-    <list size="84">
+    <configuration default="false" name="_robdos_sim_generate_messages_check_deps_state" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="robdos_sim" TARGET_NAME="_robdos_sim_generate_messages_check_deps_state" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="robdos_control" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="robdos_sim" TARGET_NAME="robdos_control" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="robdos_sim" RUN_TARGET_NAME="robdos_control">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="robdos_sim_gencpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="robdos_sim" TARGET_NAME="robdos_sim_gencpp" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="robdos_sim_generate_messages" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="robdos_sim" TARGET_NAME="robdos_sim_generate_messages" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="robdos_sim_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="robdos_sim" TARGET_NAME="robdos_sim_generate_messages_cpp" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="robdos_sim_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="robdos_sim" TARGET_NAME="robdos_sim_generate_messages_eus" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="robdos_sim_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="robdos_sim" TARGET_NAME="robdos_sim_generate_messages_lisp" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="robdos_sim_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="robdos_sim" TARGET_NAME="robdos_sim_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="robdos_sim_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="robdos_sim" TARGET_NAME="robdos_sim_generate_messages_py" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="robdos_sim_geneus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="robdos_sim" TARGET_NAME="robdos_sim_geneus" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="robdos_sim_genlisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="robdos_sim" TARGET_NAME="robdos_sim_genlisp" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="robdos_sim_gennodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="robdos_sim" TARGET_NAME="robdos_sim_gennodejs" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="robdos_sim_genpy" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="robdos_sim" TARGET_NAME="robdos_sim_genpy" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <list size="97">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.clean_test_results" />
       <item index="2" class="java.lang.String" itemvalue="Application.download_extra_data" />
@@ -964,6 +997,19 @@
       <item index="81" class="java.lang.String" itemvalue="Application.mavros_msgs_generate_messages_py" />
       <item index="82" class="java.lang.String" itemvalue="Application.waypoint_publisher" />
       <item index="83" class="java.lang.String" itemvalue="Application.waypoint_interactive_publisher" />
+      <item index="84" class="java.lang.String" itemvalue="Application._robdos_sim_generate_messages_check_deps_state" />
+      <item index="85" class="java.lang.String" itemvalue="Application.robdos_control" />
+      <item index="86" class="java.lang.String" itemvalue="Application.robdos_sim_gencpp" />
+      <item index="87" class="java.lang.String" itemvalue="Application.robdos_sim_generate_messages" />
+      <item index="88" class="java.lang.String" itemvalue="Application.robdos_sim_generate_messages_cpp" />
+      <item index="89" class="java.lang.String" itemvalue="Application.robdos_sim_generate_messages_eus" />
+      <item index="90" class="java.lang.String" itemvalue="Application.robdos_sim_generate_messages_lisp" />
+      <item index="91" class="java.lang.String" itemvalue="Application.robdos_sim_generate_messages_nodejs" />
+      <item index="92" class="java.lang.String" itemvalue="Application.robdos_sim_generate_messages_py" />
+      <item index="93" class="java.lang.String" itemvalue="Application.robdos_sim_geneus" />
+      <item index="94" class="java.lang.String" itemvalue="Application.robdos_sim_genlisp" />
+      <item index="95" class="java.lang.String" itemvalue="Application.robdos_sim_gennodejs" />
+      <item index="96" class="java.lang.String" itemvalue="Application.robdos_sim_genpy" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -1022,7 +1068,16 @@
       <workItem from="1485881396675" duration="2122000" />
       <workItem from="1485959025998" duration="8248000" />
       <workItem from="1485984484988" duration="5493000" />
-      <workItem from="1486025782131" duration="88000" />
+      <workItem from="1486025782131" duration="1179000" />
+      <workItem from="1486823650299" duration="6759000" />
+      <workItem from="1486885036670" duration="5828000" />
+      <workItem from="1486977587051" duration="25000" />
+      <workItem from="1486977621989" duration="15000" />
+      <workItem from="1487003320062" duration="674000" />
+      <workItem from="1487065149567" duration="153000" />
+      <workItem from="1487065311700" duration="24000" />
+      <workItem from="1487154950935" duration="2167000" />
+      <workItem from="1487190444731" duration="4309000" />
     </task>
     <task id="LOCAL-00001" summary="- Update model of robot&#10;- change local reference to models and map&#10;- Add python example of image processing for cameras placed at the robot (front-rear)&#10;- Add plugins for IMU, camera and mav link">
       <created>1477146121683</created>
@@ -1094,49 +1149,72 @@
       <option name="project" value="LOCAL" />
       <updated>1485543230995</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="- Improve demo simulation: add new environment and include waypoint follower">
+      <created>1486027365369</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1486027365369</updated>
+    </task>
+    <task id="LOCAL-00012" summary="- Add models jacket_aero and jacket_no_aero&#10;- include model into default robdos_sim">
+      <created>1487156448733</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1487156448733</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100955000" />
+    <option name="totallyTimeSpent" value="122000000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1615" height="1026" extended-state="6" />
+    <frame x="73" y="27" width="1847" height="1053" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25944272" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20337197" sideWeight="0.48733154" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2531998" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3284055" sideWeight="0.49776357" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2154171" sideWeight="0.48498404" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2034588" sideWeight="0.5126685" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2644281" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20326087" sideWeight="0.51501596" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27173913" sideWeight="0.49009585" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.49520767" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23853211" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23853211" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.49776357" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23853211" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23853211" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20389344" sideWeight="0.48733154" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20350535" sideWeight="0.48498404" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2034588" sideWeight="0.5126685" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20326087" sideWeight="0.51501596" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2644281" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27282608" sideWeight="0.49009585" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2598809" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.49520767" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1828125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1188,181 +1266,21 @@
     <MESSAGE value="- Add waypoint publisher&#10;- Add simple waypoint controller&#10;- Add gazebo plugin for robot simulation&#10;- Fix some small errors&#10;- Add launch file for waypoint testing" />
     <MESSAGE value="- Add include files" />
     <MESSAGE value="- Add interactive markers for waypoint selection&#10;- Add reference model for waypoint into gazebo" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Add interactive markers for waypoint selection&#10;- Add reference model for waypoint into gazebo" />
+    <MESSAGE value="- Improve demo simulation: add new environment and include waypoint follower" />
+    <MESSAGE value="- Add models jacket_aero and jacket_no_aero&#10;- include model into default robdos_sim" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Add models jacket_aero and jacket_no_aero&#10;- include model into default robdos_sim" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/camera_processing_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/world/robdos_underwater.world">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/launch/robdos_sim.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/camera_processing_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/world/robdos_underwater.world">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/launch/robdos_sim.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/camera_processing_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/world/robdos_underwater.world">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17802">
-          <caret line="989" column="25" lean-forward="false" selection-start-line="989" selection-start-column="25" selection-end-line="989" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/launch/robdos_sim.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/camera_processing_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/world/robdos_underwater.world">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17802">
-          <caret line="989" column="25" lean-forward="false" selection-start-line="989" selection-start-column="25" selection-end-line="989" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/launch/robdos_sim.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/camera_processing_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="49" column="44" lean-forward="false" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/source/contact.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="52" lean-forward="true" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="234">
-            <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/source/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/world/robdos_model.world">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="1006" column="45" lean-forward="false" selection-start-line="1006" selection-start-column="45" selection-end-line="1006" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/source/installation.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="72" column="27" lean-forward="true" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/robdos_sim/gazebo_ros_utils.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gazebo_plugins/robot_ros_utils.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1371">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/gazebo-7/gazebo/physics/Entity.hh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="125" column="55" lean-forward="false" selection-start-line="125" selection-start-column="38" selection-end-line="125" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/camera_processing_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1429,13 +1347,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/waypoint_interactive_publisher.cpp" />
     <entry file="file://$PROJECT_DIR$/include/robdos_sim/gazebo_sub_drive.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -1491,63 +1402,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/shipwreck/terrain.sdf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/models/shipwreck/terrain.sdf" />
     <entry file="file://$PROJECT_DIR$/world/robdos_bag_replay.world">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
           <caret line="38" column="20" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="38" selection-end-column="20" />
-          <folding>
-            <element signature="e#2099#2529#0" expanded="false" />
-            <element signature="e#2671#3822#0" expanded="false" />
-            <element signature="e#3839#6574#0" expanded="false" />
-            <element signature="e#6607#11138#0" expanded="false" />
-            <element signature="e#8383#11118#0" expanded="false" />
-            <element signature="e#11151#17135#0" expanded="false" />
-            <element signature="e#17148#23098#0" expanded="false" />
-            <element signature="e#23111#27711#0" expanded="false" />
-            <element signature="e#27724#32374#0" expanded="false" />
-            <element signature="e#32387#37006#0" expanded="false" />
-            <element signature="e#37020#37651#0" expanded="false" />
-            <element signature="e#37664#38307#0" expanded="false" />
-            <element signature="e#38320#38957#0" expanded="false" />
-            <element signature="e#38970#40312#0" expanded="false" />
-            <element signature="e#40325#41662#0" expanded="false" />
-            <element signature="e#41675#43014#0" expanded="false" />
-            <element signature="e#43028#43713#0" expanded="false" />
-            <element signature="e#43726#44407#0" expanded="false" />
-            <element signature="e#44420#45103#0" expanded="false" />
-            <element signature="e#45117#45531#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/launch/robdos_waypoints.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="108" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/launch/robdos_sim.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1555,83 +1414,244 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/robdos_control.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1115">
+          <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gazebo_plugins/robot_sub_drive.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1656">
-          <caret line="92" column="27" lean-forward="false" selection-start-line="92" selection-start-column="27" selection-end-line="92" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/world/robdos_underwater.world">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1278">
-          <caret line="723" column="79" lean-forward="false" selection-start-line="723" selection-start-column="79" selection-end-line="723" selection-end-column="79" />
-          <folding>
-            <element signature="e#329#567#0" expanded="false" />
-            <element signature="e#576#729#0" expanded="false" />
-            <element signature="e#738#1015#0" expanded="false" />
-            <element signature="e#1401#1570#0" expanded="false" />
-            <element signature="e#1584#1675#0" expanded="false" />
-            <element signature="e#1689#1806#0" expanded="false" />
-            <element signature="e#1819#1935#0" expanded="false" />
-            <element signature="e#1948#2065#0" expanded="false" />
-            <element signature="e#2078#2196#0" expanded="false" />
-            <element signature="e#2223#2521#0" expanded="false" />
-            <element signature="e#2531#3041#0" expanded="false" />
-            <element signature="e#3050#3559#0" expanded="false" />
-            <element signature="e#3568#4078#0" expanded="false" />
-            <element signature="e#4087#4598#0" expanded="false" />
-            <element signature="e#4608#5474#0" expanded="false" />
-            <element signature="e#5484#6160#0" expanded="false" />
-            <element signature="e#6170#6555#0" expanded="false" />
-            <element signature="e#6565#7636#0" expanded="false" />
-            <element signature="e#7827#9661#0" expanded="false" />
-            <element signature="e#7918#8348#0" expanded="false" />
-            <element signature="e#8490#9641#0" expanded="false" />
-            <element signature="e#9674#11453#0" expanded="false" />
-            <element signature="e#9773#10141#0" expanded="false" />
-            <element signature="e#10283#11433#0" expanded="false" />
-            <element signature="e#11466#14772#0" expanded="false" />
-            <element signature="e#11628#12048#0" expanded="false" />
-            <element signature="e#12153#13657#0" expanded="false" />
-            <element signature="e#13674#14752#0" expanded="false" />
-            <element signature="e#14785#18057#0" expanded="false" />
-            <element signature="e#14922#15342#0" expanded="false" />
-            <element signature="e#15447#16942#0" expanded="false" />
-            <element signature="e#16959#18037#0" expanded="false" />
-            <element signature="e#18070#19921#0" expanded="false" />
-            <element signature="e#18216#18648#0" expanded="false" />
-            <element signature="e#18753#19901#0" expanded="false" />
-            <element signature="e#19934#21835#0" expanded="false" />
-            <element signature="e#20093#20525#0" expanded="false" />
-            <element signature="e#20667#21815#0" expanded="false" />
-            <element signature="e#21848#23718#0" expanded="false" />
-            <element signature="e#22013#22445#0" expanded="false" />
-            <element signature="e#22550#23698#0" expanded="false" />
-            <element signature="e#23732#24363#0" expanded="false" />
-            <element signature="e#24376#25019#0" expanded="false" />
-            <element signature="e#25032#25669#0" expanded="false" />
-            <element signature="e#25682#27024#0" expanded="false" />
-            <element signature="e#27037#28374#0" expanded="false" />
-            <element signature="e#28387#29726#0" expanded="false" />
-            <element signature="e#29740#30425#0" expanded="false" />
-            <element signature="e#30438#31119#0" expanded="false" />
-            <element signature="e#31132#31815#0" expanded="false" />
-            <element signature="e#31829#32243#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="215">
+          <caret line="88" column="22" lean-forward="true" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/launch/robdos_sim_play_bags.launch">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="162">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/camera_processing_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xdot/src/xdot/xdot.py" />
+    <entry file="file://$PROJECT_DIR$/src/xdot/xdot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xdot/wxxdot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/old/smach/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rqt_smach/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/old/smach/rqt_smach_init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rqt_smach/rqt_smach.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1298">
+          <caret line="135" column="11" lean-forward="false" selection-start-line="135" selection-start-column="6" selection-end-line="135" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Jacket_aero.dae">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Jacket_no_aero.dae">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/world/robdos_underwater.world">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <element signature="e#2339#2637#0" expanded="false" />
+            <element signature="e#2647#3157#0" expanded="false" />
+            <element signature="e#3166#3675#0" expanded="false" />
+            <element signature="e#3684#4194#0" expanded="false" />
+            <element signature="e#4203#4714#0" expanded="false" />
+            <element signature="e#4724#5590#0" expanded="false" />
+            <element signature="e#5600#6276#0" expanded="false" />
+            <element signature="e#6286#6671#0" expanded="false" />
+            <element signature="e#6681#7752#0" expanded="false" />
+            <element signature="e#7762#32782#0" expanded="false" />
+            <element signature="e#28503#29842#0" expanded="false" />
+            <element signature="e#32792#33503#0" expanded="false" />
+            <element signature="e#33513#33895#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python_qt_binding/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="40" column="8" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/smach_viewer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17217">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/smach_viewer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rqt_smach/container_node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#23#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xdot/xdot_qt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smach_plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="66" lean-forward="false" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/launch/robdos_waypoints.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="83" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/rqt_smach">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="50" column="54" lean-forward="false" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/launch/robdos_state_machine.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="71" lean-forward="false" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/launch/robdos_sim.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="85" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/state_machine_init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-458">
+          <caret line="77" column="27" lean-forward="false" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
+          <folding>
+            <element signature="e#23#35#0" expanded="true" />
+            <element signature="e#138#301#0" expanded="false" />
+            <element signature="e#382#608#0" expanded="false" />
+            <element signature="e#675#894#0" expanded="false" />
+            <element signature="e#963#1183#0" expanded="false" />
+            <element signature="e#1246#1463#0" expanded="false" />
+            <element signature="e#1530#1749#0" expanded="false" />
+            <element signature="e#1808#2021#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

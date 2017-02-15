@@ -90,8 +90,9 @@ namespace gazebo {
             _pose.pos.z = -1;
 
             //for testing: (fix x coordinate, robot only moves in y)
-            _pose.pos.x = 0;
-            _yaw = 1.571;
+
+            //_pose.pos.x = 0;
+            //_yaw = 1.571;
 
             _pose.rot.SetFromEuler(_roll, _pith, _yaw);
 

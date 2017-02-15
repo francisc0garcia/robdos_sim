@@ -39,5 +39,7 @@
                 gazebo_plugin_path="${prefix}/lib"
                 gazebo_model_path="${prefix}/.."/>
 
+        <rqt_gui plugin="${prefix}/plugin.xml"/>
+
     </export>
 </package>
