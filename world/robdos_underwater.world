@@ -43,6 +43,10 @@
                 <scale>3.76423 3.71937 1</scale>
             </model>
 
+            <model name="jacket_aero">
+                <pose frame=''>-20 40 -8 0 -0 0</pose>
+            </model>
+
             <light name='sun'>
                 <pose frame=''>0 0 10 0 -0 0</pose>
             </light>
@@ -786,7 +790,6 @@
 
         </model>
 
-
         <model name='reference_waypoint'>
             <static>1</static>
             <allow_auto_disable>1</allow_auto_disable>
@@ -805,6 +808,18 @@
                 <self_collide>0</self_collide>
             </link>
             <pose frame=''>1.41791 2.61863 0 0 -0 0</pose>
+        </model>
+
+        <model name="jacket_aero">
+            <pose frame=''>-20 40 -8 0 -0 0</pose>
+            <static>true</static>
+            <link name="body">
+                <visual name="visual">
+                    <geometry>
+                        <mesh><uri>model://Jacket_no_aero.dae</uri></mesh>
+                    </geometry>
+                </visual>
+            </link>
         </model>
 
     </world>
