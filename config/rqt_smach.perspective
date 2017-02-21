@@ -5,7 +5,7 @@
       "keys": {
         "running-plugins": {
           "type": "repr", 
-          "repr": "{u'robdos_sim/rqt_smach': [1], u'rqt_topic/TopicPlugin': [1]}"
+          "repr": "{u'robdos_sim/rqt_smach': [1], u'rqt_topic/TopicPlugin': [1], u'rqt_console/Console': [1]}"
         }
       }, 
       "groups": {
@@ -16,8 +16,8 @@
               "keys": {
                 "tree_widget_header_state": {
                   "type": "repr(QByteArray.hex)", 
-                  "repr(QByteArray.hex)": "QtCore.QByteArray('000000ff00000000000000010000000000000000010000000000000000000000000000000000000721000000050101000100000000000000000500000070ffffffff0000008100000003000000050000017700000001000000030000013400000001000000030000007e0000000100000003000000440000000100000003000003b40000000100000003000003e800')", 
-                  "pretty-print": "                              p         w     4     ~     D            "
+                  "repr(QByteArray.hex)": "QtCore.QByteArray('000000ff0000000000000001000000000000000001000000000000000000000000000000000000059e000000050101000100000000000000000500000070ffffffff0000008100000003000000050000029b00000001000000030000013a00000001000000030000007e0000000100000003000000440000000100000003000001070000000100000003000003e800')", 
+                  "pretty-print": "                              p               :     ~     D            "
                 }
               }, 
               "groups": {}
@@ -38,6 +38,98 @@
                 }
               }, 
               "groups": {}
+            }
+          }
+        }, 
+        "plugin__rqt_console__Console__1": {
+          "keys": {}, 
+          "groups": {
+            "dock_widget__ConsoleWidget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr", 
+                  "repr": "True"
+                }, 
+                "parent": {
+                  "type": "repr", 
+                  "repr": "None"
+                }, 
+                "dock_widget_title": {
+                  "type": "repr", 
+                  "repr": "u'Console'"
+                }
+              }, 
+              "groups": {}
+            }, 
+            "plugin": {
+              "keys": {
+                "show_highlighted_only": {
+                  "type": "repr", 
+                  "repr": "False"
+                }, 
+                "message_limit": {
+                  "type": "repr", 
+                  "repr": "20000"
+                }, 
+                "exclude_filters": {
+                  "type": "repr", 
+                  "repr": "u'severity'"
+                }, 
+                "table_splitter": {
+                  "type": "repr(QByteArray.hex)", 
+                  "repr(QByteArray.hex)": "QtCore.QByteArray('000000ff00000001000000020000005f000000eb0100000009010000000200')", 
+                  "pretty-print": "       _       "
+                }, 
+                "highlight_filters": {
+                  "type": "repr", 
+                  "repr": "u'message'"
+                }, 
+                "paused": {
+                  "type": "repr", 
+                  "repr": "False"
+                }, 
+                "settings_exist": {
+                  "type": "repr", 
+                  "repr": "True"
+                }, 
+                "filter_splitter": {
+                  "type": "repr(QByteArray.hex)", 
+                  "repr(QByteArray.hex)": "QtCore.QByteArray('000000ff000000010000000200000071000000710100000009010000000200')", 
+                  "pretty-print": "       q q     "
+                }
+              }, 
+              "groups": {
+                "exclude_filter_0": {
+                  "keys": {
+                    "enabled": {
+                      "type": "repr", 
+                      "repr": "True"
+                    }, 
+                    "itemlist": {
+                      "type": "repr", 
+                      "repr": "u''"
+                    }
+                  }, 
+                  "groups": {}
+                }, 
+                "highlight_filter_0": {
+                  "keys": {
+                    "regex": {
+                      "type": "repr", 
+                      "repr": "False"
+                    }, 
+                    "text": {
+                      "type": "repr", 
+                      "repr": "u''"
+                    }, 
+                    "enabled": {
+                      "type": "repr", 
+                      "repr": "True"
+                    }
+                  }, 
+                  "groups": {}
+                }
+              }
             }
           }
         }, 
@@ -69,13 +161,13 @@
       "keys": {
         "geometry": {
           "type": "repr(QByteArray.hex)", 
-          "repr(QByteArray.hex)": "QtCore.QByteArray('01d9d0cb00020000000000490000001b0000077f00000437000000490000001b0000077f0000043700000000000000000780')", 
-          "pretty-print": "     I     7 I     7     "
+          "repr(QByteArray.hex)": "QtCore.QByteArray('01d9d0cb0002000000000041000000180000068f0000041900000041000000180000068f0000041900000001000000000690')", 
+          "pretty-print": "     A       A           "
         }, 
         "state": {
           "type": "repr(QByteArray.hex)", 
-          "repr(QByteArray.hex)": "QtCore.QByteArray('000000ff00000000fd00000001000000030000073700000405fc0100000001fc00000000000007370000037b00fffffffa000000010200000002fb0000004c007200710074005f0074006f007000690063005f005f0054006f0070006900630050006c007500670069006e005f005f0031005f005f0054006f0070006900630057006900640067006500740100000000ffffffff0000007600fffffffb0000004e0072006f00620064006f0073005f00730069006d005f005f007200710074005f0073006d006100630068005f005f0031005f005f0053006d0061006300680050006c007500670069006e005500690100000000000004050000015f00ffffff000007370000000000000004000000040000000800000008fc00000001000000030000000100000036004d0069006e0069006d0069007a006500640044006f0063006b00570069006400670065007400730054006f006f006c0062006100720000000000ffffffff0000000000000000')", 
-          "pretty-print": "                   7 {                                                     v                                                 _   7                                                      "
+          "repr(QByteArray.hex)": "QtCore.QByteArray('000000ff00000000fd00000001000000030000064f000003eafc0100000002fc00000000000004600000037b00fffffffa000000010200000002fb0000004c007200710074005f0074006f007000690063005f005f0054006f0070006900630050006c007500670069006e005f005f0031005f005f0054006f0070006900630057006900640067006500740100000000ffffffff0000007600fffffffb0000004e0072006f00620064006f0073005f00730069006d005f005f007200710074005f0073006d006100630068005f005f0031005f005f0053006d0061006300680050006c007500670069006e005500690100000000000004050000015f00fffffffb0000004c007200710074005f0063006f006e0073006f006c0065005f005f0043006f006e0073006f006c0065005f005f0031005f005f0043006f006e0073006f006c00650057006900640067006500740100000466000001e9000001cf00ffffff0000064f0000000000000004000000040000000800000008fc00000001000000030000000100000036004d0069006e0069006d0069007a006500640044006f0063006b00570069006400670065007400730054006f006f006c0062006100720000000000ffffffff0000000000000000')", 
+          "pretty-print": "                   ` {                                                     v                                                 _                                            f       O                                                      "
         }
       }, 
       "groups": {

@@ -4,6 +4,10 @@ import rospy
 import smach_ros
 import smach
 import time
+from classes.OrientationController import *
+from classes.PositionController import *
+
+current_target = [0.0, 0.0, 0.0] # x, y, z
 
 # define state InitPoint
 class InitPoint(smach.State):
@@ -11,7 +15,7 @@ class InitPoint(smach.State):
         smach.State.__init__(self, outcomes=['succeeded'])
 
     def execute(self, userdata):
-        time.sleep(2)
+        #time.sleep(2)
         return 'succeeded'
 
 # define state CheckSystemIntegrity
@@ -21,7 +25,7 @@ class CheckSystemIntegrity(smach.State):
 
     def execute(self, userdata):
         #rospy.loginfo('Executing state CheckSystemIntegrity')
-        time.sleep(2)
+        #time.sleep(2)
         return 'succeeded'
 
 # define state ManualControl
@@ -31,7 +35,7 @@ class ManualControl(smach.State):
 
     def execute(self, userdata):
         #rospy.loginfo('Executing state ManualControl')
-        time.sleep(2)
+        #time.sleep(2)
         return 'succeeded'
 
 # define state FixOrientation
@@ -41,18 +45,24 @@ class FixOrientation(smach.State):
 
     def execute(self, userdata):
         #rospy.loginfo('Executing state FixOrientation')
-        time.sleep(2)
+        controller_output = OrientationController(current_target)
+        #time.sleep(1)
         return 'succeeded'
 
 # define state FixPosition
 class FixPosition(smach.State):
     def __init__(self):
-        smach.State.__init__(self, outcomes=['succeeded'])
+        smach.State.__init__(self, outcomes=['succeeded', 'fail_orientation'])
 
     def execute(self, userdata):
-        #rospy.loginfo('Executing state FixPosition')
-        time.sleep(2)
-        return 'succeeded'
+        controller = PositionController(current_target)
+        [is_oriented, is_positioned] = controller.init_controller()
+
+        if is_oriented and is_positioned:
+            return 'succeeded'
+        else:
+            #rospy.loginfo('fail_orientation')
+            return 'fail_orientation'
 
 # define state ReachWaypoint
 class ReachWaypoint(smach.State):
@@ -61,7 +71,7 @@ class ReachWaypoint(smach.State):
 
     def execute(self, userdata):
         #rospy.loginfo('Executing state ReachWaypoint')
-        time.sleep(2)
+        #time.sleep(5)
         return 'succeeded'
 
 # define state StopRobot
@@ -106,7 +116,8 @@ def main():
                                    transitions={'succeeded':'FixPosition'})
 
             smach.StateMachine.add('FixPosition', FixPosition(),
-                                   transitions={'succeeded':'ReachWaypoint'})
+                                   transitions={'succeeded':'ReachWaypoint',
+                                                'fail_orientation':'FixOrientation'})
 
             smach.StateMachine.add('ReachWaypoint', ReachWaypoint(),
                                    transitions={'succeeded':'FixOrientation'})
