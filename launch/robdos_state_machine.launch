@@ -1,6 +1,8 @@
 <launch>
 
-    <node pkg="robdos_sim" type="state_machine_init.py" name="state_machine_init" />
+     <node pkg="robdos_sim" type="state_machine_init.py" name="state_machine_init" />    
+
+    <node name="robdos_teleop" pkg="robdos_sim" type="teleop_joy" output="screen"/>
 
     <node name="custom_rqt_perspective" pkg="rqt_gui" type="rqt_gui"
           args="--perspective-file  $(find robdos_sim)/config/rqt_smach.perspective" />
@@ -8,13 +10,13 @@
     <env name="GAZEBO_MODEL_PATH" value="$(find robdos_sim)/models"/>
 
 
-    <include file="$(find gazebo_ros)/launch/empty_world.launch" >
+<!--     <include file="$(find gazebo_ros)/launch/empty_world.launch" >
         <arg name="world_name" value="$(find robdos_sim)/world/robdos_state_machine_control.world"/>
         <arg name="paused" value="false"/>
         <arg name="use_sim_time" value="true"/>
         <arg name="gui" value="true"/>
         <arg name="headless" value="false"/>
         <arg name="debug" value="false"/>
-    </include>
+    </include> -->
 
 </launch>

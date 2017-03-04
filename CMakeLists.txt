@@ -9,6 +9,7 @@ find_package(catkin REQUIRED COMPONENTS
         roscpp
         rospy
         std_msgs
+        sensor_msgs
         mavros_msgs
         gazebo_ros
         message_generation
@@ -18,6 +19,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
         FILES
         state.msg
+        StateCommand.msg
 )
 catkin_python_setup()
 
@@ -60,10 +62,9 @@ target_link_libraries(robot_ros_utils ${GAZEBO_LIBRARIES} ${catkin_LIBRARIES} ${
 add_library(robot_sub_drive src/gazebo_plugins/robot_sub_drive.cpp)
 target_link_libraries(robot_sub_drive robot_ros_utils ${catkin_LIBRARIES} ${GAZEBO_LIBRARIES} ${Boost_LIBRARIES})
 
-#add_executable(robdos_control src/robdos_control.cpp)
-#add_dependencies(robdos_control ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-#target_link_libraries(robdos_control ${Boost_LIBRARIES} ${catkin_LIBRARIES} )
-
 # test app
 #add_executable(waypoint_publisher src/test/waypoint_publisher.cpp)
 #target_link_libraries(waypoint_publisher ${Boost_LIBRARIES}  ${catkin_LIBRARIES})
+
+add_executable(teleop_joy src/teleop_joy.cpp)
+target_link_libraries(teleop_joy ${catkin_LIBRARIES})
