@@ -13,6 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
         mavros_msgs
         gazebo_ros
         message_generation
+        dynamic_reconfigure
         )
 
 ## Generate messages in the 'msg' folder
@@ -27,9 +28,13 @@ catkin_python_setup()
 generate_messages(DEPENDENCIES std_msgs)
 
 # Depend on system install of Gazebo
-find_package(
-        gazebo REQUIRED
+find_package(gazebo REQUIRED)
+
+generate_dynamic_reconfigure_options(
+        cfg/controllerOrientation.cfg
+        cfg/controllerPosition.cfg
 )
+catkin_package(DEPENDS DEPENDS dynamic_reconfigure)
 
 catkin_package(
         INCLUDE_DIRS include

@@ -10,10 +10,18 @@ from mavros_msgs.msg import WaypointList, Waypoint, RCOut
 from nav_msgs.msg import Odometry
 from geometry_msgs.msg import PoseStamped
 from tf.transformations import euler_from_quaternion
+from dynamic_reconfigure.server import Server
+from robdos_sim.cfg import controllerOrientationConfig
+
+from PID import *
 
 class OrientationController:
     def __init__(self, current_target):
+        self.degrees2rad = math.pi/180.0
+        self.rad2degrees = 180.0/math.pi
+
         self.current_target = current_target
+        self.list_points = []
 
         # define rate of  10 hz
         self.rate = rospy.Rate(50.0)
@@ -23,6 +31,22 @@ class OrientationController:
         [self.robot_roll, self.robot_pitch, self.robot_yaw] = [0, 0, 0]
 
         self.is_oriented = False
+
+        """initialize controllers"""
+        self.threshold_orientation = 0.0
+
+        self.S_kp = 0.0
+        self.S_kd = 0.0
+        self.S_ki = 0.0
+        self.S_windup = 0.0
+
+        self.controller_pid =  PID()
+        self.controller_pid.SetPoint = 0.0
+        self.controller_pid.setSampleTime(0.01)
+        self.controller_pid.setKp(self.S_kp)
+        self.controller_pid.setKd(self.S_kd)
+        self.controller_pid.setKi(self.S_ki)
+        self.controller_pid.setWindup(self.S_windup)
 
         # mavros velocity publisher
         self.mavros_vel_pub = rospy.Publisher("/mavros/rc/out", RCOut, queue_size=1)
@@ -34,12 +58,31 @@ class OrientationController:
         self.sub_localization = rospy.Subscriber('/robdos/odom', Odometry, self.process_localization_message,
                                                  queue_size=1)
 
+        self.sub_waypoint_list = rospy.Subscriber('/mavros/mission/waypoints', WaypointList, self.process_waypoint_message, queue_size=1)
+
+        # reconfigure service
+        self.srv = Server(controllerOrientationConfig, self.reconfig_callback) # define dynamic_reconfigure callback
+
         ######################################################CONTROLLER########################################################
         # infinity loop
         while not rospy.is_shutdown() and not self.is_oriented:
-            self.update_controller()
+            # only update when receive new odometry message
+            #self.update_controller()
             self.rate.sleep()
 
+        self.srv.set_service.shutdown("close process")
+
+    # update list of waypoints
+    def process_waypoint_message(self, waypoint_list_msg):
+        self.list_points = []
+
+        for waypoint in waypoint_list_msg.waypoints:
+            # set last value to False: means not reached jet.
+            self.list_points.append( [waypoint.x_lat, waypoint.y_long, waypoint.z_alt, waypoint.is_current] )
+
+        if len(self.list_points) > 0:
+            point = self.list_points[1]
+            self.current_target = [point[0], point[1], point[2] ]
 
     # update position and orientation of robot (odometry)
     def process_localization_message(self, odometry_msg):
@@ -60,16 +103,17 @@ class OrientationController:
     def update_controller(self):
 
         # update controller
-        desired_yaw = math.atan2(self.current_target[0] - self.robot_position_x, self.current_target[1]- self.robot_position_y)
+        desired_yaw = math.atan2(self.current_target[1] - self.robot_position_y, self.current_target[0] - self.robot_position_x )
 
-        yaw_error = desired_yaw - self.robot_yaw
+        # update controller (using degrees)
+        self.controller_pid.SetPoint = desired_yaw
+        self.controller_pid.update( self.robot_yaw )
+        self.controller_pid.output = self.bound_limit(self.controller_pid.output , -1000, 1000)
 
-        kp = 300
-
-        if abs(yaw_error) > 1.85:
+        if abs(self.controller_pid.error) > (self.threshold_orientation * self.degrees2rad):
             self.is_oriented = False
-            K_output = -kp * yaw_error
-
+            #K_output = -kp * yaw_error
+            K_output = self.controller_pid.output
             K_LM = 1500 + K_output
             K_RM = 1500 - K_output
 
@@ -96,6 +140,22 @@ class OrientationController:
 
             self.is_oriented = True
 
+    def reconfig_callback(self, config, level):
+        self.S_kp = config['ori_kp']
+        self.S_kd = config['ori_kd']
+        self.S_ki = config['ori_ki']
+        self.S_windup = config['ori_wu']
+
+        self.threshold_orientation = config['thr_orientation']
+
+        self.controller_pid.setKp(self.S_kp)
+        self.controller_pid.setKd(self.S_kd)
+        self.controller_pid.setKi(self.S_ki)
+        self.controller_pid.setWindup(self.S_windup)
+        self.controller_pid.error = 0.0
+        self.controller_pid.output = 0.0
+
+        return config
 
     def bound_limit(self, n, minn, maxn):
         return max(min(maxn, n), minn)

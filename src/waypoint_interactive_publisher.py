@@ -20,8 +20,9 @@ class robdos_waypoint_interactive_publisher:
         self.br = None
         self.server = None
 
-        self.current_waypoint_position_x = 0.0
-        self.current_waypoint_position_y = 0.0
+        self.rate_config = rospy.get_param('~rate', 10.0)
+        self.current_waypoint_position_x = rospy.get_param('~current_waypoint_position_x', 0.0)
+        self.current_waypoint_position_y = rospy.get_param('~current_waypoint_position_y', 0.0)
 
         self.g_set_state = rospy.ServiceProxy("/gazebo/set_model_state",SetModelState)
 
@@ -30,14 +31,14 @@ class robdos_waypoint_interactive_publisher:
         self.mavros_waypoint_pub = rospy.Publisher("/mavros/mission/waypoints",  WaypointList, queue_size=1)
         self.waypoint_msg = WaypointList()
 
-        # define rate of  10 hz
-        self.rate = rospy.Rate(10.0)
+        # define rate
+        self.rate = rospy.Rate(self.rate_config)
 
         self.br = TransformBroadcaster()
 
         self.server = InteractiveMarkerServer("waypoint_interactive_publisher")
 
-        position = Point( 0, 0, 0)
+        position = Point( self.current_waypoint_position_x, self.current_waypoint_position_y, 0)
         self.make_auv_waypoint_Marker( position )
 
         self.server.applyChanges()

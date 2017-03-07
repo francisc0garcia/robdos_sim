@@ -5,18 +5,25 @@
     <node name="robdos_teleop" pkg="robdos_sim" type="teleop_joy" output="screen"/>
 
     <node name="custom_rqt_perspective" pkg="rqt_gui" type="rqt_gui"
-          args="--perspective-file  $(find robdos_sim)/config/rqt_smach.perspective" />
+          args="--perspective-file  $(find robdos_sim)/config/rqt_smach_control.perspective" />
 
     <env name="GAZEBO_MODEL_PATH" value="$(find robdos_sim)/models"/>
 
+    <node pkg="robdos_sim" type="waypoint_interactive_publisher.py" name="waypoint_interactive_publisher" >
+        <param name="rate" type="double" value="10" />
+        <param name="current_waypoint_position_x" type="double" value="6" />
+        <param name="current_waypoint_position_y" type="double" value="6" />
+    </node>
 
-<!--     <include file="$(find gazebo_ros)/launch/empty_world.launch" >
-        <arg name="world_name" value="$(find robdos_sim)/world/robdos_state_machine_control.world"/>
-        <arg name="paused" value="false"/>
-        <arg name="use_sim_time" value="true"/>
+     <include file="$(find gazebo_ros)/launch/empty_world.launch" >
+        <arg name="world_name" value="$(find robdos_sim)/world/robdos_bag_replay.world"/>
+        <arg name="paused" value="true"/>
+        <arg name="use_sim_time" value="false"/>
         <arg name="gui" value="true"/>
         <arg name="headless" value="false"/>
         <arg name="debug" value="false"/>
-    </include> -->
+    </include>
+
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find robdos_sim)/config/rviz_config_waypoints.rviz" required="false" />
 
 </launch>
