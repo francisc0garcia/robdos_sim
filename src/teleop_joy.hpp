@@ -7,12 +7,12 @@
 #define VK_SPACE 0x20
 #define VK_LSHIFT 0xA0
 
-#define KEYCODE_RIGHT 0x43 
+#define KEYCODE_RIGHT 0x43
 #define KEYCODE_LEFT  0x44
 #define KEYCODE_UP    0x41
 #define KEYCODE_DOWN  0x42
 
-#define KEYCODE_0 0x30  
+#define KEYCODE_0 0x30
 #define KEYCODE_1 0x31
 #define KEYCODE_2 0x32
 #define KEYCODE_3 0x33
@@ -90,11 +90,13 @@
 
 robdos_sim::StateCommand state;
 
-class ControlStateMachine{
-  public:
+class ControlStateMachine {
+public:
     ControlStateMachine();
+
     void keyLoop();
-  private:
+
+private:
     ros::NodeHandle nh;
     ros::Publisher statePub;
 };
