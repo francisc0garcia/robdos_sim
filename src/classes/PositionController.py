@@ -21,7 +21,7 @@ class PositionController:
         self.current_target = current_target
 
         # define rate of  100 hz
-        self.rate = rospy.Rate(100.0)
+        self.rate = rospy.Rate(50.0)
 
         # init variables for odometry
         [self.robot_position_x, self.robot_position_y, self.robot_position_z] = [0, 0, 0]
@@ -54,8 +54,7 @@ class PositionController:
         ######################################################SUBSCRIBERS########################################################
         # create subscriber for robot localization
         # self.sub_localization = rospy.Subscriber('/mavros/local_position/pose', PoseStamped, self.process_localization_message, queue_size=1)
-        self.sub_localization = rospy.Subscriber('/robdos/odom', Odometry, self.process_localization_message,
-                                                 queue_size=1)
+        self.sub_localization = rospy.Subscriber('/robdos/odom', Odometry, self.process_localization_message, queue_size=1)
 
 
     def init_controller(self):

@@ -88,7 +88,7 @@ class FixOrientation(smach.State):
 
     def execute(self, userdata):
         # rospy.loginfo('Executing state FixOrientation')
-        controller_output = OrientationController(current_target)
+        OrientationController(current_target)
         # time.sleep(1)
         return 'Succeeded'
 
@@ -102,12 +102,14 @@ class FixPosition(smach.State):
     def execute(self, userdata):
         controller = PositionController(current_target)
         [is_oriented, is_positioned] = controller.init_controller()
-
         if is_oriented and is_positioned:
             return 'Succeeded'
         else:
             # rospy.loginfo('fail_orientation')
             return 'Fail_orientation'
+        #time.sleep(1)
+        #return 'Succeeded'
+
 
 
 # define state ReachWaypoint
@@ -338,5 +340,5 @@ def main():
 
 if __name__ == '__main__':
     # wait before system is ready
-    time.sleep(3)
+    #time.sleep(3)
     main()
