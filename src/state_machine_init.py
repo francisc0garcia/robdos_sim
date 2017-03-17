@@ -8,10 +8,148 @@ import threading
 import traceback
 from classes.OrientationController import *
 from classes.PositionController import *
-from robdos_sim.msg import StateCommand
+from classes.TeleopController import *
+from classes.GazeboMapper import *
+from robdos_sim.msg import StateEvent
 
 current_target = [0.0, 0.0, 0.0]  # x, y, z
+current_event = 0
+trigger_event = threading.Event()
 
+OrientationController__ = None
+
+PositionController__ = None
+
+TeleopController__ = None
+
+def mapEventToAction(event, state):
+
+    global OrientationController__
+    global PositionController__
+    global TeleopController__
+
+    msg = StateEvent()
+
+    if state == "Reposo":
+        if event == msg.TELEOPERATION:
+            return 'Press Teleoperation'
+        elif event == msg.SAFETY:
+            return 'Press Teleoperation'
+        elif event == msg.RESET:
+            return 'Press Reset'
+        elif event == msg.SEMIAUTONOMOUS:
+            return 'Press Reset'
+        else:
+            return False
+
+    if state == "Teleoperation":
+        if event == msg.CHANGE:
+            TeleopController__.joy_subscriber.unregister()
+            TeleopController__.RCOR_msg = OverrideRCIn()
+            TeleopController__.RCOR_msg.channels = [0, 0, 0, 1500, 0, 1500, 0, 0]
+            TeleopController__.mavros_vel_pub.publish(TeleopController__.RCOR_msg)
+            return 'Press Change'
+        elif event == msg.SAFETY:
+            TeleopController__.joy_subscriber.unregister()
+            TeleopController__.RCOR_msg = OverrideRCIn()
+            TeleopController__.RCOR_msg.channels = [0, 0, 0, 1500, 0, 1500, 0, 0]
+            TeleopController__.mavros_vel_pub.publish(TeleopController__.RCOR_msg)
+            return 'Press Safety'
+        elif event == msg.REPOSO:
+            TeleopController__.joy_subscriber.unregister()
+            TeleopController__.RCOR_msg = OverrideRCIn()
+            TeleopController__.RCOR_msg.channels = [0, 0, 0, 1500, 0, 1500, 0, 0]
+            TeleopController__.mavros_vel_pub.publish(TeleopController__.RCOR_msg)
+            return 'Press Reposo'
+        elif event == msg.SEMIAUTONOMOUS:
+            TeleopController__.joy_subscriber.unregister()
+            TeleopController__.RCOR_msg = OverrideRCIn()
+            TeleopController__.RCOR_msg.channels = [0, 0, 0, 1500, 0, 1500, 0, 0]
+            TeleopController__.mavros_vel_pub.publish(TeleopController__.RCOR_msg)
+            return 'Press Semiautonomous'
+        elif event == msg.AUTONOMOUS:
+            TeleopController__.joy_subscriber.unregister()
+            TeleopController__.RCOR_msg = OverrideRCIn()
+            TeleopController__.RCOR_msg.channels = [0, 0, 0, 1500, 0, 1500, 0, 0]
+            TeleopController__.mavros_vel_pub.publish(TeleopController__.RCOR_msg)
+            return 'Press Autonomous'
+        else:
+            return False
+
+    elif state == "FixOrientation":
+        if event == msg.ORIENTED:
+            return 'Succeeded'
+        elif event == msg.SAFETY:
+            OrientationController__.sub_localization.unregister()
+            OrientationController__.RCOR_msg = OverrideRCIn()
+            OrientationController__.RCOR_msg.channels = [0, 0, 0, 1500, 0, 1500, 0, 0]
+            OrientationController__.mavros_vel_pub.publish(OrientationController__.RCOR_msg)
+            OrientationController__.srv.set_service.shutdown("close process")
+            return 'Press Safety'
+        elif event == msg.REPOSO:
+            OrientationController__.sub_localization.unregister()
+            OrientationController__.RCOR_msg = OverrideRCIn()
+            OrientationController__.RCOR_msg.channels = [0, 0, 0, 1500, 0, 1500, 0, 0]
+            OrientationController__.mavros_vel_pub.publish(OrientationController__.RCOR_msg)
+            OrientationController__.srv.set_service.shutdown("close process")
+            return 'Press Reposo'
+        elif event == msg.TELEOPERATION:
+            OrientationController__.sub_localization.unregister()
+            OrientationController__.RCOR_msg = OverrideRCIn()
+            OrientationController__.RCOR_msg.channels = [0, 0, 0, 1500, 0, 1500, 0, 0]
+            OrientationController__.mavros_vel_pub.publish(OrientationController__.RCOR_msg)
+            OrientationController__.srv.set_service.shutdown("close process")
+            return 'Press Teleoperation'
+        else:
+            return False
+
+    elif state == "FixPosition":
+        if event == msg.POSITIONED:
+            return 'Succeeded'
+        elif event == msg.NOT_ORIENTED:
+            return 'Fail_orientation'
+        elif event == msg.SAFETY:
+            PositionController__.sub_localization.unregister()
+            PositionController__.RCOR_msg = OverrideRCIn()
+            PositionController__.RCOR_msg.channels = [0, 0, 0, 1500, 0, 1500, 0, 0]
+            PositionController__.mavros_vel_pub.publish(OrientationController__.RCOR_msg)
+            return 'Press Safety'
+        elif event == msg.REPOSO:
+            PositionController__.sub_localization.unregister()
+            PositionController__.RCOR_msg = OverrideRCIn()
+            PositionController__.RCOR_msg.channels = [0, 0, 0, 1500, 0, 1500, 0, 0]
+            PositionController__.mavros_vel_pub.publish(OrientationController__.RCOR_msg)
+            return 'Press Reposo'
+        elif event == msg.TELEOPERATION:
+            PositionController__.sub_localization.unregister()
+            PositionController__.RCOR_msg = OverrideRCIn()
+            PositionController__.RCOR_msg.channels = [0, 0, 0, 1500, 0, 1500, 0, 0]
+            PositionController__.mavros_vel_pub.publish(OrientationController__.RCOR_msg)
+            return 'Press Teleoperation'
+        else:
+            return False
+    else:
+        return False
+
+
+def handleEvent(eventMsg):
+    global current_event
+    global trigger_event
+    current_event = eventMsg.cmd
+    trigger_event.set()
+
+
+
+def waitForEvent(state):
+    global trigger_event
+    trigger_event.clear()
+    sub = rospy.Subscriber("/robdos/stateEvents", StateEvent, handleEvent)
+    while not rospy.is_shutdown():
+        trigger_event.wait()
+        sub.unregister()
+        action = mapEventToAction(current_event, state)
+        if action:
+            return action
 
 # define state InitPoint
 class InitPoint(smach.State):
@@ -40,20 +178,11 @@ class Safety(smach.State):
         smach.State.__init__(self, outcomes=['Press Reposo'])
 
     def execute(self, userdata):
+        rospy.logerr("Safety")
         # rospy.loginfo('Executing state StopRobot')
         time.sleep(2)
         return 'Press Reposo'
 
-
-# # define state Reposo
-# class Reposo(smach.State):
-#     def __init__(self):
-#         smach.State.__init__(self, outcomes=['Press Teleoperation', 'Press Reposo', 'Press Safety'])
-
-#     def execute(self, userdata):
-#         #rospy.loginfo('Executing state StopRobot')
-#         time.sleep(2)
-#         return 'Press Teleoperation'
 
 ##########################################TELEOPERATION############################################
 # define state ControlHoover
@@ -63,9 +192,13 @@ class ControlHoover(smach.State):
                                              'Press Semiautonomous'])
 
     def execute(self, userdata):
-        # rospy.loginfo('Executing state FixOrientation')
-        time.sleep(2)
-        return 'Press Semiautonomous'
+        global TeleopController__
+        time.sleep(0.1)
+        TeleopController__.register()
+        result = waitForEvent("Teleoperation")       
+        return result
+        #time.sleep(0.1)
+        #return 'Press Semiautonomous'
 
 
 # define state ControlSubmarine
@@ -87,10 +220,11 @@ class FixOrientation(smach.State):
         smach.State.__init__(self, outcomes=['Succeeded', 'Press Safety', 'Press Reposo', 'Press Teleoperation'])
 
     def execute(self, userdata):
-        # rospy.loginfo('Executing state FixOrientation')
-        OrientationController(current_target)
-        # time.sleep(1)
-        return 'Succeeded'
+        global OrientationController__
+        time.sleep(0.2)
+        OrientationController__.register()
+        result = waitForEvent("FixOrientation")
+        return result
 
 
 # define state FixPosition
@@ -100,15 +234,11 @@ class FixPosition(smach.State):
                                              'Press Teleoperation'])
 
     def execute(self, userdata):
-        controller = PositionController(current_target)
-        [is_oriented, is_positioned] = controller.init_controller()
-        if is_oriented and is_positioned:
-            return 'Succeeded'
-        else:
-            # rospy.loginfo('fail_orientation')
-            return 'Fail_orientation'
-        #time.sleep(1)
-        #return 'Succeeded'
+        global PositionController__
+        time.sleep(0.2)
+        PositionController__.register()
+        result = waitForEvent("FixPosition")
+        return result        
 
 
 
@@ -136,83 +266,17 @@ class mision1(smach.State):
 
 
 #########################################MACHINE STATE#############################################
-value = 0
+#value = 0
 
-
-def reposo_state_function(ud, msg):
-    global value
-
-    # use same constant definition
-    value = msg.cmd
-
-    # Review?
-    # if msg.cmd == msg.TELEOPERATION:
-    #    value = 1
-    # elif msg.cmd == msg.SAFETY:
-    #    value = 2
-    # elif msg.cmd == msg.RESET:
-    #    value = 3
-
-    # if twist.angular.z == 1.0:
-    # 	return False
-
-
-__all__ = ['MonitorState']
-
-
-class MonitorState(smach.State):
-    def __init__(self, topic, msg_type, cond_cb, max_checks=-1, input_keys=[], output_keys=[]):
-        smach.State.__init__(
-            self,
-            outcomes=['Press Reset', 'Press Teleoperation', 'Press Safety', 'Reposo'],
-            input_keys=input_keys,
-            output_keys=output_keys)
-        global value
-        self._topic = topic
-        self._msg_type = msg_type
-        self._cond_cb = cond_cb
-        self._max_checks = max_checks
-        self._n_checks = 0
-
-        self._trigger_event = threading.Event()
-
+class Reposo(smach.State):
+    def __init__(self):
+        smach.State.__init__(self, outcomes=['Press Reset', 'Press Teleoperation', 'Press Safety', 'Reposo'],)
+        
     def execute(self, ud):
-        self._n_checks = 0
-        self._trigger_event.clear()
+        rospy.logerr("espera")
+        result = waitForEvent("Reposo")
+        return result
 
-        self._sub = rospy.Subscriber(self._topic, self._msg_type, self._cb, callback_args=ud)
-
-        self._trigger_event.wait()
-        self._sub.unregister()
-
-        msg_sc = StateCommand()
-
-        # default case
-        return_value = 'Reposo'
-
-        if value == msg_sc.TELEOPERATION:
-            return_value = 'Press Teleoperation'
-        elif value == msg_sc.SAFETY:
-            return_value = 'Press Teleoperation'
-        elif value == msg_sc.RESET:
-            return_value = 'Press Reset'
-        elif value == msg_sc.SEMIAUTONOMOUS:
-            return_value = 'Press Reset'
-
-        return return_value
-
-    def _cb(self, msg, ud):
-        try:
-            if self._cond_cb(ud, msg):
-                self._n_checks += 1
-            else:
-                self._trigger_event.set()
-        except Exception as e:
-            rospy.logerr("Error thrown while executing condition callback %s: %s" % (str(self._cond_cb), e))
-        self._trigger_event.set()
-
-        if (self._max_checks > 0 and self._n_checks >= self._max_checks):
-            self._trigger_event.set()
 
 ###################################################################################################
 ############################################### MAIN ##############################################
@@ -220,6 +284,21 @@ class MonitorState(smach.State):
 
 def main():
     rospy.init_node('robdos_state_machine')
+
+    global  OrientationController__
+    global PositionController__
+    global TeleopController__
+
+    GazeboMapper__ = GazeboMapper()
+
+    OrientationController__ = OrientationController(current_target)
+    OrientationController__.sub_localization.unregister()
+
+    PositionController__ = PositionController(current_target)
+    PositionController__.sub_localization.unregister()
+
+    TeleopController__ = TeleopController()
+    TeleopController__.joy_subscriber.unregister()
 
     # Create the top level SMACH state machine
     sm_top = smach.StateMachine(outcomes=['succeeded'])
@@ -238,7 +317,7 @@ def main():
                                transitions={'Press Reposo': 'Reposo'})
 
         # smach.StateMachine.add('Reposo', MonitorState("/turtle1/cmd_vel", Twist, reposo_state_function), 
-        smach.StateMachine.add('Reposo', MonitorState("teleop/stateMachine", StateCommand, reposo_state_function),
+        smach.StateMachine.add('Reposo', Reposo(),
                                transitions={'Press Teleoperation': 'Teleoperation',
                                             'Press Reset': 'Reset',
                                             'Press Safety': 'Safety',

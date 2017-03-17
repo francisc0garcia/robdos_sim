@@ -20,7 +20,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
         FILES
         state.msg
-        StateCommand.msg
+        StateEvent.msg
 )
 catkin_python_setup()
 

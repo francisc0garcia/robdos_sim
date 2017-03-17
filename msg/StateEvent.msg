@@ -9,4 +9,8 @@ int32 AUTONOMOUS	   = 6
 int32 SEMIAUTONOMOUS   = 7
 int32 CHANGE 		   = 8
 int32 SUCCEEDED		   = 9
+int32 ORIENTED 		   = 10
+int32 NOT_ORIENTED     = 11
+int32 POSITIONED       = 12
+int32 NOT_POSITIONED   = 13
                 

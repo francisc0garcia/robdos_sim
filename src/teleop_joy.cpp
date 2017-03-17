@@ -2,7 +2,7 @@
 
 ControlStateMachine::ControlStateMachine() {
 
-    statePub = nh.advertise<robdos_sim::StateCommand>("teleop/stateMachine", 1);
+    statePub = nh.advertise<robdos_sim::StateEvent>("robdos/stateEvents", 1);
 }
 
 int kfd = 0;

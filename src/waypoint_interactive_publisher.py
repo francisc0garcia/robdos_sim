@@ -157,6 +157,7 @@ class robdos_waypoint_interactive_publisher:
         state.pose = pose
 
         try:
+            #pass
             ret = self.g_set_state(state)
 
         except Exception, e:

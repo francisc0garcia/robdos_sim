@@ -1,5 +1,5 @@
 #include <ros/ros.h>
-#include <robdos_sim/StateCommand.h>
+#include <robdos_sim/StateEvent.h>
 #include <signal.h>
 #include <termios.h>
 #include <stdio.h>
@@ -88,7 +88,7 @@
 #define KEYCODE_y 0x79
 #define KEYCODE_z 0x7A
 
-robdos_sim::StateCommand state;
+robdos_sim::StateEvent state;
 
 class ControlStateMachine {
 public:
