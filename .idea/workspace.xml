@@ -1,106 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" buildAllGenerated="true">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
+      <config projectName="robdos_sim" targetName="std_msgs_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_cpp" />
       <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="robdos_sim_gencfg" />
-      <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="tf_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_eus" />
       <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="roscpp_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="tf_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="std_msgs_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="robdos_sim_gencpp" />
+      <config projectName="robdos_sim" targetName="tf_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="teleop_joy" />
+      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_eus" />
       <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="tf_generate_messages_cpp" />
       <config projectName="robdos_sim" targetName="std_msgs_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="robdos_sim_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="actionlib_generate_messages_cpp" />
       <config projectName="robdos_sim" targetName="actionlib_generate_messages_lisp" />
       <config projectName="robdos_sim" targetName="download_extra_data" />
-      <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="robdos_sim_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="actionlib_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="waypoint_interactive_publisher" />
-      <config projectName="robdos_sim" targetName="roscpp_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="tf_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="teleop_joy" />
-      <config projectName="robdos_sim" targetName="robdos_sim_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="tf_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="robdos_sim_generate_messages" />
-      <config projectName="robdos_sim" targetName="robdos_sim_gencpp" />
-      <config projectName="robdos_sim" targetName="actionlib_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="tf_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="robdos_sim_genlisp" />
-      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="robot_ros_utils" />
-      <config projectName="robdos_sim" targetName="std_msgs_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="robdos_sim_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="clean_test_results" />
       <config projectName="robdos_sim" targetName="gazebo_ros_gencfg" />
-      <config projectName="robdos_sim" targetName="roscpp_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="roscpp_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="robdos_sim_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="tf_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="tests" />
-      <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="waypoint_publisher" />
-      <config projectName="robdos_sim" targetName="robot_sub_drive" />
-      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="robdos_sim_gennodejs" />
-      <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="roscpp_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="run_tests" />
-      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="_robdos_sim_generate_messages_check_deps_state" />
-      <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="robdos_sim_geneus" />
-      <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="_robdos_sim_generate_messages_check_deps_StateCommand" />
-      <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="robdos_sim_generate_messages_py" />
       <config projectName="robdos_sim" targetName="gtest_main" />
-      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="robdos_control" />
-      <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="std_msgs_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="robdos_sim_gennodejs" />
+      <config projectName="robdos_sim" targetName="robot_sub_drive" />
+      <config projectName="robdos_sim" targetName="tests" />
+      <config projectName="robdos_sim" targetName="roscpp_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="robdos_sim_geneus" />
+      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="roscpp_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="tf_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="roscpp_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="robdos_sim_gencfg" />
+      <config projectName="robdos_sim" targetName="actionlib_generate_messages_eus" />
       <config projectName="robdos_sim" targetName="robdos_sim_genpy" />
+      <config projectName="robdos_sim" targetName="clean_test_results" />
+      <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="robdos_sim_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="gtest" />
+      <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="actionlib_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="robdos_sim_generate_messages" />
+      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_cpp" />
       <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_py" />
       <config projectName="robdos_sim" targetName="dynamic_reconfigure_gencfg" />
-      <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="gtest" />
-      <config projectName="robdos_sim" targetName="robdos_sim_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="actionlib_generate_messages_nodejs" />
       <config projectName="robdos_sim" targetName="std_msgs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="robdos_sim_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="roscpp_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="robdos_sim_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_lisp" />
       <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="run_tests" />
+      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_lisp" />
       <config projectName="robdos_sim" targetName="doxygen" />
+      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="_robdos_sim_generate_messages_check_deps_state" />
+      <config projectName="robdos_sim" targetName="robdos_sim_genlisp" />
+      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="tf_generate_messages_lisp" />
       <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="actionlib_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="std_msgs_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="actionlib_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="roscpp_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="std_msgs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="robot_ros_utils" />
+      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="_robdos_sim_generate_messages_check_deps_StateEvent" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -110,10 +107,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81e82f28-2ab1-494f-85a6-4742111c59a0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/rqt_multiplot.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/imu_to_angles.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/pysdf/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/pysdf/conversions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/pysdf/gazebo2rviz.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/pysdf/naming.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/pysdf/parse.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/robdos_rqt.perspective" afterPath="$PROJECT_DIR$/config/robdos_rqt.perspective" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/rqt_smach_control.perspective" afterPath="$PROJECT_DIR$/config/rqt_smach_control.perspective" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/rviz_config_waypoints.rviz" afterPath="$PROJECT_DIR$/config/rviz_config_waypoints.rviz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/robdos_sim/gazebo_sub_drive.h" afterPath="$PROJECT_DIR$/include/robdos_sim/gazebo_sub_drive.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/launch/robdos_sim.launch" afterPath="$PROJECT_DIR$/launch/robdos_sim.launch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/launch/robdos_state_machine.launch" afterPath="$PROJECT_DIR$/launch/robdos_state_machine.launch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/robdos_model/model.sdf" afterPath="$PROJECT_DIR$/models/robdos_model/model.sdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/OrientationController.py" afterPath="$PROJECT_DIR$/src/classes/OrientationController.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/PositionController.py" afterPath="$PROJECT_DIR$/src/classes/PositionController.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/TeleopController.py" afterPath="$PROJECT_DIR$/src/classes/TeleopController.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gazebo_plugins/robot_sub_drive.cpp" afterPath="$PROJECT_DIR$/src/gazebo_plugins/robot_sub_drive.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rqt_smach/container_node.py" afterPath="$PROJECT_DIR$/src/rqt_smach/container_node.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rqt_smach/rqt_smach.py" afterPath="$PROJECT_DIR$/src/rqt_smach/rqt_smach.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/state_machine_init.py" afterPath="$PROJECT_DIR$/src/state_machine_init.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/waypoint_controller.py" afterPath="$PROJECT_DIR$/src/waypoint_controller.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/waypoint_interactive_publisher.py" afterPath="$PROJECT_DIR$/src/waypoint_interactive_publisher.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/xdot/xdot_qt.py" afterPath="$PROJECT_DIR$/src/xdot/xdot_qt.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/world/robdos_bag_replay.world" afterPath="$PROJECT_DIR$/world/robdos_bag_replay.world" />
     </list>
     <ignored path="robdos_sim.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -133,72 +153,43 @@
     <favorites_list name="robdos_sim" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="state_machine_init.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/state_machine_init.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-              <folding>
-                <element signature="e#23#35#0" expanded="true" />
-                <element signature="e#343#531#0" expanded="false" />
-                <element signature="e#582#817#0" expanded="false" />
-                <element signature="e#610#677#0" expanded="false" />
-                <element signature="e#870#1093#0" expanded="false" />
-                <element signature="e#898#951#0" expanded="false" />
-                <element signature="e#994#1090#0" expanded="false" />
-                <element signature="e#1093#1116#0" expanded="false" />
-                <element signature="e#1596#1953#0" expanded="false" />
-                <element signature="e#1624#1798#0" expanded="false" />
-                <element signature="e#1841#1950#0" expanded="false" />
-                <element signature="e#2026#2375#0" expanded="false" />
-                <element signature="e#2054#2228#0" expanded="false" />
-                <element signature="e#2271#2372#0" expanded="false" />
-                <element signature="e#2375#2474#0" expanded="false" />
-                <element signature="e#3611#3716#0" expanded="false" />
-                <element signature="e#3861#3960#0" expanded="false" />
-                <element signature="e#4016#4282#0" expanded="false" />
-                <element signature="e#4044#4136#0" expanded="false" />
-                <element signature="e#4179#4279#0" expanded="false" />
-                <element signature="e#4434#4734#0" expanded="false" />
-                <element signature="e#4903#5330#0" expanded="false" />
-                <element signature="e#5367#6042#0" expanded="false" />
-                <element signature="e#6080#6508#0" expanded="false" />
-                <element signature="e#6097#6219#0" expanded="false" />
-                <element signature="e#6508#6607#0" expanded="false" />
-                <element signature="e#7112#7208#0" expanded="false" />
-                <element signature="e#7303#7400#0" expanded="false" />
-                <element signature="e#8045#8089#0" expanded="false" />
-                <element signature="e#8749#9834#0" expanded="false" />
-                <element signature="e#8895#9303#0" expanded="false" />
-                <element signature="e#9428#9833#0" expanded="false" />
-                <element signature="e#9949#10237#0" expanded="false" />
-                <element signature="e#10248#10347#0" expanded="false" />
-                <element signature="e#12735#12955#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="robdos_state_machine.launch" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/launch/robdos_state_machine.launch">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+            <state relative-caret-position="630">
+              <caret line="30" column="39" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PositionController.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classes/PositionController.py">
+      <file leaf-file-name="robdos_sim.launch" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/launch/robdos_sim.launch">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-              <folding>
-                <element signature="e#22#59#0" expanded="true" />
-                <element signature="e#5400#5430#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="63">
+              <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="waypoint_controller.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/waypoint_controller.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="37" column="29" lean-forward="false" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -206,11 +197,23 @@
       <file leaf-file-name="OrientationController.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classes/OrientationController.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="630">
+              <caret line="46" column="44" lean-forward="false" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
               <folding>
                 <element signature="e#22#59#0" expanded="true" />
+                <element signature="e#4555#4749#0" expanded="false" />
+                <element signature="e#6546#7046#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TeleopController.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/classes/TeleopController.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="67" column="27" lean-forward="false" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -226,30 +229,40 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>pach0</find>
-      <find>cmd_vel_subscriber_</find>
-      <find>odom_</find>
-      <find>apple</find>
-      <find>saveMarker</find>
-      <find>rand</find>
-      <find>frameCallback</find>
-      <find>alignMarker</find>
-      <find>is_waypoint_loaded</find>
-      <find>spin</find>
-      <find>odom</find>
-      <find>model</find>
-      <find>mav_name</find>
-      <find>joint_link_base_link_rotor_left</find>
-      <find>F</find>
-      <find>ns</find>
-      <find>librotors_gazebo_motor_model</find>
-      <find>Reposo</find>
       <find>TODO</find>
       <find>reposo_state_function</find>
       <find>update_controller</find>
       <find>threshold_orientation</find>
       <find>semiautonomous</find>
+      <find>submodelsToBeIgnored</find>
+      <find>Could not resolve modelname=</find>
+      <find>homogeneous2translation_quaternion</find>
+      <find>scripts.pysdf</find>
+      <find>scripts.pysdf.</find>
+      <find>name2modelname</find>
+      <find>pose_msg2homogeneous</find>
+      <find>models_paths</find>
+      <find>scroll</find>
+      <find>zoom_image</find>
+      <find>set_styles</find>
+      <find>mouse</find>
+      <find>on_zoom_in</find>
+      <find>Qmessa</find>
+      <find>handleEvent</find>
+      <find>/gazebo/set_model_state</find>
+      <find>espera</find>
+      <find>Safety</find>
+      <find>self.g_set_state</find>
+      <find>not oriented</find>
+      <find>rospy.loginfo('Waiting time')</find>
+      <find>rospy.logerr</find>
+      <find>ContainerNode</find>
+      <find>_structure_msg_update</find>
+      <find>OrientationController__</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -259,22 +272,13 @@
     </option>
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="FORCE_PUSH_ALLOWED" value="true" />
     <push-targets>
-      <push-target-info repo="$PROJECT_DIR$" source="master" target-remote="gitlab" target-branch="kinetic" />
+      <push-target-info target-remote="origin" target-branch="master" repo="$PROJECT_DIR$" source="master" />
     </push-targets>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/camera_processing_example.py" />
-        <option value="$PROJECT_DIR$/world/robdos_model.world" />
-        <option value="$PROJECT_DIR$/docs/source/conf.py" />
-        <option value="$PROJECT_DIR$/docs/source/contact.rst" />
-        <option value="$PROJECT_DIR$/docs/source/installation.rst" />
-        <option value="$PROJECT_DIR$/docs/source/index.rst" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/gazebo_plugins/robot_ros_utils.cpp" />
         <option value="$PROJECT_DIR$/src/__init__.py" />
         <option value="$PROJECT_DIR$/src/marker_generator.py" />
         <option value="$PROJECT_DIR$/src/test/waypoint_publisher.cpp" />
@@ -282,26 +286,18 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/waypoint_interactive_publisher.cpp" />
         <option value="$PROJECT_DIR$/launch/robdos_waypoints.launch" />
-        <option value="$PROJECT_DIR$/include/robdos_sim/gazebo_sub_drive.h" />
         <option value="$PROJECT_DIR$/src/waypoint_publisher.py" />
-        <option value="$PROJECT_DIR$/world/robdos_bag_replay.world" />
-        <option value="$PROJECT_DIR$/launch/robdos_sim.launch" />
         <option value="$PROJECT_DIR$/launch/robdos_sim_play_bags.launch" />
         <option value="$PROJECT_DIR$/src/robdos_control.cpp" />
-        <option value="$PROJECT_DIR$/src/gazebo_plugins/robot_sub_drive.cpp" />
         <option value="$PROJECT_DIR$/src/smach/rqt_smach_init.py" />
         <option value="$PROJECT_DIR$/src/smach/smach_plugin.xml" />
         <option value="$PROJECT_DIR$/smach_plugin.xml" />
-        <option value="$PROJECT_DIR$/world/robdos_underwater.world" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/scripts/rqt_smach" />
-        <option value="$PROJECT_DIR$/src/rqt_smach/container_node.py" />
-        <option value="$PROJECT_DIR$/src/xdot/xdot_qt.py" />
         <option value="$PROJECT_DIR$/plugin.xml" />
         <option value="$PROJECT_DIR$/models/iris/iris.sdf" />
         <option value="$PROJECT_DIR$/world/robdos_px4_uav.world" />
         <option value="$PROJECT_DIR$/config/run_px4_instructions.txt" />
-        <option value="$PROJECT_DIR$/src/waypoint_controller.py" />
         <option value="$PROJECT_DIR$/world/robdos_state_machine_control.world" />
         <option value="$PROJECT_DIR$/launch/robdos_px4_UAV.launch" />
         <option value="$PROJECT_DIR$/src/teleop_joy.cpp" />
@@ -309,13 +305,31 @@
         <option value="$PROJECT_DIR$/package.xml" />
         <option value="$PROJECT_DIR$/cfg/controller.cfg" />
         <option value="$PROJECT_DIR$/cfg/controllerPosition.cfg" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/src/waypoint_interactive_publisher.py" />
         <option value="$PROJECT_DIR$/cfg/controllerOrientation.cfg" />
-        <option value="$PROJECT_DIR$/launch/robdos_state_machine.launch" />
-        <option value="$PROJECT_DIR$/src/classes/PositionController.py" />
+        <option value="$PROJECT_DIR$/world/robdos_underwater.world" />
+        <option value="$PROJECT_DIR$/models/robdos_model/model.sdf" />
+        <option value="$PROJECT_DIR$/scripts/gazebo2rviz.py" />
+        <option value="$PROJECT_DIR$/scripts/pysdf/__init__.py" />
+        <option value="$PROJECT_DIR$/scripts/pysdf/conversions.py" />
+        <option value="$PROJECT_DIR$/scripts/pysdf/gazebo2rviz.py" />
+        <option value="$PROJECT_DIR$/scripts/pysdf/parse.py" />
+        <option value="$PROJECT_DIR$/scripts/pysdf/naming.py" />
+        <option value="$PROJECT_DIR$/src/classes/PID.py" />
+        <option value="$PROJECT_DIR$/src/waypoint_interactive_publisher.py" />
+        <option value="$PROJECT_DIR$/src/xdot/xdot_qt.py" />
+        <option value="$PROJECT_DIR$/src/classes/TeleopController.py" />
+        <option value="$PROJECT_DIR$/src/rqt_smach/container_node.py" />
         <option value="$PROJECT_DIR$/src/state_machine_init.py" />
+        <option value="$PROJECT_DIR$/src/rqt_smach/rqt_smach.py" />
         <option value="$PROJECT_DIR$/src/classes/OrientationController.py" />
+        <option value="$PROJECT_DIR$/launch/robdos_state_machine.launch" />
+        <option value="$PROJECT_DIR$/include/robdos_sim/gazebo_sub_drive.h" />
+        <option value="$PROJECT_DIR$/src/gazebo_plugins/robot_sub_drive.cpp" />
+        <option value="$PROJECT_DIR$/src/classes/PositionController.py" />
+        <option value="$PROJECT_DIR$/world/robdos_bag_replay.world" />
+        <option value="$PROJECT_DIR$/launch/robdos_sim.launch" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/waypoint_controller.py" />
       </list>
     </option>
   </component>
@@ -326,10 +340,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="73" />
-    <option name="y" value="27" />
-    <option name="width" value="1847" />
-    <option name="height" value="1053" />
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1615" />
+    <option name="height" value="1054" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -371,24 +385,6 @@
               <option name="myItemId" value="robdos_sim" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robdos_sim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robdos_sim" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robdos_sim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -397,29 +393,54 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../artificial_intelligence_ws/src/artificial_intelligence/CMakeLists.txt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../autonomous_bicycle/code/src/autonomous_bicycle/CMakeLists.txt" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="/gazebo/set_model_state/gazebo/set_model_stat&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scripts/pysdf" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/old" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/smach" />
-      <recent name="$PROJECT_DIR$/models" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scripts" />
+      <recent name="$PROJECT_DIR$/src/xdot" />
+      <recent name="$PROJECT_DIR$/src/rqt_smach" />
+      <recent name="$PROJECT_DIR$/scripts/pysdf" />
       <recent name="$PROJECT_DIR$/cfg" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/classes" />
-      <recent name="$PROJECT_DIR$/world" />
-      <recent name="$PROJECT_DIR$/launch" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager" selected="Application.Build All">
+    <configuration default="true" type="#com.sylvanaar.idea.Lua.run.LuaConfigurationType" factoryName="Lua Script">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="ALTERNATE_INTERPRETER" value="false" />
+      <envs />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="/bin/bash" />
@@ -431,12 +452,35 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="CLion_Remote" factoryName="GDB Remote Debug" remoteCommand="" symbolFile="" sysroot="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="robdos_sim" TARGET_NAME="clean_test_results" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
       <envs />
       <method />
     </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="robdos_sim" TARGET_NAME="clean_test_results" CONFIG_NAME="Debug">
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <method />
+    </configuration>
+    <configuration default="true" type="FirefoxRemoteDebugType" factoryName="Firefox Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
@@ -446,6 +490,9 @@
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeWebKit" factoryName="NW.js">
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -463,6 +510,13 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ReactNative" factoryName="React Native">
+      <node-interpreter value="project" />
+      <platform value="ANDROID" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
@@ -475,6 +529,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="robdos_sim" />
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -491,25 +566,6 @@
       <scripts />
       <node-interpreter value="project" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Attests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="robdos_sim" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -541,15 +597,10 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="robdos_sim" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -562,16 +613,9 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="robdos_sim" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="py.test">
@@ -584,18 +628,10 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="robdos_sim" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
     <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
@@ -926,19 +962,11 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="waypoint_publisher" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="robdos_sim" TARGET_NAME="waypoint_publisher" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="robdos_sim" RUN_TARGET_NAME="waypoint_publisher">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="waypoint_interactive_publisher" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="robdos_sim" TARGET_NAME="waypoint_interactive_publisher" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="robdos_sim" RUN_TARGET_NAME="waypoint_interactive_publisher">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="_robdos_sim_generate_messages_check_deps_state" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="robdos_sim" TARGET_NAME="_robdos_sim_generate_messages_check_deps_state" CONFIG_NAME="Debug">
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="robdos_control" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="robdos_sim" TARGET_NAME="robdos_control" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="robdos_sim" RUN_TARGET_NAME="robdos_control">
+    <configuration default="false" name="_robdos_sim_generate_messages_check_deps_StateEvent" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="robdos_sim" TARGET_NAME="_robdos_sim_generate_messages_check_deps_StateEvent" CONFIG_NAME="Debug">
       <envs />
       <method />
     </configuration>
@@ -986,10 +1014,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="_robdos_sim_generate_messages_check_deps_StateCommand" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="robdos_sim" TARGET_NAME="_robdos_sim_generate_messages_check_deps_StateCommand" CONFIG_NAME="Debug">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="teleop_joy" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="robdos_sim" TARGET_NAME="teleop_joy" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="robdos_sim" RUN_TARGET_NAME="teleop_joy">
       <envs />
       <method />
@@ -998,7 +1022,7 @@
       <envs />
       <method />
     </configuration>
-    <list size="100">
+    <list size="97">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.clean_test_results" />
       <item index="2" class="java.lang.String" itemvalue="Application.download_extra_data" />
@@ -1081,25 +1105,41 @@
       <item index="79" class="java.lang.String" itemvalue="Application.mavros_msgs_generate_messages_lisp" />
       <item index="80" class="java.lang.String" itemvalue="Application.mavros_msgs_generate_messages_nodejs" />
       <item index="81" class="java.lang.String" itemvalue="Application.mavros_msgs_generate_messages_py" />
-      <item index="82" class="java.lang.String" itemvalue="Application.waypoint_publisher" />
-      <item index="83" class="java.lang.String" itemvalue="Application.waypoint_interactive_publisher" />
-      <item index="84" class="java.lang.String" itemvalue="Application._robdos_sim_generate_messages_check_deps_state" />
-      <item index="85" class="java.lang.String" itemvalue="Application.robdos_control" />
-      <item index="86" class="java.lang.String" itemvalue="Application.robdos_sim_gencpp" />
-      <item index="87" class="java.lang.String" itemvalue="Application.robdos_sim_generate_messages" />
-      <item index="88" class="java.lang.String" itemvalue="Application.robdos_sim_generate_messages_cpp" />
-      <item index="89" class="java.lang.String" itemvalue="Application.robdos_sim_generate_messages_eus" />
-      <item index="90" class="java.lang.String" itemvalue="Application.robdos_sim_generate_messages_lisp" />
-      <item index="91" class="java.lang.String" itemvalue="Application.robdos_sim_generate_messages_nodejs" />
-      <item index="92" class="java.lang.String" itemvalue="Application.robdos_sim_generate_messages_py" />
-      <item index="93" class="java.lang.String" itemvalue="Application.robdos_sim_geneus" />
-      <item index="94" class="java.lang.String" itemvalue="Application.robdos_sim_genlisp" />
-      <item index="95" class="java.lang.String" itemvalue="Application.robdos_sim_gennodejs" />
-      <item index="96" class="java.lang.String" itemvalue="Application.robdos_sim_genpy" />
-      <item index="97" class="java.lang.String" itemvalue="Application._robdos_sim_generate_messages_check_deps_StateCommand" />
-      <item index="98" class="java.lang.String" itemvalue="Application.teleop_joy" />
-      <item index="99" class="java.lang.String" itemvalue="Application.robdos_sim_gencfg" />
+      <item index="82" class="java.lang.String" itemvalue="Application._robdos_sim_generate_messages_check_deps_state" />
+      <item index="83" class="java.lang.String" itemvalue="Application._robdos_sim_generate_messages_check_deps_StateEvent" />
+      <item index="84" class="java.lang.String" itemvalue="Application.robdos_sim_gencpp" />
+      <item index="85" class="java.lang.String" itemvalue="Application.robdos_sim_generate_messages" />
+      <item index="86" class="java.lang.String" itemvalue="Application.robdos_sim_generate_messages_cpp" />
+      <item index="87" class="java.lang.String" itemvalue="Application.robdos_sim_generate_messages_eus" />
+      <item index="88" class="java.lang.String" itemvalue="Application.robdos_sim_generate_messages_lisp" />
+      <item index="89" class="java.lang.String" itemvalue="Application.robdos_sim_generate_messages_nodejs" />
+      <item index="90" class="java.lang.String" itemvalue="Application.robdos_sim_generate_messages_py" />
+      <item index="91" class="java.lang.String" itemvalue="Application.robdos_sim_geneus" />
+      <item index="92" class="java.lang.String" itemvalue="Application.robdos_sim_genlisp" />
+      <item index="93" class="java.lang.String" itemvalue="Application.robdos_sim_gennodejs" />
+      <item index="94" class="java.lang.String" itemvalue="Application.robdos_sim_genpy" />
+      <item index="95" class="java.lang.String" itemvalue="Application.teleop_joy" />
+      <item index="96" class="java.lang.String" itemvalue="Application.robdos_sim_gencfg" />
     </list>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="robdos_sim" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -1179,7 +1219,20 @@
       <workItem from="1488879537647" duration="4026000" />
       <workItem from="1488894620337" duration="3509000" />
       <workItem from="1488913410919" duration="13605000" />
-      <workItem from="1489007008228" duration="4085000" />
+      <workItem from="1489007008228" duration="5245000" />
+      <workItem from="1489048398264" duration="1126000" />
+      <workItem from="1489056853896" duration="24000" />
+      <workItem from="1489684432282" duration="832000" />
+      <workItem from="1489735783174" duration="619000" />
+      <workItem from="1489919033190" duration="1947000" />
+      <workItem from="1489921959844" duration="2143000" />
+      <workItem from="1490449665016" duration="2382000" />
+      <workItem from="1490453757994" duration="771000" />
+      <workItem from="1490607654614" duration="2000" />
+      <workItem from="1490878817613" duration="1154000" />
+      <workItem from="1491067664145" duration="4291000" />
+      <workItem from="1491121112596" duration="18956000" />
+      <workItem from="1491146147931" duration="50000" />
     </task>
     <task id="LOCAL-00001" summary="- Update model of robot&#10;- change local reference to models and map&#10;- Add python example of image processing for cameras placed at the robot (front-rear)&#10;- Add plugins for IMU, camera and mav link">
       <created>1477146121683</created>
@@ -1300,11 +1353,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488927798971</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="- Fix load state machine">
+      <created>1489011113099</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1489011113099</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168811000" />
+    <option name="totallyTimeSpent" value="204268000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1316,28 +1376,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="73" y="27" width="1847" height="1053" extended-state="6" />
-    <editor active="false" />
+    <frame x="65" y="-4" width="1615" height="1054" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14858097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.49776357" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23449" sideWeight="0.48498404" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23514377" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32717392" sideWeight="0.49776357" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33913043" sideWeight="0.48498404" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20326087" sideWeight="0.51501596" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27017936" sideWeight="0.49009585" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29782608" sideWeight="0.49009585" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.49520767" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1402174" sideWeight="0.49520767" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23853211" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.49776357" order="6" side_tool="false" content_ui="tabs" />
@@ -1351,7 +1411,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27017936" sideWeight="0.49009585" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.49520767" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21302083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1890625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1410,105 +1470,16 @@
     <MESSAGE value="- state machine controller" />
     <MESSAGE value="- fix issues with teleop node" />
     <MESSAGE value="- Add PID controller for position and orientation" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Add PID controller for position and orientation" />
+    <MESSAGE value="- Fix load state machine" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Fix load state machine" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/world/robdos_bag_replay.world">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="38" column="20" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="38" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/world/underwater_gazebo_test.world">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/launch/robdos_sim_play_bags.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xdot/src/xdot/xdot.py" />
-    <entry file="file://$PROJECT_DIR$/src/xdot/wxxdot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/old/smach/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/src/old/smach/rqt_smach_init.py" />
-    <entry file="file://$PROJECT_DIR$/models/Jacket_aero.dae">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Jacket_no_aero.dae">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/world/robdos_underwater.world">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python_qt_binding/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/scripts/smach_viewer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17217">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/smach_viewer.py" />
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smach_plugin.xml" />
-    <entry file="file://$PROJECT_DIR$/scripts/rqt_smach">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/launch/robdos_sim.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/iris/iris.sdf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1521,13 +1492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gazebo_plugins/robot_sub_drive.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="111" column="31" lean-forward="true" selection-start-line="111" selection-start-column="31" selection-end-line="111" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1566,13 +1530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rqt_smach/container_node.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="363" column="37" lean-forward="false" selection-start-line="363" selection-start-column="37" selection-end-line="363" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/rqt_smach/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1587,13 +1544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rqt_smach/rqt_smach.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="691" column="59" lean-forward="false" selection-start-line="691" selection-start-column="59" selection-end-line="691" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/run_px4_instructions.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -1601,39 +1551,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/msg/StateCommand.msg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xdot/xdot_qt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="1592" column="37" lean-forward="true" selection-start-line="1592" selection-start-column="37" selection-end-line="1592" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/msg/StateCommand.msg" />
     <entry file="file://$PROJECT_DIR$/src/teleop_joy.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1560">
           <caret line="77" column="22" lean-forward="true" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="52" lean-forward="false" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1648,13 +1570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/waypoint_controller.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1932">
-          <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1679,124 +1594,290 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/teleop_joy.cpp">
+    <entry file="file://$PROJECT_DIR$/cfg/controllerOrientation.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1827">
-          <caret line="87" column="22" lean-forward="true" selection-start-line="84" selection-start-column="12" selection-end-line="87" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="252">
+          <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/world/robdos_model.world">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-303">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="189">
+            <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/pysdf/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/pysdf/gazebo2rviz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="53" lean-forward="false" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/robdos_model/model.sdf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/pysdf/conversions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/pysdf/naming.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/pysdf/parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/world/robdos_underwater.world">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="790" column="16" lean-forward="true" selection-start-line="211" selection-start-column="8" selection-end-line="790" selection-end-column="16" />
+          <folding>
+            <element signature="e#329#567#0" expanded="false" />
+            <element signature="e#576#729#0" expanded="false" />
+            <element signature="e#738#1015#0" expanded="false" />
+            <element signature="e#1025#2329#0" expanded="false" />
+            <element signature="e#2339#2637#0" expanded="false" />
+            <element signature="e#2647#3157#0" expanded="false" />
+            <element signature="e#3166#3675#0" expanded="false" />
+            <element signature="e#3684#4194#0" expanded="false" />
+            <element signature="e#4203#4714#0" expanded="false" />
+            <element signature="e#4724#5590#0" expanded="false" />
+            <element signature="e#5600#6276#0" expanded="false" />
+            <element signature="e#6286#6671#0" expanded="false" />
+            <element signature="e#6681#7752#0" expanded="false" />
+            <element signature="e#7762#32782#0" expanded="false" />
+            <element signature="e#32792#33503#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/PID.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="103" column="23" lean-forward="true" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="23" />
-          <folding>
-            <marker date="1466007834000" expanded="true" signature="0:1015" ph="..." />
-            <marker date="1466007834000" expanded="true" signature="1017:1240" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1466007834000" expanded="true" signature="1264:4660" ph="..." />
-            <marker date="1466007834000" expanded="true" signature="1340:1725" ph="..." />
-            <marker date="1466007834000" expanded="true" signature="1747:2049" ph="..." />
-            <marker date="1466007834000" expanded="true" signature="2088:3273" ph="..." />
-            <marker date="1466007834000" expanded="true" signature="2097:2376" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1466007834000" expanded="true" signature="2621:3273" ph="..." />
-            <marker date="1466007834000" expanded="true" signature="3314:3459" ph="..." />
-            <marker date="1466007834000" expanded="true" signature="3496:3633" ph="..." />
-            <marker date="1466007834000" expanded="true" signature="3672:3813" ph="..." />
-            <marker date="1466007834000" expanded="true" signature="3847:4399" ph="..." />
-            <marker date="1466007834000" expanded="true" signature="3856:4364" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1466007834000" expanded="true" signature="4442:4660" ph="..." />
-            <marker date="1466007834000" expanded="true" signature="4451:4621" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-          </folding>
+        <state relative-caret-position="305">
+          <caret line="127" column="8" lean-forward="false" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cfg/controllerOrientation.cfg">
+    <entry file="file://$PROJECT_DIR$/src/classes/GazeboMapper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="54" lean-forward="true" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-          <folding />
+        <state relative-caret-position="-8">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xdot/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msg/StateEvent.msg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/teleop_joy.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="91" column="36" lean-forward="true" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/waypoint_interactive_publisher.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="24" column="61" lean-forward="false" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+        <state relative-caret-position="624">
+          <caret line="155" column="28" lean-forward="true" selection-start-line="155" selection-start-column="28" selection-end-line="155" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xdot/xdot_qt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="1578" column="17" lean-forward="false" selection-start-line="1578" selection-start-column="17" selection-end-line="1578" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rqt_smach/rqt_smach.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="134" column="20" lean-forward="false" selection-start-line="134" selection-start-column="20" selection-end-line="134" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rqt_smach/container_node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="330" column="30" lean-forward="true" selection-start-line="330" selection-start-column="30" selection-end-line="330" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gazebo_plugins/robot_ros_utils.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/robdos_sim/gazebo_sub_drive.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="56" column="113" lean-forward="false" selection-start-line="56" selection-start-column="113" selection-end-line="56" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gazebo_plugins/robot_sub_drive.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="151" column="50" lean-forward="true" selection-start-line="151" selection-start-column="50" selection-end-line="151" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/imu_to_angles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/PositionController.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="86" column="142" lean-forward="false" selection-start-line="86" selection-start-column="142" selection-end-line="86" selection-end-column="142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/state_machine_init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="293" column="40" lean-forward="true" selection-start-line="293" selection-start-column="40" selection-end-line="293" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/world/robdos_bag_replay.world">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+          <folding>
+            <element signature="e#117#180#0" expanded="false" />
+            <element signature="e#329#567#0" expanded="false" />
+            <element signature="e#576#729#0" expanded="false" />
+            <element signature="e#738#1015#0" expanded="false" />
+            <element signature="e#1025#1509#0" expanded="false" />
+            <element signature="e#1519#1817#0" expanded="false" />
+            <element signature="e#2008#6594#0" expanded="false" />
+            <element signature="e#6607#11138#0" expanded="false" />
+            <element signature="e#11151#17135#0" expanded="false" />
+            <element signature="e#17148#23098#0" expanded="false" />
+            <element signature="e#23111#27711#0" expanded="false" />
+            <element signature="e#27724#32374#0" expanded="false" />
+            <element signature="e#32387#37006#0" expanded="false" />
+            <element signature="e#37020#37651#0" expanded="false" />
+            <element signature="e#37664#38307#0" expanded="false" />
+            <element signature="e#38320#38957#0" expanded="false" />
+            <element signature="e#38970#40312#0" expanded="false" />
+            <element signature="e#40325#41662#0" expanded="false" />
+            <element signature="e#41675#43014#0" expanded="false" />
+            <element signature="e#43028#43713#0" expanded="false" />
+            <element signature="e#43726#44407#0" expanded="false" />
+            <element signature="e#44420#45103#0" expanded="false" />
+            <element signature="e#45545#45992#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="52" lean-forward="false" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/launch/robdos_state_machine.launch">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        <state relative-caret-position="630">
+          <caret line="30" column="39" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/PositionController.py">
+    <entry file="file://$PROJECT_DIR$/launch/robdos_sim.launch">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-          <folding>
-            <element signature="e#22#59#0" expanded="true" />
-            <element signature="e#5400#5430#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="63">
+          <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/waypoint_controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="37" column="29" lean-forward="false" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/OrientationController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="630">
+          <caret line="46" column="44" lean-forward="false" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
           <folding>
             <element signature="e#22#59#0" expanded="true" />
+            <element signature="e#4555#4749#0" expanded="false" />
+            <element signature="e#6546#7046#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/state_machine_init.py">
+    <entry file="file://$PROJECT_DIR$/src/classes/TeleopController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding>
-            <element signature="e#23#35#0" expanded="true" />
-            <element signature="e#343#531#0" expanded="false" />
-            <element signature="e#582#817#0" expanded="false" />
-            <element signature="e#610#677#0" expanded="false" />
-            <element signature="e#870#1093#0" expanded="false" />
-            <element signature="e#898#951#0" expanded="false" />
-            <element signature="e#994#1090#0" expanded="false" />
-            <element signature="e#1093#1116#0" expanded="false" />
-            <element signature="e#1596#1953#0" expanded="false" />
-            <element signature="e#1624#1798#0" expanded="false" />
-            <element signature="e#1841#1950#0" expanded="false" />
-            <element signature="e#2026#2375#0" expanded="false" />
-            <element signature="e#2054#2228#0" expanded="false" />
-            <element signature="e#2271#2372#0" expanded="false" />
-            <element signature="e#2375#2474#0" expanded="false" />
-            <element signature="e#3611#3716#0" expanded="false" />
-            <element signature="e#3861#3960#0" expanded="false" />
-            <element signature="e#4016#4282#0" expanded="false" />
-            <element signature="e#4044#4136#0" expanded="false" />
-            <element signature="e#4179#4279#0" expanded="false" />
-            <element signature="e#4434#4734#0" expanded="false" />
-            <element signature="e#4903#5330#0" expanded="false" />
-            <element signature="e#5367#6042#0" expanded="false" />
-            <element signature="e#6080#6508#0" expanded="false" />
-            <element signature="e#6097#6219#0" expanded="false" />
-            <element signature="e#6508#6607#0" expanded="false" />
-            <element signature="e#7112#7208#0" expanded="false" />
-            <element signature="e#7303#7400#0" expanded="false" />
-            <element signature="e#8045#8089#0" expanded="false" />
-            <element signature="e#8749#9834#0" expanded="false" />
-            <element signature="e#8895#9303#0" expanded="false" />
-            <element signature="e#9428#9833#0" expanded="false" />
-            <element signature="e#9949#10237#0" expanded="false" />
-            <element signature="e#10248#10347#0" expanded="false" />
-            <element signature="e#12735#12955#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="21">
+          <caret line="67" column="27" lean-forward="false" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>

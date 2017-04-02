@@ -15,6 +15,7 @@ from geometry_msgs.msg import Pose
 from gazebo_msgs.srv import SetModelState
 from gazebo_msgs.msg import ModelState
 
+
 class robdos_waypoint_interactive_publisher:
     def __init__(self):
         self.br = None
@@ -24,11 +25,11 @@ class robdos_waypoint_interactive_publisher:
         self.current_waypoint_position_x = rospy.get_param('~current_waypoint_position_x', 0.0)
         self.current_waypoint_position_y = rospy.get_param('~current_waypoint_position_y', 0.0)
 
-        self.g_set_state = rospy.ServiceProxy("/gazebo/set_model_state",SetModelState)
+        self.g_set_state = rospy.ServiceProxy("/gazebo/set_model_state", SetModelState)
 
         # mavros marker setup
         # configure waypoint publisher
-        self.mavros_waypoint_pub = rospy.Publisher("/mavros/mission/waypoints",  WaypointList, queue_size=1)
+        self.mavros_waypoint_pub = rospy.Publisher("/mavros/mission/waypoints", WaypointList, queue_size=1)
         self.waypoint_msg = WaypointList()
 
         # define rate
@@ -38,8 +39,8 @@ class robdos_waypoint_interactive_publisher:
 
         self.server = InteractiveMarkerServer("waypoint_interactive_publisher")
 
-        position = Point( self.current_waypoint_position_x, self.current_waypoint_position_y, 0)
-        self.make_auv_waypoint_Marker( position )
+        position = Point(self.current_waypoint_position_x, self.current_waypoint_position_y, 0)
+        self.make_auv_waypoint_Marker(position)
 
         self.server.applyChanges()
 
@@ -49,7 +50,7 @@ class robdos_waypoint_interactive_publisher:
 
             self.rate.sleep()
 
-    def processFeedback(self, feedback ):
+    def processFeedback(self, feedback):
         '''
         Process Callback of user interaction: get new marker position
         :param feedback: info about new position of marker
@@ -65,17 +66,17 @@ class robdos_waypoint_interactive_publisher:
             mp += ", " + str(feedback.mouse_point.z)
             mp += " in frame " + feedback.header.frame_id
 
-        #if feedback.event_type == InteractiveMarkerFeedback.POSE_UPDATE:
+        # if feedback.event_type == InteractiveMarkerFeedback.POSE_UPDATE:
         #    rospy.loginfo( s + ": pose changed")
 
         if feedback.event_type == InteractiveMarkerFeedback.MOUSE_UP:
-            rospy.loginfo( s + ": mouse up" + mp + "." )
+            rospy.loginfo(s + ": mouse up" + mp + ".")
             self.current_waypoint_position_x = feedback.mouse_point.x
             self.current_waypoint_position_y = feedback.mouse_point.y
 
         self.server.applyChanges()
 
-    def make_maker(self, msg ):
+    def make_maker(self, msg):
         marker = Marker()
 
         marker.type = Marker.SPHERE
@@ -107,7 +108,7 @@ class robdos_waypoint_interactive_publisher:
         int_marker.controls.append(copy.deepcopy(control))
 
         # make a box which also moves in the plane
-        control.markers.append( self.make_maker(int_marker) )
+        control.markers.append(self.make_maker(int_marker))
         control.always_visible = True
         int_marker.controls.append(control)
 
@@ -157,16 +158,16 @@ class robdos_waypoint_interactive_publisher:
         state.pose = pose
 
         try:
-            #pass
+            # pass
             ret = self.g_set_state(state)
 
         except Exception, e:
-            rospy.logerr('Error on calling service: %s',str(e))
+            rospy.loginfo('Waiting for service: %s', str(e))
 
 def main(args):
     rospy.init_node('waypoint_interactive_publisher', anonymous=True)
     ic = robdos_waypoint_interactive_publisher()
 
+
 if __name__ == '__main__':
     main(sys.argv)
-

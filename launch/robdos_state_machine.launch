@@ -1,21 +1,21 @@
 <launch>
 
-     <node pkg="robdos_sim" type="state_machine_init.py" name="state_machine_init" />    
+    <node pkg="robdos_sim" type="state_machine_init.py" name="state_machine_init"/>
 
     <node name="robdos_teleop" pkg="robdos_sim" type="teleop_joy" output="screen"/>
 
-    <node name="custom_rqt_perspective" pkg="rqt_gui" type="rqt_gui"
-          args="--perspective-file  $(find robdos_sim)/config/rqt_smach_control.perspective" />
+    <node name="robdos_rqt" pkg="rqt_gui" type="rqt_gui"  required="true"
+          args="--perspective-file  $(find robdos_sim)/config/rqt_smach_control.perspective"/>
 
     <env name="GAZEBO_MODEL_PATH" value="$(find robdos_sim)/models"/>
 
-    <node pkg="robdos_sim" type="waypoint_interactive_publisher.py" name="waypoint_interactive_publisher" >
-        <param name="rate" type="double" value="10" />
-        <param name="current_waypoint_position_x" type="double" value="6" />
-        <param name="current_waypoint_position_y" type="double" value="6" />
+    <node pkg="robdos_sim" type="waypoint_interactive_publisher.py" name="waypoint_interactive_publisher">
+        <param name="rate" type="double" value="10"/>
+        <param name="current_waypoint_position_x" type="double" value="6"/>
+        <param name="current_waypoint_position_y" type="double" value="6"/>
     </node>
 
-     <include file="$(find gazebo_ros)/launch/empty_world.launch" >
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
         <arg name="world_name" value="$(find robdos_sim)/world/robdos_bag_replay.world"/>
         <arg name="paused" value="true"/>
         <arg name="use_sim_time" value="false"/>
@@ -24,6 +24,24 @@
         <arg name="debug" value="false"/>
     </include>
 
-    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find robdos_sim)/config/rviz_config_waypoints.rviz" required="false" />
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find robdos_sim)/config/rviz_config_waypoints.rviz"
+          required="false"/>
+
+    <!-- Visualize gazebo model into RVIZ -->
+    <arg name="frequency" default="5"/>
+    <node name="static_tf_pub_world_to_gazebo_world" pkg="tf" type="static_transform_publisher"
+          args="0 0 0  0 0 0 1 fcu gazebo_world 100"/>
+
+    <node name="gazebo2rviz" pkg="robdos_sim" type="gazebo2rviz.py">
+        <param name="ignore_submodels_of" value="" type="str"/>
+        <param name="rate" value="20"/>
+    </node>
+
+    <!-- convert IMU to angles for visualization -->
+    <node pkg="robdos_sim" type="imu_to_angles.py" name="imu_to_angles_lean" required="false" >
+        <param name="rate" type="int" value="100" />
+        <param name="imu_name" type="string" value="imu_angle" />
+        <param name="topic_name" type="string" value="/imu" />
+    </node>
 
 </launch>

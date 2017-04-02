@@ -22,8 +22,8 @@ PositionController__ = None
 
 TeleopController__ = None
 
-def mapEventToAction(event, state):
 
+def mapEventToAction(event, state):
     global OrientationController__
     global PositionController__
     global TeleopController__
@@ -139,7 +139,6 @@ def handleEvent(eventMsg):
     trigger_event.set()
 
 
-
 def waitForEvent(state):
     global trigger_event
     trigger_event.clear()
@@ -150,6 +149,7 @@ def waitForEvent(state):
         action = mapEventToAction(current_event, state)
         if action:
             return action
+
 
 # define state InitPoint
 class InitPoint(smach.State):
@@ -178,7 +178,8 @@ class Safety(smach.State):
         smach.State.__init__(self, outcomes=['Press Reposo'])
 
     def execute(self, userdata):
-        rospy.logerr("Safety")
+        rospy.loginfo('Safety time')
+
         # rospy.loginfo('Executing state StopRobot')
         time.sleep(2)
         return 'Press Reposo'
@@ -195,10 +196,10 @@ class ControlHoover(smach.State):
         global TeleopController__
         time.sleep(0.1)
         TeleopController__.register()
-        result = waitForEvent("Teleoperation")       
+        result = waitForEvent("Teleoperation")
         return result
-        #time.sleep(0.1)
-        #return 'Press Semiautonomous'
+        # time.sleep(0.1)
+        # return 'Press Semiautonomous'
 
 
 # define state ControlSubmarine
@@ -221,7 +222,7 @@ class FixOrientation(smach.State):
 
     def execute(self, userdata):
         global OrientationController__
-        time.sleep(0.2)
+        time.sleep(0.1)
         OrientationController__.register()
         result = waitForEvent("FixOrientation")
         return result
@@ -235,12 +236,10 @@ class FixPosition(smach.State):
 
     def execute(self, userdata):
         global PositionController__
-        time.sleep(0.2)
+        time.sleep(0.1)
         PositionController__.register()
         result = waitForEvent("FixPosition")
-        return result        
-
-
+        return result
 
 # define state ReachWaypoint
 class ReachWaypoint(smach.State):
@@ -266,14 +265,14 @@ class mision1(smach.State):
 
 
 #########################################MACHINE STATE#############################################
-#value = 0
+# value = 0
 
 class Reposo(smach.State):
     def __init__(self):
-        smach.State.__init__(self, outcomes=['Press Reset', 'Press Teleoperation', 'Press Safety', 'Reposo'],)
-        
+        smach.State.__init__(self, outcomes=['Press Reset', 'Press Teleoperation', 'Press Safety', 'Reposo'], )
+
     def execute(self, ud):
-        rospy.logerr("espera")
+        rospy.loginfo('Waiting time')
         result = waitForEvent("Reposo")
         return result
 
@@ -285,7 +284,7 @@ class Reposo(smach.State):
 def main():
     rospy.init_node('robdos_state_machine')
 
-    global  OrientationController__
+    global OrientationController__
     global PositionController__
     global TeleopController__
 
@@ -419,5 +418,5 @@ def main():
 
 if __name__ == '__main__':
     # wait before system is ready
-    #time.sleep(3)
+    # time.sleep(3)
     main()

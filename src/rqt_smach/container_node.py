@@ -1,4 +1,4 @@
-import roslib
+import roslib; roslib.load_manifest('smach_viewer')
 import sys
 import os
 import threading
@@ -20,14 +20,11 @@ import smach_ros
 
 from qt_gui.plugin import Plugin
 from python_qt_binding import loadUi
-
-from python_qt_binding.QtWidgets import QWidget, QStyle, QApplication, QItemDelegate, QStyleOptionButton
-
-#from python_qt_binding.QtGui import QWidget
-from python_qt_binding.QtGui import QPalette,QPen, QMouseEvent, QPalette
-#from python_qt_binding.QtGui import QStyle,QApplication,QMouseEvent
+from python_qt_binding.QtGui import QPalette,QPen
+from python_qt_binding.QtGui import QMouseEvent
 from python_qt_binding.QtCore import Qt
 from python_qt_binding.QtCore import Signal,Slot
+from python_qt_binding.QtWidgets import QWidget, QStyle, QApplication, QItemDelegate, QStyleOptionButton,QMainWindow
 from python_qt_binding.QtGui import QPalette,QColor,QStandardItemModel,QStandardItem,QIcon
 from python_qt_binding.QtCore import Qt,QTimer,Signal,QRect,QSize,QEvent
 from rqt_py_common.extended_combo_box import ExtendedComboBox
@@ -78,10 +75,10 @@ def hex2t(color_str):
 
 class ContainerNode():
     """
-    This class represents a given container in a running SMACH system. 
+    This class represents a given container in a running SMACH system.
     Its primary use is to generate dotcode for a SMACH container. It has
     methods for responding to structure and status messages from a SMACH
-    introspection server, as well as methods for updating the styles of a 
+    introspection server, as well as methods for updating the styles of a
     graph once it's been drawn.
     """
     def __init__(self, server_name, msg):
@@ -333,13 +330,15 @@ class ContainerNode():
 
         # Color root container
         if depth == 0:
-            container_shapes = subgraph_shapes['cluster_'+self._path]
-            if self._path in selected_paths: container_color = hex2t('#FB000DFF')
-            else: container_color = hex2t('#0000008F')
-            container_fillcolor = hex2t('#0000000F')
-            for shape in container_shapes:
-                shape.pen.color = container_color
-                shape.pen.fillcolor = container_fillcolor
+            key_test = subgraph_shapes.get('cluster_'+self._path, None)
+            if key_test:
+                container_shapes = subgraph_shapes['cluster_'+self._path]
+                if self._path in selected_paths: container_color = hex2t('#FB000DFF')
+                else: container_color = hex2t('#0000008F')
+                container_fillcolor = hex2t('#0000000F')
+                for shape in container_shapes:
+                    shape.pen.color = container_color
+                    shape.pen.fillcolor = container_fillcolor
 
         # Color shapes for outcomes
 
@@ -400,12 +399,18 @@ class ContainerNode():
                             shape.pen.fillcolor = [child_fillcolor[i] for i in range(min(3,len(pen.fillcolor)))]
                             shape.pen.linewidth = child_linewidth
                         # Recurse on this child
-                        containers[child_path].set_styles(
-                                selected_paths,
-                                depth+1, max_depth,
-                                items,
-                                subgraph_shapes,
-                                containers)
+                        try:
+                            containers[child_path].set_styles(
+                                    selected_paths,
+                                    depth+1, max_depth,
+                                    items,
+                                    subgraph_shapes,
+                                    containers)
+                        except:
+                            print ('error on: containers[child_path].set_styles')
+                            return
+
+
                 else:
                     if child_path in items:
                         for shape in items[child_path].shapes:

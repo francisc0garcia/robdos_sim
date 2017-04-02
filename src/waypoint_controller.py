@@ -100,9 +100,6 @@ class robdos_waypoint_controller:
 
 			# update controller
 			desired_yaw = math.atan2(self.current_target[0], self.current_target[1])
-
-
-
 			yaw_error = desired_yaw - self.robot_yaw
 
 			#if math.fabs(yaw_error) > 1:

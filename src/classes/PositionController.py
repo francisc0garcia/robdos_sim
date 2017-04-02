@@ -5,6 +5,7 @@ import roslib
 import sys
 import rospy
 import math
+import time
 import numpy as np
 from mavros_msgs.msg import WaypointList, Waypoint, OverrideRCIn
 from nav_msgs.msg import Odometry
@@ -14,11 +15,12 @@ from robdos_sim.msg import StateEvent
 
 from PID import *
 
-class PositionController:
-    def __init__(self, current_target):
-        self.degrees2rad = math.pi/180.0
-        self.rad2degrees = 180.0/math.pi
 
+class PositionController:
+    def __init__(self, current_target, debug=False):
+        self.degrees2rad = math.pi / 180.0
+        self.rad2degrees = 180.0 / math.pi
+        self.debug = debug
         self.current_target = current_target
 
         # define rate of  100 hz
@@ -33,14 +35,14 @@ class PositionController:
 
         """initialize controller"""
         self.threshold_position = 0.0
-        self.threshold_orientation = 100 # degree of tolerance
+        self.threshold_orientation = 100  # degree of tolerance
 
         self.S_kp = 1000.0
         self.S_kd = 100.0
         self.S_ki = 0.0
         self.S_windup = 0.0
 
-        self.controller_pid =  PID()
+        self.controller_pid = PID()
         self.controller_pid.SetPoint = 0.0
         self.controller_pid.setSampleTime(0.01)
         self.controller_pid.setKp(self.S_kp)
@@ -59,27 +61,32 @@ class PositionController:
         ######################################################SUBSCRIBERS########################################################
         # create subscriber for robot localization
         # self.sub_localization = rospy.Subscriber('/mavros/local_position/pose', PoseStamped, self.process_localization_message, queue_size=1)
-        self.sub_localization = rospy.Subscriber('/robdos/odom', Odometry, self.process_localization_message, queue_size=1)
-        #self.sub_localization = rospy.Subscriber('/mavros/global_position/local', Odometry, self.process_localization_message, queue_size=1)
+        self.sub_localization = rospy.Subscriber('/robdos/odom', Odometry, self.process_localization_message,
+                                                 queue_size=1)
+        # self.sub_localization = rospy.Subscriber('/mavros/global_position/local', Odometry, self.process_localization_message, queue_size=1)
 
-        self.sub_waypoint_list = rospy.Subscriber('/mavros/mission/waypoints', WaypointList, self.process_waypoint_message, queue_size=1)
-    
-        # update list of waypoints
+        self.sub_waypoint_list = rospy.Subscriber('/mavros/mission/waypoints', WaypointList,
+                                                  self.process_waypoint_message, queue_size=1)
+
+
+    # update list of waypoints
     def process_waypoint_message(self, waypoint_list_msg):
         self.list_points = []
 
         for waypoint in waypoint_list_msg.waypoints:
             # set last value to False: means not reached jet.
-            self.list_points.append( [waypoint.x_lat, waypoint.y_long, waypoint.z_alt, waypoint.is_current] )
+            self.list_points.append([waypoint.x_lat, waypoint.y_long, waypoint.z_alt, waypoint.is_current])
 
         if len(self.list_points) > 0:
             point = self.list_points[1]
-            self.current_target = [point[0], point[1], point[2] ]
-             
+            self.current_target = [point[0], point[1], point[2]]
+
     def register(self):
-        self.sub_localization = rospy.Subscriber('/robdos/odom', Odometry, self.process_localization_message, queue_size=1)
-        #self.sub_localization = rospy.Subscriber('/mavros/global_position/local', Odometry, self.process_localization_message, queue_size=1) 
-        # update position and orientation of robot (odometry)
+        self.sub_localization = rospy.Subscriber('/robdos/odom', Odometry, self.process_localization_message,
+                                                 queue_size=1)
+        # self.sub_localization = rospy.Subscriber('/mavros/global_position/local', Odometry, self.process_localization_message, queue_size=1)
+
+    # update position and orientation of robot (odometry)
     def process_localization_message(self, odometry_msg):
         self.robot_position_x = odometry_msg.pose.pose.position.x
         self.robot_position_y = odometry_msg.pose.pose.position.y
@@ -96,7 +103,9 @@ class PositionController:
         self.update_controller()
 
     def update_controller(self):
-        rospy.logerr("position controller")
+        if self.debug:
+            rospy.loginfo('Position controller')
+
         distance_x = self.current_target[0] - self.robot_position_x
         distance_y = self.current_target[1] - self.robot_position_y
 
@@ -106,16 +115,17 @@ class PositionController:
         self.controller_pid.update(math.sqrt(math.pow(distance_x, 2.0) + math.pow(distance_y, 2.0)))
 
         # estimate correct orientation
-        desired_yaw = math.atan2(self.current_target[1]- self.robot_position_y, self.current_target[0] - self.robot_position_x )
+        desired_yaw = math.atan2(self.current_target[1] - self.robot_position_y,
+                                 self.current_target[0] - self.robot_position_x)
         error_orientation = desired_yaw - self.robot_yaw
 
         # compute error in degrees
-        error_orientation = (error_orientation % 2*math.pi)*self.rad2degrees
+        error_orientation = (error_orientation % 2 * math.pi) * self.rad2degrees
 
         # if robot is oriented
-        if abs(error_orientation) <= self.threshold_orientation :
+        if abs(error_orientation) <= self.threshold_orientation:
 
-            K_output = 1900 #1500 + self.controller_pid.output
+            K_output = 1900  # 1500 + self.controller_pid.output
             K_output = self.bound_limit(K_output, 1100, 1900)
 
             # set speed thrusters
@@ -124,11 +134,21 @@ class PositionController:
             self.mavros_vel_pub.publish(self.RCOR_msg)
 
         else:
-            rospy.logerr("not oriented")
+            # stop motors
+            self.RCOR_msg = OverrideRCIn()
+            self.RCOR_msg.channels = [0, 0, 0, 1500, 0, 1500, 0, 0]
+            self.mavros_vel_pub.publish(self.RCOR_msg)
+
+            if self.debug:
+                rospy.loginfo('not oriented')
+
+            self.sub_localization.unregister()
+            #time.sleep(0.1)
+
             msg_ = StateEvent()
             self.event_msg.cmd = msg_.NOT_ORIENTED
             self.event_pub.publish(self.event_msg)
-            self.sub_localization.unregister()
+
 
     def bound_limit(self, n, minn, maxn):
         return max(min(maxn, n), minn)

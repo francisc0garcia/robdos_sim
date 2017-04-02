@@ -1011,15 +1011,13 @@
             </plugin>
 
             <plugin name='sub_drive' filename='librobot_sub_drive.so'>
-                <updateRate>40</updateRate>
+                <updateRate>100</updateRate>
+                <scale_controller>2.5</scale_controller>
 
                 <joint_motor_left>joint_link_base_link_rotor_left</joint_motor_left>
                 <joint_motor_right>joint_link_base_link_rotor_right</joint_motor_right>
                 <joint_motor_center>joint_link_base_link_rotor_center</joint_motor_center>
-
             </plugin>
-
-
         </model>
 
         <model name='reference_waypoint'>

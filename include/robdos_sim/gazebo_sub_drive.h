@@ -21,6 +21,8 @@
 #include <nav_msgs/Odometry.h>
 #include <sensor_msgs/JointState.h>
 #include "mavros_msgs/RCOut.h"
+#include "mavros_msgs/RCIn.h"
+#include "mavros_msgs/OverrideRCIn.h"
 
 // Custom Callback Queue
 #include <ros/callback_queue.h>
@@ -40,51 +42,41 @@ namespace gazebo {
         ~GazeboRosSubDrive();
 
         void Load(physics::ModelPtr _parent, sdf::ElementPtr _sdf);
-        void cmdVelCallback (const mavros_msgs::RCOut::ConstPtr& cmd_msg );
+        void cmdVelCallback (const mavros_msgs::OverrideRCIn::ConstPtr& cmd_msg );
 
         void Reset();
 
     protected:
         virtual void UpdateChild();
-
         virtual void FiniChild();
 
     private:
+        int yaw, forward;
+        // Update Rate
+        double update_rate_, update_period_, scale_controller;
+        double temp_vel_x, temp_vel_y, temp_vel_z, temp_x, temp_y, temp_z, prev_temp_x, prev_temp_y, prev_temp_z;
+        bool alive_;
+        std::string odometry_topic_;
+
         GazeboRosPtr gazebo_ros_;
         physics::ModelPtr parent;
+        physics::JointPtr joint_motor_left, joint_motor_right, joint_motor_center;
         event::ConnectionPtr update_connection_;
-
 
         // ROS STUFF
         ros::Publisher odometry_publisher_;
-        nav_msgs::Odometry odom_;
-
         ros::Subscriber cmd_vel_subscriber_;
-
-        boost::mutex lock;
-
-        std::string odometry_topic_;
-
-        // Custom Callback Queue
         ros::CallbackQueue queue_;
+
+        nav_msgs::Odometry odom_;
+        nav_msgs::Odometry pose_sub;
+        geometry_msgs::Pose2D pose_encoder_;
+        common::Time last_update_time_;
+        common::Time last_odom_update_;
+        boost::mutex lock;
         boost::thread callback_queue_thread_;
 
         void QueueThread();
-
-        nav_msgs::Odometry pose_sub;
-
-        int thruster_left, thruster_right, thruster_center;
-
-        // Update Rate
-        double update_rate_, update_period_;
-        bool alive_;
-
-        common::Time last_update_time_;
-
-        geometry_msgs::Pose2D pose_encoder_;
-        common::Time last_odom_update_;
-
-        physics::JointPtr joint_motor_left, joint_motor_right, joint_motor_center;
     };
 }
 

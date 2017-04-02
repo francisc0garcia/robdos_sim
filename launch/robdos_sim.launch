@@ -19,4 +19,20 @@
 
     <node name="rviz" pkg="rviz" type="rviz" args="-d $(find robdos_sim)/config/rviz_config_waypoints.rviz" required="false" />
 
+    <!-- Visualize model into RVIZ -->
+    <arg name="frequency" default="5" />
+    <node name="static_tf_pub_world_to_gazebo_world" pkg="tf" type="static_transform_publisher" args="0 0 0  0 0 0 1 fcu gazebo_world 100" />
+
+    <node name="gazebo2rviz" pkg="robdos_sim" type="gazebo2rviz.py">
+        <param name="ignore_submodels_of" value="" type="str" />
+        <param name="rate" value="20" />
+    </node>
+
+    <!-- convert IMU to angles for visualization -->
+    <node pkg="robdos_sim" type="imu_to_angles.py" name="imu_to_angles_lean" required="false" >
+        <param name="rate" type="int" value="100" />
+        <param name="imu_name" type="string" value="imu_angle" />
+        <param name="topic_name" type="string" value="/imu" />
+    </node>
+
 </launch>

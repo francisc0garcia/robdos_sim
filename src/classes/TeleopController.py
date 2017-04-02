@@ -39,17 +39,23 @@ class RCChan(object):
         return arduino_map(pos, self.min_pos, 1.0, self.min, self.max)
 
 class TeleopController:
-    def __init__(self):
+    def __init__(self, debug=False):
 
         # event publisher
         self.event_pub = rospy.Publisher("/robdos/stateEvents", StateEvent, queue_size=1)
         self.event_msg = StateEvent()
+        self.debug = debug
 
         # mavros velocity publisher
         self.mavros_vel_pub = rospy.Publisher("/mavros/rc/override", OverrideRCIn, queue_size=1)
         self.RCOR_msg = OverrideRCIn()
 
         self.joy_subscriber = rospy.Subscriber('/joy', Joy, self.process_joy_message, queue_size=1)
+
+        self.forward = None
+        self.pitch = None
+        self.yaw = None
+        self.throttle = None
 
         self.axes_map = {
             'forward': 3,
@@ -95,8 +101,8 @@ class TeleopController:
         self.RCOR_msg.channels[ch.chan] = ch.calc_us(v)
 
     def process_joy_message(self, joy_msg):
-
-        rospy.logerr("teleoperation controller")
+        if self.debug:
+            rospy.loginfo('teleoperation controller')
 
         self.RCOR_msg.channels = [0, 0, 0, 0, 0, 0, 0, 0]
 

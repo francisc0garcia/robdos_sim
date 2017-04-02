@@ -21,6 +21,9 @@ namespace gazebo {
 
         joint_motor_left, joint_motor_right, joint_motor_center;
 
+        gazebo_ros_->getParameter<double>(scale_controller, "scale_controller", 0.2);
+        scale_controller = scale_controller * 0.001;
+
         // get link elements from sdf model
         joint_motor_left = gazebo_ros_->getJoint(parent, "joint_motor_left", "_joint_motor_left");
         joint_motor_right = gazebo_ros_->getJoint(parent, "joint_motor_right", "_joint_motor_right");
@@ -38,7 +41,7 @@ namespace gazebo {
 
         // create subscriber for thrusters desired commands
         ros::SubscribeOptions so =
-                ros::SubscribeOptions::create<mavros_msgs::RCOut>("/mavros/rc/out", 1,
+                ros::SubscribeOptions::create<mavros_msgs::OverrideRCIn>("/mavros/rc/override", 1,
                                                                     boost::bind(&GazeboRosSubDrive::cmdVelCallback, this, _1),
                                                                     ros::VoidPtr(), &queue_);
 
@@ -54,14 +57,14 @@ namespace gazebo {
 
     }
 
-    void GazeboRosSubDrive::cmdVelCallback ( const mavros_msgs::RCOut::ConstPtr& cmd_msg )
+    void GazeboRosSubDrive::cmdVelCallback ( const mavros_msgs::OverrideRCIn::ConstPtr& cmd_msg )
     {
         boost::mutex::scoped_lock scoped_lock ( lock );
 
-        // read only first 3 values
-        thruster_left = cmd_msg->channels[0];
-        thruster_right = cmd_msg->channels[1];
-        thruster_center = cmd_msg->channels[2];
+        // yaw: channel 3
+        // forward: Channel 5
+        yaw = cmd_msg->channels[3];
+        forward = cmd_msg->channels[5];
     }
 
     void GazeboRosSubDrive::Reset() {
@@ -98,18 +101,37 @@ namespace gazebo {
 
             this->parent->SetWorldPose(_pose);
 
-            // set motor velocities
-            double vel_left = (1500.0 - thruster_left ) / 500.0;
-            double vel_right = (1500.0 - thruster_right ) / 500.0;
+            double vel_left = 0;
+            double vel_right = 0;
 
-            joint_motor_left->SetVelocity(0, vel_left);
-            joint_motor_right->SetVelocity(0, vel_right);
+            if (yaw > 1500){
+                vel_left = -(yaw - 1500) ;
+                vel_right = yaw - 1500;
+            }else if (yaw < 1500){
+                vel_left = 1500 - yaw;
+                vel_right = -(1500 - yaw) ;
+            }
+
+            if (forward > 1500){
+                vel_left = forward - 1500;
+                vel_right = forward - 1500;
+            }else if (forward < 1500){
+                vel_left = -(forward - 1500);
+                vel_right = -(forward - 1500);
+            }
+
+            joint_motor_left->SetVelocity(0, vel_left * scale_controller);
+            joint_motor_right->SetVelocity(0, vel_right * scale_controller);
             joint_motor_center->SetVelocity(0, 0);
 
             // for debugging
             //ROS_INFO("vel: %f,  %f", vel_left , vel_right);
 
             // Compute odometry
+            temp_x = this->parent->GetWorldPose().pos.x;
+            temp_y = this->parent->GetWorldPose().pos.y;
+            temp_z = this->parent->GetWorldPose().pos.z;
+
             odom_.pose.pose.position.x = this->parent->GetWorldPose().pos.x;
             odom_.pose.pose.position.y = this->parent->GetWorldPose().pos.y;
             odom_.pose.pose.position.z = this->parent->GetWorldPose().pos.z;
@@ -119,6 +141,13 @@ namespace gazebo {
             odom_.pose.pose.orientation.z = this->parent->GetWorldPose().rot.z;
             odom_.pose.pose.orientation.w = this->parent->GetWorldPose().rot.w;
 
+            temp_vel_x = (temp_x - prev_temp_x) / seconds_since_last_update;
+            temp_vel_y = (temp_y - prev_temp_y) / seconds_since_last_update;
+
+            odom_.twist.twist.linear.x = sqrt( pow(temp_vel_x, 2.0) + pow(temp_vel_y, 2.0) ) ;
+            odom_.twist.twist.linear.y = 0;
+            odom_.twist.twist.linear.z = 0;
+
             // set header
             odom_.header.stamp = ros::Time::now();
             odom_.header.frame_id = "fcu";
@@ -127,6 +156,9 @@ namespace gazebo {
             odometry_publisher_.publish(odom_);
 
             last_update_time_ = parent->GetWorld()->GetSimTime();
+            prev_temp_x = temp_x;
+            prev_temp_y = temp_y;
+            prev_temp_z = temp_z;
         }
     }
 

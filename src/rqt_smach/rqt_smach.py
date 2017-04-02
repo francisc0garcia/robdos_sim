@@ -6,15 +6,9 @@ import time
 
 from qt_gui.plugin import Plugin
 from python_qt_binding import loadUi
-
-#from python_qt_binding.QtGui import QWidget
-from python_qt_binding.QtWidgets import QWidget, QStyle, QApplication, QItemDelegate, QStyleOptionButton, QTreeWidgetItem, QMessageBox
-
+from python_qt_binding.QtWidgets import QWidget, QStyle, QApplication, QItemDelegate, QStyleOptionButton, QTreeWidgetItem
 from python_qt_binding.QtGui import QPalette
-
 from python_qt_binding.QtGui import QMouseEvent
-#from python_qt_binding.QtGui import QStyle, QApplication, QMouseEvent
-
 from python_qt_binding.QtCore import Qt
 from python_qt_binding.QtCore import Signal,Slot
 from python_qt_binding.QtGui import QPalette,QColor,QStandardItemModel,QStandardItem,QIcon
@@ -24,7 +18,6 @@ from qt_gui_py_common.worker_thread import WorkerThread
 
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
-
 
 import threading
 import pickle
@@ -138,6 +131,8 @@ class Smach(Plugin):
 
     def __init__(self, context):
         super(Smach, self).__init__(context)
+
+        time.sleep(2)
 
         self.initialized = 0
 
@@ -284,11 +279,13 @@ class Smach(Plugin):
 
     def _handle_help(self):
         """Event: Help button pressed"""
-        helpMsg = QMessageBox()
-        helpMsg.setWindowTitle("Keyboard Controls")
-        helpMsg.setIcon(QMessageBox.Information)
-        helpMsg.setText("Pan: Arrow Keys\nZoom: PageUp / PageDown\nZoom To Fit: F\nRefresh: R")
-        ret = helpMsg.exec_()
+        #helpMsg = QMessageBox()
+        #helpMsg.setWindowTitle("Keyboard Controls")
+        #helpMsg.setIcon(QMessageBox.Information)
+        #helpMsg.setText("Pan: Arrow Keys\nZoom: PageUp / PageDown\nZoom To Fit: F\nRefresh: R")
+        #ret = helpMsg.exec_()
+        #TODO: Fix message box
+        print ('not available')
 
     def select_cb(self, event):
         """Event: Click to select a graph node to display user data and update the graph."""
