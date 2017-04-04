@@ -17,28 +17,12 @@ from tf.transformations import *
 from naming import *
 from conversions import *
 
-models_paths = [os.path.expanduser('~/.gazebo/models/')];
+models_paths = [os.path.expanduser('~/.gazebo/models/')]
 
 if 'GAZEBO_MODEL_PATH' in os.environ:
     models_paths = os.environ['GAZEBO_MODEL_PATH'].split(':')
 
-mesh_path_env_name = 'MESH_WORKSPACE_PATH'
-if mesh_path_env_name in os.environ:
-    catkin_ws_path = os.environ[mesh_path_env_name]
-else:
-    catkin_ws_path = os.path.expanduser('~') + '/catkin_ws/src/'
 supported_sdf_versions = [1.4, 1.5, 1.6]
-
-catkin_ws_path_exists = os.path.exists(catkin_ws_path)
-
-if not catkin_ws_path_exists:
-    print('----------------------------------------------------------')
-    print('Path (%s) does not exist.' % catkin_ws_path)
-    print('Please either set/change %s, or change ' % mesh_path_env_name)
-    print('the catkin_ws_path variable inside pysdf/parse.py')
-    print('----------------------------------------------------------')
-    sys.exit(1)
-
 
 def sanitize_xml_input_name(text):
     ### removes whitespaces before and after the tag text
