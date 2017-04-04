@@ -1,4 +1,4 @@
-import roslib; roslib.load_manifest('smach_viewer')
+import roslib;
 import sys
 import os
 import threading

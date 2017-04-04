@@ -53,9 +53,14 @@ catkin_install_python(
         DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
+catkin_install_python(
+        PROGRAMS scripts/smach_viewer.py
+        DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+
 # Install targets
-install(PROGRAMS scripts/smach_viewer.py
-        DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+#install(PROGRAMS scripts/smach_viewer.py
+#        DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 
 
 link_directories(${GAZEBO_LIBRARY_DIRS})

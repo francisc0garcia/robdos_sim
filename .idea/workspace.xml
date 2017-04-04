@@ -4,19 +4,18 @@
     <generated>
       <config projectName="robdos_sim" targetName="std_msgs_generate_messages_nodejs" />
       <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_py" />
       <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_eus" />
       <config projectName="robdos_sim" targetName="roscpp_generate_messages_cpp" />
       <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_eus" />
       <config projectName="robdos_sim" targetName="tf_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_nodejs" />
       <config projectName="robdos_sim" targetName="std_msgs_generate_messages_py" />
       <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_eus" />
       <config projectName="robdos_sim" targetName="robdos_sim_gencpp" />
       <config projectName="robdos_sim" targetName="tf_generate_messages_py" />
       <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_py" />
       <config projectName="robdos_sim" targetName="teleop_joy" />
-      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="robdos_sim_genpy" />
+      <config projectName="robdos_sim" targetName="doxygen" />
       <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_nodejs" />
       <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_py" />
       <config projectName="robdos_sim" targetName="tf_generate_messages_cpp" />
@@ -27,6 +26,7 @@
       <config projectName="robdos_sim" targetName="actionlib_generate_messages_cpp" />
       <config projectName="robdos_sim" targetName="actionlib_generate_messages_lisp" />
       <config projectName="robdos_sim" targetName="download_extra_data" />
+      <config projectName="robdos_sim" targetName="robdos_sim_generate_messages_nodejs" />
       <config projectName="robdos_sim" targetName="gazebo_ros_gencfg" />
       <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_eus" />
       <config projectName="robdos_sim" targetName="robdos_sim_generate_messages_py" />
@@ -36,21 +36,21 @@
       <config projectName="robdos_sim" targetName="tests" />
       <config projectName="robdos_sim" targetName="roscpp_generate_messages_nodejs" />
       <config projectName="robdos_sim" targetName="robdos_sim_geneus" />
-      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_cpp" />
       <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_nodejs" />
       <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_cpp" />
       <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_nodejs" />
       <config projectName="robdos_sim" targetName="roscpp_generate_messages_py" />
       <config projectName="robdos_sim" targetName="tf_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_eus" />
       <config projectName="robdos_sim" targetName="roscpp_generate_messages_lisp" />
       <config projectName="robdos_sim" targetName="robdos_sim_gencfg" />
+      <config projectName="robdos_sim" targetName="std_msgs_generate_messages_eus" />
       <config projectName="robdos_sim" targetName="actionlib_generate_messages_eus" />
-      <config projectName="robdos_sim" targetName="robdos_sim_genpy" />
+      <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_py" />
       <config projectName="robdos_sim" targetName="clean_test_results" />
       <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_cpp" />
       <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_lisp" />
       <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_lisp" />
       <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_lisp" />
       <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_nodejs" />
@@ -60,43 +60,43 @@
       <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_eus" />
       <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_nodejs" />
       <config projectName="robdos_sim" targetName="actionlib_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="robdos_sim_generate_messages" />
       <config projectName="robdos_sim" targetName="std_srvs_generate_messages_cpp" />
       <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_py" />
       <config projectName="robdos_sim" targetName="dynamic_reconfigure_gencfg" />
       <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_py" />
       <config projectName="robdos_sim" targetName="actionlib_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_lisp" />
       <config projectName="robdos_sim" targetName="std_msgs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="robdos_sim_generate_messages_nodejs" />
+      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_eus" />
       <config projectName="robdos_sim" targetName="roscpp_generate_messages_eus" />
       <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_lisp" />
       <config projectName="robdos_sim" targetName="robdos_sim_generate_messages_eus" />
       <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_lisp" />
       <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_eus" />
       <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_lisp" />
       <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_cpp" />
       <config projectName="robdos_sim" targetName="std_srvs_generate_messages_nodejs" />
-      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_eus" />
       <config projectName="robdos_sim" targetName="run_tests" />
-      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_nodejs" />
       <config projectName="robdos_sim" targetName="sensor_msgs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="actionlib_msgs_generate_messages_py" />
+      <config projectName="robdos_sim" targetName="robdos_sim_generate_messages" />
       <config projectName="robdos_sim" targetName="tf2_msgs_generate_messages_nodejs" />
       <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_lisp" />
-      <config projectName="robdos_sim" targetName="doxygen" />
-      <config projectName="robdos_sim" targetName="std_srvs_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_py" />
       <config projectName="robdos_sim" targetName="_robdos_sim_generate_messages_check_deps_state" />
       <config projectName="robdos_sim" targetName="robdos_sim_genlisp" />
       <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_nodejs" />
       <config projectName="robdos_sim" targetName="tf_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_cpp" />
       <config projectName="robdos_sim" targetName="gazebo_msgs_generate_messages_py" />
-      <config projectName="robdos_sim" targetName="rosgraph_msgs_generate_messages_cpp" />
-      <config projectName="robdos_sim" targetName="std_msgs_generate_messages_eus" />
+      <config projectName="robdos_sim" targetName="geometry_msgs_generate_messages_lisp" />
+      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_eus" />
       <config projectName="robdos_sim" targetName="trajectory_msgs_generate_messages_py" />
       <config projectName="robdos_sim" targetName="dynamic_reconfigure_generate_messages_nodejs" />
       <config projectName="robdos_sim" targetName="robot_ros_utils" />
-      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_cpp" />
+      <config projectName="robdos_sim" targetName="mavros_msgs_generate_messages_lisp" />
       <config projectName="robdos_sim" targetName="_robdos_sim_generate_messages_check_deps_StateEvent" />
     </generated>
   </component>
@@ -107,33 +107,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81e82f28-2ab1-494f-85a6-4742111c59a0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/rqt_multiplot.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/imu_to_angles.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/pysdf/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/pysdf/conversions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/pysdf/gazebo2rviz.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/pysdf/naming.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/pysdf/parse.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/robdos_rqt.perspective" afterPath="$PROJECT_DIR$/config/robdos_rqt.perspective" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/rqt_smach_control.perspective" afterPath="$PROJECT_DIR$/config/rqt_smach_control.perspective" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/rviz_config_waypoints.rviz" afterPath="$PROJECT_DIR$/config/rviz_config_waypoints.rviz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/robdos_sim/gazebo_sub_drive.h" afterPath="$PROJECT_DIR$/include/robdos_sim/gazebo_sub_drive.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/launch/robdos_sim.launch" afterPath="$PROJECT_DIR$/launch/robdos_sim.launch" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/launch/robdos_state_machine.launch" afterPath="$PROJECT_DIR$/launch/robdos_state_machine.launch" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/robdos_model/model.sdf" afterPath="$PROJECT_DIR$/models/robdos_model/model.sdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/OrientationController.py" afterPath="$PROJECT_DIR$/src/classes/OrientationController.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/PositionController.py" afterPath="$PROJECT_DIR$/src/classes/PositionController.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/TeleopController.py" afterPath="$PROJECT_DIR$/src/classes/TeleopController.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gazebo_plugins/robot_sub_drive.cpp" afterPath="$PROJECT_DIR$/src/gazebo_plugins/robot_sub_drive.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rqt_smach/container_node.py" afterPath="$PROJECT_DIR$/src/rqt_smach/container_node.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rqt_smach/rqt_smach.py" afterPath="$PROJECT_DIR$/src/rqt_smach/rqt_smach.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/state_machine_init.py" afterPath="$PROJECT_DIR$/src/state_machine_init.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/waypoint_controller.py" afterPath="$PROJECT_DIR$/src/waypoint_controller.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/waypoint_interactive_publisher.py" afterPath="$PROJECT_DIR$/src/waypoint_interactive_publisher.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/xdot/xdot_qt.py" afterPath="$PROJECT_DIR$/src/xdot/xdot_qt.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/world/robdos_bag_replay.world" afterPath="$PROJECT_DIR$/world/robdos_bag_replay.world" />
     </list>
     <ignored path="robdos_sim.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -157,63 +133,44 @@
       <file leaf-file-name="robdos_state_machine.launch" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/launch/robdos_state_machine.launch">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
+            <state relative-caret-position="0">
               <caret line="30" column="39" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="robdos_sim.launch" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/launch/robdos_sim.launch">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="waypoint_controller.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/waypoint_controller.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="37" column="29" lean-forward="false" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+            <state relative-caret-position="470">
+              <caret line="62" column="1" lean-forward="false" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrientationController.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classes/OrientationController.py">
+      <file leaf-file-name="container_node.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/rqt_smach/container_node.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="46" column="44" lean-forward="false" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+            <state relative-caret-position="0">
+              <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="smach_viewer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/smach_viewer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding>
-                <element signature="e#22#59#0" expanded="true" />
-                <element signature="e#4555#4749#0" expanded="false" />
-                <element signature="e#6546#7046#0" expanded="false" />
+                <element signature="e#1692#1704#0" expanded="true" />
+                <element signature="e#3094#17968#0" expanded="false" />
+                <element signature="e#18008#39441#0" expanded="false" />
+                <element signature="e#39459#39671#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeleopController.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/classes/TeleopController.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="67" column="27" lean-forward="false" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -273,7 +230,7 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <push-targets>
-      <push-target-info target-remote="origin" target-branch="master" repo="$PROJECT_DIR$" source="master" />
+      <push-target-info target-remote="gitlab" target-branch="kinetic" repo="$PROJECT_DIR$" source="master" />
     </push-targets>
   </component>
   <component name="IdeDocumentHistory">
@@ -318,7 +275,6 @@
         <option value="$PROJECT_DIR$/src/waypoint_interactive_publisher.py" />
         <option value="$PROJECT_DIR$/src/xdot/xdot_qt.py" />
         <option value="$PROJECT_DIR$/src/classes/TeleopController.py" />
-        <option value="$PROJECT_DIR$/src/rqt_smach/container_node.py" />
         <option value="$PROJECT_DIR$/src/state_machine_init.py" />
         <option value="$PROJECT_DIR$/src/rqt_smach/rqt_smach.py" />
         <option value="$PROJECT_DIR$/src/classes/OrientationController.py" />
@@ -328,8 +284,9 @@
         <option value="$PROJECT_DIR$/src/classes/PositionController.py" />
         <option value="$PROJECT_DIR$/world/robdos_bag_replay.world" />
         <option value="$PROJECT_DIR$/launch/robdos_sim.launch" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/waypoint_controller.py" />
+        <option value="$PROJECT_DIR$/src/rqt_smach/container_node.py" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -340,10 +297,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
-    <option name="width" value="1615" />
-    <option name="height" value="1054" />
+    <option name="x" value="64" />
+    <option name="y" value="-11" />
+    <option name="width" value="1857" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -401,19 +358,19 @@
     <property name="SearchEverywhereHistoryKey" value="/gazebo/set_model_state/gazebo/set_model_stat&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/scripts/pysdf" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/old" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/smach" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/scripts" />
       <recent name="$PROJECT_DIR$/src/xdot" />
       <recent name="$PROJECT_DIR$/src/rqt_smach" />
       <recent name="$PROJECT_DIR$/scripts/pysdf" />
       <recent name="$PROJECT_DIR$/cfg" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scripts/pysdf" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/old" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/smach" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1232,7 +1189,8 @@
       <workItem from="1490878817613" duration="1154000" />
       <workItem from="1491067664145" duration="4291000" />
       <workItem from="1491121112596" duration="18956000" />
-      <workItem from="1491146147931" duration="50000" />
+      <workItem from="1491146147931" duration="353000" />
+      <workItem from="1491331019983" duration="921000" />
     </task>
     <task id="LOCAL-00001" summary="- Update model of robot&#10;- change local reference to models and map&#10;- Add python example of image processing for cameras placed at the robot (front-rear)&#10;- Add plugins for IMU, camera and mav link">
       <created>1477146121683</created>
@@ -1360,11 +1318,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489011113099</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="- Fix error gazebo service&#10;- Add 3D model into RVIZ&#10;- Add Multiplot plugin for RQT, please install: sudo apt-get install ros-kinetic-rqt-multiplot&#10;- Update gazebo simulation plugin with mavros/rc/override&#10;- Update rqt_mach library, improve user interaction and stability&#10;- add python script imu_to_angle.py: convert quaternion into float roll, pitch and yaw, for visualization.">
+      <created>1491146445954</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1491146445954</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204268000" />
+    <option name="totallyTimeSpent" value="205492000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1376,19 +1341,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1615" height="1054" extended-state="6" />
+    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23514377" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32717392" sideWeight="0.49776357" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33913043" sideWeight="0.48498404" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20326087" sideWeight="0.51501596" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29782608" sideWeight="0.49009585" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29782608" sideWeight="0.49009585" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14" sideWeight="0.49520767" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23822714" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842106" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1402174" sideWeight="0.49520767" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23853211" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1396,7 +1362,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1471,7 +1436,8 @@
     <MESSAGE value="- fix issues with teleop node" />
     <MESSAGE value="- Add PID controller for position and orientation" />
     <MESSAGE value="- Fix load state machine" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Fix load state machine" />
+    <MESSAGE value="- Fix error gazebo service&#10;- Add 3D model into RVIZ&#10;- Add Multiplot plugin for RQT, please install: sudo apt-get install ros-kinetic-rqt-multiplot&#10;- Update gazebo simulation plugin with mavros/rc/override&#10;- Update rqt_mach library, improve user interaction and stability&#10;- add python script imu_to_angle.py: convert quaternion into float roll, pitch and yaw, for visualization." />
+    <option name="LAST_COMMIT_MESSAGE" value="- Fix error gazebo service&#10;- Add 3D model into RVIZ&#10;- Add Multiplot plugin for RQT, please install: sudo apt-get install ros-kinetic-rqt-multiplot&#10;- Update gazebo simulation plugin with mavros/rc/override&#10;- Update rqt_mach library, improve user interaction and stability&#10;- add python script imu_to_angle.py: convert quaternion into float roll, pitch and yaw, for visualization." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1480,21 +1446,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/models/iris/iris.sdf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="523" column="89" lean-forward="false" selection-start-line="523" selection-start-column="89" selection-end-line="523" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/robdos_control.cpp" />
-    <entry file="file://$PROJECT_DIR$/src/classes/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/world/robdos_state_machine_control.world">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
@@ -1664,23 +1615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="790" column="16" lean-forward="true" selection-start-line="211" selection-start-column="8" selection-end-line="790" selection-end-column="16" />
-          <folding>
-            <element signature="e#329#567#0" expanded="false" />
-            <element signature="e#576#729#0" expanded="false" />
-            <element signature="e#738#1015#0" expanded="false" />
-            <element signature="e#1025#2329#0" expanded="false" />
-            <element signature="e#2339#2637#0" expanded="false" />
-            <element signature="e#2647#3157#0" expanded="false" />
-            <element signature="e#3166#3675#0" expanded="false" />
-            <element signature="e#3684#4194#0" expanded="false" />
-            <element signature="e#4203#4714#0" expanded="false" />
-            <element signature="e#4724#5590#0" expanded="false" />
-            <element signature="e#5600#6276#0" expanded="false" />
-            <element signature="e#6286#6671#0" expanded="false" />
-            <element signature="e#6681#7752#0" expanded="false" />
-            <element signature="e#7762#32782#0" expanded="false" />
-            <element signature="e#32792#33503#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1688,6 +1622,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
           <caret line="127" column="8" lean-forward="false" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1733,20 +1668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rqt_smach/rqt_smach.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="134" column="20" lean-forward="false" selection-start-line="134" selection-start-column="20" selection-end-line="134" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rqt_smach/container_node.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="330" column="30" lean-forward="true" selection-start-line="330" selection-start-column="30" selection-end-line="330" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/gazebo_plugins/robot_ros_utils.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1772,6 +1693,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1793,31 +1715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-          <folding>
-            <element signature="e#117#180#0" expanded="false" />
-            <element signature="e#329#567#0" expanded="false" />
-            <element signature="e#576#729#0" expanded="false" />
-            <element signature="e#738#1015#0" expanded="false" />
-            <element signature="e#1025#1509#0" expanded="false" />
-            <element signature="e#1519#1817#0" expanded="false" />
-            <element signature="e#2008#6594#0" expanded="false" />
-            <element signature="e#6607#11138#0" expanded="false" />
-            <element signature="e#11151#17135#0" expanded="false" />
-            <element signature="e#17148#23098#0" expanded="false" />
-            <element signature="e#23111#27711#0" expanded="false" />
-            <element signature="e#27724#32374#0" expanded="false" />
-            <element signature="e#32387#37006#0" expanded="false" />
-            <element signature="e#37020#37651#0" expanded="false" />
-            <element signature="e#37664#38307#0" expanded="false" />
-            <element signature="e#38320#38957#0" expanded="false" />
-            <element signature="e#38970#40312#0" expanded="false" />
-            <element signature="e#40325#41662#0" expanded="false" />
-            <element signature="e#41675#43014#0" expanded="false" />
-            <element signature="e#43028#43713#0" expanded="false" />
-            <element signature="e#43726#44407#0" expanded="false" />
-            <element signature="e#44420#45103#0" expanded="false" />
-            <element signature="e#45545#45992#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1829,17 +1726,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/launch/robdos_state_machine.launch">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
+        <state relative-caret-position="0">
           <caret line="30" column="39" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
           <folding />
         </state>
@@ -1861,6 +1750,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/TeleopController.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="76" column="24" lean-forward="false" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/OrientationController.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -1873,10 +1770,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/TeleopController.py">
+    <entry file="file://$PROJECT_DIR$/src/rqt_smach/rqt_smach.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="67" column="27" lean-forward="false" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
+        <state relative-caret-position="1703">
+          <caret line="134" column="20" lean-forward="false" selection-start-line="134" selection-start-column="20" selection-end-line="134" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/rqt_smach">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/smach_viewer">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rqt_smach/container_node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/smach_viewer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <element signature="e#1692#1704#0" expanded="true" />
+            <element signature="e#3094#17968#0" expanded="false" />
+            <element signature="e#18008#39441#0" expanded="false" />
+            <element signature="e#39459#39671#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="62" column="1" lean-forward="false" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
           <folding />
         </state>
       </provider>
